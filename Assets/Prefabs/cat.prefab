@@ -13,12 +13,12 @@ GameObject:
   - component: {fileID: 7501272824508367343}
   - component: {fileID: 6162097266491832538}
   m_Layer: 0
-  m_Name: Cat-Image_Sphere
+  m_Name: cat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &492717763191480965
 Transform:
   m_ObjectHideFlags: 0

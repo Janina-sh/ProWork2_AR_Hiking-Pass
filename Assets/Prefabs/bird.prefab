@@ -13,12 +13,12 @@ GameObject:
   - component: {fileID: 9170192635132550269}
   - component: {fileID: 6923694876558349974}
   m_Layer: 0
-  m_Name: Bird-Image_Cube
+  m_Name: bird
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &8493834063291604710
 Transform:
   m_ObjectHideFlags: 0
