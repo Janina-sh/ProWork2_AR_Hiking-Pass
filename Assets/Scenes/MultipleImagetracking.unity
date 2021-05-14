@@ -472,3 +472,4 @@ MonoBehaviour:
   placeablePrefabs:
   - {fileID: 5237076822731311649, guid: aa127abb831e342dc82e0aa82de4972a, type: 3}
   - {fileID: 8592495775466527396, guid: 8e82b1a55ddec4cd8a596adabcc7b4b0, type: 3}
+  - {fileID: 3922455248007748811, guid: be999fe03c257ec4cb0a3a4b5ca72217, type: 3}
