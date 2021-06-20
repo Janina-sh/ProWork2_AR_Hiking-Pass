@@ -15,11 +15,11 @@ public class MultipleImageTracking : MonoBehaviour
     
     private ARTrackedImageManager trackedImageManager; //contains the reference image library, detects the images in it
 public bool showUICamera = false; //true = show UI camera, hide AR camera
-public Camera ARcamera;
+//public Camera ARcamera;
 
     private void Awake()
     {
-        ARcamera.enabled = false;
+      //  ARcamera.enabled = false;
         trackedImageManager = FindObjectOfType<ARTrackedImageManager>(); //getting and storing a reference to the trackedImageManager
         
         //presporn one of the placeable Prefabs in our Array
