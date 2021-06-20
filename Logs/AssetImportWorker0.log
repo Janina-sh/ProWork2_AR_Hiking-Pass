@@ -144,3 +144,59 @@ Received Import Request.
 Start importing Assets/3dResources/FBX/butterfly.fbm/hair_unity.tga using Guid(eae13b46864b43943b232edf7821b954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cc183dfb0a5212b6d3d1613ee3a71d8') in 0.080240 seconds
   Import took 0.083426 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 3166.621412 seconds.
+  path: Assets/Screens
+  artifactKey: Guid(a8b2959965f014230b81d88b620b35ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screens using Guid(a8b2959965f014230b81d88b620b35ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '919f0668079dd3d41203e4e0070bdfba') in 0.002752 seconds
+  Import took 0.006791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.872563 seconds.
+  path: Assets/Screens/Group 91.png
+  artifactKey: Guid(e4a535d550cb2421d9fe6039db038ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screens/Group 91.png using Guid(e4a535d550cb2421d9fe6039db038ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b68bb278f2a15a494a534826b95c38f8') in 0.104772 seconds
+  Import took 0.108223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Screens/Group 92.png
+  artifactKey: Guid(69b141646f6f54f3fbbe6710bbd39b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screens/Group 92.png using Guid(69b141646f6f54f3fbbe6710bbd39b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fe764f0c116ea05315dc2d2d22ca915') in 0.088860 seconds
+  Import took 0.092758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Screens/Group 94.png
+  artifactKey: Guid(d46d8eb7bf97847f198dd179bd6fda9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screens/Group 94.png using Guid(d46d8eb7bf97847f198dd179bd6fda9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c49d9cd53931804bde00606cdc1773c') in 0.093039 seconds
+  Import took 0.096069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Screens/Group 93.png
+  artifactKey: Guid(14d19d9c0f5b54f92a7b3661968a7e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screens/Group 93.png using Guid(14d19d9c0f5b54f92a7b3661968a7e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ae8a29e8eee6b46f3b27c09eb0f2cf9') in 0.034132 seconds
+  Import took 0.037090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Screens/Overview (1).png
+  artifactKey: Guid(377ba5d9152cd44b8b225b22f7351f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screens/Overview (1).png using Guid(377ba5d9152cd44b8b225b22f7351f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91984334f2d32412f9e5cae1175665bf') in 0.292626 seconds
+  Import took 0.296104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Screens/Group 93.png
+  artifactKey: Guid(14d19d9c0f5b54f92a7b3661968a7e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screens/Group 93.png using Guid(14d19d9c0f5b54f92a7b3661968a7e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ae8a29e8eee6b46f3b27c09eb0f2cf9') in 0.039842 seconds
+  Import took 0.042979 seconds .
+
