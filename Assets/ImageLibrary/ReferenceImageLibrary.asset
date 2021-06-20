@@ -46,12 +46,12 @@ MonoBehaviour:
     m_Name: cat
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5091315695073123198
-      m_GuidHigh: 12602310895962320007
+      m_GuidLow: 5019614962018970489
+      m_GuidHigh: 1812850475288113598
     m_SerializedTextureGuid:
       m_GuidLow: 10727365549389898268
       m_GuidHigh: 15905342154183455915
-    m_Size: {x: 0.197, y: 0.26266667}
+    m_Size: {x: 0.18, y: 0.26146394}
     m_SpecifySize: 1
-    m_Name: uhrturm
+    m_Name: Panther
     m_Texture: {fileID: 0}
