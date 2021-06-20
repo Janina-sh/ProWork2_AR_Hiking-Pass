@@ -200,3 +200,106 @@ Received Import Request.
 Start importing Assets/Screens/Group 93.png using Guid(14d19d9c0f5b54f92a7b3661968a7e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ae8a29e8eee6b46f3b27c09eb0f2cf9') in 0.039842 seconds
   Import took 0.042979 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 461.330084 seconds.
+  path: Assets/Screens/Overview (1).png
+  artifactKey: Guid(377ba5d9152cd44b8b225b22f7351f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screens/Overview (1).png using Guid(377ba5d9152cd44b8b225b22f7351f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4487a2c63a64164157ff77f5b5ee66e6') in 0.135160 seconds
+  Import took 0.138932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 405.318689 seconds.
+  path: Assets/Screens/Overview (2).png
+  artifactKey: Guid(120e888d619cb4c4987a83e0fd1ea3a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screens/Overview (2).png using Guid(120e888d619cb4c4987a83e0fd1ea3a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e459a3baf801dcd9f04193daec94445b') in 0.308038 seconds
+  Import took 0.312037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.635045 seconds.
+  path: Assets/Screens/Overview (2).png
+  artifactKey: Guid(120e888d619cb4c4987a83e0fd1ea3a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screens/Overview (2).png using Guid(120e888d619cb4c4987a83e0fd1ea3a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bfdbe494f3aa7919799626724a8e598') in 0.046783 seconds
+  Import took 0.051025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 76.285420 seconds.
+  path: Assets/Screens/Group 92.png
+  artifactKey: Guid(69b141646f6f54f3fbbe6710bbd39b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screens/Group 92.png using Guid(69b141646f6f54f3fbbe6710bbd39b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d9c9cab19ecbe671d6456a6fd5bcac8') in 0.042519 seconds
+  Import took 0.046155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 156.269976 seconds.
+  path: Assets/Screens/Group 93.png
+  artifactKey: Guid(14d19d9c0f5b54f92a7b3661968a7e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screens/Group 93.png using Guid(14d19d9c0f5b54f92a7b3661968a7e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f8ebf3bca95880e0f355d70394843df') in 0.043061 seconds
+  Import took 0.047949 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.568159 seconds.
+  path: Assets/Screens/Group 94.png
+  artifactKey: Guid(d46d8eb7bf97847f198dd179bd6fda9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screens/Group 94.png using Guid(d46d8eb7bf97847f198dd179bd6fda9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8501361541a0230062a5050a4b88d6c') in 0.018599 seconds
+  Import took 0.023644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009156 seconds.
+  path: Assets/Screens/Group 94.png
+  artifactKey: Guid(d46d8eb7bf97847f198dd179bd6fda9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screens/Group 94.png using Guid(d46d8eb7bf97847f198dd179bd6fda9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8501361541a0230062a5050a4b88d6c') in 0.027400 seconds
+  Import took 0.032507 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000845 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.284 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1532 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 147.2 MB.
+System memory in use after: 147.3 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2010.
+Total: 1.979270 ms (FindLiveObjects: 0.239584 ms CreateObjectMapping: 0.053549 ms MarkObjects: 1.640248 ms  DeleteObjects: 0.045042 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 1055.721175 seconds.
+  path: Assets/Screens/Group 91 (1).png
+  artifactKey: Guid(4b2661fd87ac14ef789a946dee03f6d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screens/Group 91 (1).png using Guid(4b2661fd87ac14ef789a946dee03f6d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e52eb20616d46548db90db307004861d') in 0.147037 seconds
+  Import took 0.151454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.151747 seconds.
+  path: Assets/Screens/Group 91 (1).png
+  artifactKey: Guid(4b2661fd87ac14ef789a946dee03f6d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screens/Group 91 (1).png using Guid(4b2661fd87ac14ef789a946dee03f6d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81522a99af398e9d8bed1110ac4d2f57') in 0.065776 seconds
+  Import took 0.070551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 61.613542 seconds.
+  path: Assets/Screens/Group 91.png
+  artifactKey: Guid(e4a535d550cb2421d9fe6039db038ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screens/Group 91.png using Guid(e4a535d550cb2421d9fe6039db038ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb15bca32d70243a838c127fb66bbf0d') in 0.017203 seconds
+  Import took 0.020581 seconds .
+
