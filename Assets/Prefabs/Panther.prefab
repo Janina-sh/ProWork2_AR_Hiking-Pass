@@ -1371,6 +1371,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5396961749721615821}
   - component: {fileID: 6749881302683921742}
+  - component: {fileID: -1383657354395378721}
   m_Layer: 0
   m_Name: Panther
   m_TagString: Untagged
@@ -1402,12 +1403,34 @@ Animation:
   m_GameObject: {fileID: 6072988556632588459}
   m_Enabled: 1
   serializedVersion: 3
-  m_Animation: {fileID: -203655887218126122, guid: a38aa90ee8a1449a2941da11290c9570, type: 3}
-  m_Animations: []
+  m_Animation: {fileID: -203655887218126122, guid: ca1d6ed96b81644d692c65757d13b17b, type: 3}
+  m_Animations:
+  - {fileID: -203655887218126122, guid: ca1d6ed96b81644d692c65757d13b17b, type: 3}
+  - {fileID: -203655887218126122, guid: ca1d6ed96b81644d692c65757d13b17b, type: 3}
+  - {fileID: -203655887218126122, guid: ca1d6ed96b81644d692c65757d13b17b, type: 3}
   m_WrapMode: 0
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!95 &-1383657354395378721
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6072988556632588459}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6f2a5db6ddd30484f9fa802aebbb1844, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &6075791503538999362
 GameObject:
   m_ObjectHideFlags: 0
@@ -1951,6 +1974,7 @@ Animation:
   m_Animation: {fileID: -203655887218126122, guid: a38aa90ee8a1449a2941da11290c9570, type: 3}
   m_Animations:
   - {fileID: 0}
+  - {fileID: -203655887218126122, guid: a38aa90ee8a1449a2941da11290c9570, type: 3}
   m_WrapMode: 0
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
