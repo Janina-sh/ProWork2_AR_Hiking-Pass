@@ -227,3 +227,185 @@ Received Import Request.
 Start importing Assets/Prefabs/Butterfly.prefab using Guid(be999fe03c257ec4cb0a3a4b5ca72217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc0aecfb7f00dc2971750de060647fc7') in 0.172978 seconds
   Import took 0.187044 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 452.000635 seconds.
+  path: Assets/3dResources/Panther.fbx
+  artifactKey: Guid(ca1d6ed96b81644d692c65757d13b17b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dResources/Panther.fbx using Guid(ca1d6ed96b81644d692c65757d13b17b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efe351f74a4a4afcb2de8f4506866868') in 0.144805 seconds
+  Import took 0.149449 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 140.6 MB.
+System memory in use after: 140.7 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 2038.
+Total: 8.926220 ms (FindLiveObjects: 0.353632 ms CreateObjectMapping: 0.145051 ms MarkObjects: 8.311751 ms  DeleteObjects: 0.114408 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 440.613417 seconds.
+  path: Assets/Prefabs/Panther.prefab
+  artifactKey: Guid(01a6cf4fb380c45cc95eb9f69bca6734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Panther.prefab using Guid(01a6cf4fb380c45cc95eb9f69bca6734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51b77177b65f36beec120e947d4f73c2') in 0.032114 seconds
+  Import took 0.035657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 459.804563 seconds.
+  path: Assets/3dResources/PANTHER.controller
+  artifactKey: Guid(6f2a5db6ddd30484f9fa802aebbb1844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dResources/PANTHER.controller using Guid(6f2a5db6ddd30484f9fa802aebbb1844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa47bd1a219934842ba5812cb451d36f') in 0.005060 seconds
+  Import took 0.008388 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 140.8 MB.
+System memory in use after: 140.9 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 2038.
+Total: 2.984473 ms (FindLiveObjects: 0.268252 ms CreateObjectMapping: 0.084139 ms MarkObjects: 2.578944 ms  DeleteObjects: 0.051891 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 437.365762 seconds.
+  path: Assets/Prefabs/Panther.prefab
+  artifactKey: Guid(01a6cf4fb380c45cc95eb9f69bca6734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Panther.prefab using Guid(01a6cf4fb380c45cc95eb9f69bca6734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e1d9e70874f3347bea648b4f30239d9') in 0.056689 seconds
+  Import took 0.060693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 151.868876 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignMiddle.psd
+  artifactKey: Guid(41b96614b2e6494ba995ddcd252d11ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignMiddle.psd using Guid(41b96614b2e6494ba995ddcd252d11ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cb3b35d39fe4e6dc11721081d49aa96') in 0.407857 seconds
+  Import took 0.411503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignMidline_Light.psd
+  artifactKey: Guid(bb42b2d967d6427983c901a4ffc8ecd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignMidline_Light.psd using Guid(bb42b2d967d6427983c901a4ffc8ecd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19ebb8ec1c4b36417760d8794a97ca97') in 0.010465 seconds
+  Import took 0.013467 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Assets/Icons/choose-mine-dark@2x.png
+  artifactKey: Guid(39c95c5cb14167543b9aa5908c94bb71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Assets/Icons/choose-mine-dark@2x.png using Guid(39c95c5cb14167543b9aa5908c94bb71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28f61cb5e796fdfbc82d0559c9639cd3') in 1.249789 seconds
+  Import took 1.253413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TimelineEditModeMixOFF.png
+  artifactKey: Guid(8fca5ed160cdc5440a4c7561db4082b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TimelineEditModeMixOFF.png using Guid(8fca5ed160cdc5440a4c7561db4082b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8770cd0f1b3bee3ce50c0844f2341236') in 0.008118 seconds
+  Import took 0.011501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TimelineEditModeMixOFF.png
+  artifactKey: Guid(39d9575ed0465354cb02b69ea18526de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TimelineEditModeMixOFF.png using Guid(39d9575ed0465354cb02b69ea18526de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfd94bdcd4de3fca196b54ab7f415aef') in 0.008982 seconds
+  Import took 0.013259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Assets/Icons/collaborate-incoming-dark.png
+  artifactKey: Guid(4f1f02bee0a5ae24aac00a40a212299a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Assets/Icons/collaborate-incoming-dark.png using Guid(4f1f02bee0a5ae24aac00a40a212299a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e301c291cce6868f9f5181e14cc30f46') in 0.013099 seconds
+  Import took 0.016945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Assets/Icons/choose-mine-light@2x.png
+  artifactKey: Guid(1bceea0c53eecc244a50615c7958486d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Assets/Icons/choose-mine-light@2x.png using Guid(1bceea0c53eecc244a50615c7958486d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffd1097f7725ab5057da003abdb2ab70') in 0.008629 seconds
+  Import took 0.012138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignMidLine.psd
+  artifactKey: Guid(c2f7f6a88b4c4f20a53deb72f3d9144c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignMidLine.psd using Guid(c2f7f6a88b4c4f20a53deb72f3d9144c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d320d466284ebcf3da2255bcb4fec14') in 0.009801 seconds
+  Import took 0.014031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Assets/Icons/collaborate-incoming-dark@2x.png
+  artifactKey: Guid(a9fa02cdd2d760c43a0e69ba0fa49dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Assets/Icons/collaborate-incoming-dark@2x.png using Guid(a9fa02cdd2d760c43a0e69ba0fa49dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13088b9a0ec5ead84e34a2e68558f510') in 0.011496 seconds
+  Import took 0.016049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Assets/Icons/choose-mine-light.png
+  artifactKey: Guid(2c0bdcbf152ceb64ba9b01cc370a9092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Assets/Icons/choose-mine-light.png using Guid(2c0bdcbf152ceb64ba9b01cc370a9092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a3e666aacc39d8a5725b37836ce1a15') in 0.008338 seconds
+  Import took 0.012101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Assets/Icons/collaborate-incoming-light@2x.png
+  artifactKey: Guid(75d22b424580dde41824299bb20d1de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Assets/Icons/collaborate-incoming-light@2x.png using Guid(75d22b424580dde41824299bb20d1de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1369c62b1797c727a41dced78eedd7d') in 0.021863 seconds
+  Import took 0.025179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignMiddle_Light.psd
+  artifactKey: Guid(066619c9c9c84f89acb1b48c11a7efe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignMiddle_Light.psd using Guid(066619c9c9c84f89acb1b48c11a7efe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09fdb1c5c043021f66e4a42290ec81a2') in 0.023524 seconds
+  Import took 0.027781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TimelineEditModeMixON.png
+  artifactKey: Guid(7c681ffb5a436684fa3e98a9b66775c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TimelineEditModeMixON.png using Guid(7c681ffb5a436684fa3e98a9b66775c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2355baa6d1c1d5e2d0a3f7e2ec224dd0') in 0.027763 seconds
+  Import took 0.031545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Assets/Icons/choose-mine-dark.png
+  artifactKey: Guid(a972d8b163b45d54b89085acf50327e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Assets/Icons/choose-mine-dark.png using Guid(a972d8b163b45d54b89085acf50327e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f00e4f9b5e2483ce1ab9ffe3f5f471d4') in 0.008297 seconds
+  Import took 0.012281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Assets/Icons/collaborate-incoming-light.png
+  artifactKey: Guid(0919e5a835eb86343b8b1722ea1d32a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Assets/Icons/collaborate-incoming-light.png using Guid(0919e5a835eb86343b8b1722ea1d32a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d44624e65635783cb28b9d86f6afce1') in 0.007987 seconds
+  Import took 0.012071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TimelineEditModeMixON.png
+  artifactKey: Guid(a82846d41464fcf4b962ebdc815963f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TimelineEditModeMixON.png using Guid(a82846d41464fcf4b962ebdc815963f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f401c05f17f2056c82e10d8292262ba4') in 0.009505 seconds
+  Import took 0.014130 seconds .
+

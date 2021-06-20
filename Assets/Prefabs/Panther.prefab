@@ -1406,8 +1406,6 @@ Animation:
   m_Animation: {fileID: -203655887218126122, guid: ca1d6ed96b81644d692c65757d13b17b, type: 3}
   m_Animations:
   - {fileID: -203655887218126122, guid: ca1d6ed96b81644d692c65757d13b17b, type: 3}
-  - {fileID: -203655887218126122, guid: ca1d6ed96b81644d692c65757d13b17b, type: 3}
-  - {fileID: -203655887218126122, guid: ca1d6ed96b81644d692c65757d13b17b, type: 3}
   m_WrapMode: 0
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
