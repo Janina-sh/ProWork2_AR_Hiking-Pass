@@ -3520,3 +3520,11 @@ Received Import Request.
 Start importing Assets/3dResources/FBX/Panther.fbx using Guid(a38aa90ee8a1449a2941da11290c9570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14f2bd08a429e93f8b12ea775cb8a289') in 0.044952 seconds
   Import took 0.049165 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 3023.931460 seconds.
+  path: Assets/3dResources/Panther.fbx
+  artifactKey: Guid(ca1d6ed96b81644d692c65757d13b17b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dResources/Panther.fbx using Guid(ca1d6ed96b81644d692c65757d13b17b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62d3564f1573f623455ca2bded2a97de') in 0.113243 seconds
+  Import took 0.119958 seconds .
+
