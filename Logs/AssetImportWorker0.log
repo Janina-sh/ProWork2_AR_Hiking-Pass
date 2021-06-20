@@ -179,3 +179,51 @@ Received Import Request.
 Start importing Assets/3dResources/PANTHER.controller using Guid(6f2a5db6ddd30484f9fa802aebbb1844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e419bd1c12d4c48a83b689c80e02a5c') in 0.009660 seconds
   Import took 0.016077 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 106.123111 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(e1419f4f131bd4b709f6f0f7ed1db64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(e1419f4f131bd4b709f6f0f7ed1db64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3e054312d3150e1da62e1d951dab42f') in 0.005294 seconds
+  Import took 0.012325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 88.215553 seconds.
+  path: Assets/Editor/HikingPass.colors
+  artifactKey: Guid(cb96702cdcd234059bc2099cc6fa3a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/HikingPass.colors using Guid(cb96702cdcd234059bc2099cc6fa3a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34010a1a08d4fab1b30a4078541a4a3b') in 6.554150 seconds
+  Import took 6.590536 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 68.585038 seconds.
+  path: Assets/3dResources
+  artifactKey: Guid(ca37d4f3e4978432dba7b7ee1a0db9f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dResources using Guid(ca37d4f3e4978432dba7b7ee1a0db9f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d8a8ee813c8a6d42d9b2939eb180f34') in 0.004139 seconds
+  Import took 0.009926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.896292 seconds.
+  path: Assets/3dResources/FBX/test.controller
+  artifactKey: Guid(205060da77ddc4fe793dd286889b1ab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dResources/FBX/test.controller using Guid(205060da77ddc4fe793dd286889b1ab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7fd11f89044725119c808d2153682e0') in 0.038269 seconds
+  Import took 0.049475 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.720974 seconds.
+  path: Assets/Prefabs/Butterfly.prefab
+  artifactKey: Guid(be999fe03c257ec4cb0a3a4b5ca72217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Butterfly.prefab using Guid(be999fe03c257ec4cb0a3a4b5ca72217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81875e017819638614167a1f270f2c69') in 0.184154 seconds
+  Import took 0.204324 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.334357 seconds.
+  path: Assets/Prefabs/Butterfly.prefab
+  artifactKey: Guid(be999fe03c257ec4cb0a3a4b5ca72217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Butterfly.prefab using Guid(be999fe03c257ec4cb0a3a4b5ca72217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc0aecfb7f00dc2971750de060647fc7') in 0.172978 seconds
+  Import took 0.187044 seconds .
+
