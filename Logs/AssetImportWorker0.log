@@ -303,3 +303,196 @@ Received Import Request.
 Start importing Assets/Screens/Group 91.png using Guid(e4a535d550cb2421d9fe6039db038ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb15bca32d70243a838c127fb66bbf0d') in 0.017203 seconds
   Import took 0.020581 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 1373.624723 seconds.
+  path: Assets/Screens/Arrow_iPhone Position.png
+  artifactKey: Guid(887c8f4a7fa5d4f1c8c5b3f88f45252d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screens/Arrow_iPhone Position.png using Guid(887c8f4a7fa5d4f1c8c5b3f88f45252d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de3055d79e754fe09a44f533232d06fa') in 0.019950 seconds
+  Import took 0.024088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Screens/My-Hero.png
+  artifactKey: Guid(cf380f276d0de4fd8b1793bce3bebce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screens/My-Hero.png using Guid(cf380f276d0de4fd8b1793bce3bebce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc226b13afc8ab2916ef0210601f5623') in 0.306230 seconds
+  Import took 0.309638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/Screens/Arrow_iPhone Position.png
+  artifactKey: Guid(887c8f4a7fa5d4f1c8c5b3f88f45252d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screens/Arrow_iPhone Position.png using Guid(887c8f4a7fa5d4f1c8c5b3f88f45252d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de3055d79e754fe09a44f533232d06fa') in 0.006356 seconds
+  Import took 0.009484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Screens/Button.png
+  artifactKey: Guid(7acb878f630544aacad5d29c9353d3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screens/Button.png using Guid(7acb878f630544aacad5d29c9353d3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0614d59e1166efc25ead97f35b9f82fb') in 0.024694 seconds
+  Import took 0.027933 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Screens/Button (1).png
+  artifactKey: Guid(c9357a0607ec44e56abffba305b30886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screens/Button (1).png using Guid(c9357a0607ec44e56abffba305b30886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73663650a177456044946a81b56045ff') in 0.023004 seconds
+  Import took 0.026501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 68.545811 seconds.
+  path: Assets/Screens/My-Hero 1.png
+  artifactKey: Guid(d4a0a9fe038c84dd5b89de27c7218dcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screens/My-Hero 1.png using Guid(d4a0a9fe038c84dd5b89de27c7218dcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eabff91c9fb78944514d20bb3697e06') in 0.292393 seconds
+  Import took 0.295174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 59.074057 seconds.
+  path: Assets/Screens/My-Hero 2.png
+  artifactKey: Guid(2f48260ef62aa4666a385c4ee3da3e94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screens/My-Hero 2.png using Guid(2f48260ef62aa4666a385c4ee3da3e94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50ae8c2e615de91cc381e66f8770d3b2') in 0.293791 seconds
+  Import took 0.298642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.685989 seconds.
+  path: Assets/Screens/My-Hero.png
+  artifactKey: Guid(cf380f276d0de4fd8b1793bce3bebce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screens/My-Hero.png using Guid(cf380f276d0de4fd8b1793bce3bebce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a9e99bd39be807ee732bce5e69cce21') in 0.051194 seconds
+  Import took 0.054909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.224375 seconds.
+  path: Assets/Screens/Button.png
+  artifactKey: Guid(7acb878f630544aacad5d29c9353d3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screens/Button.png using Guid(7acb878f630544aacad5d29c9353d3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b63cca2277549f968868200dfd6cf906') in 0.035541 seconds
+  Import took 0.038464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.697233 seconds.
+  path: Assets/Screens/Button (1).png
+  artifactKey: Guid(c9357a0607ec44e56abffba305b30886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screens/Button (1).png using Guid(c9357a0607ec44e56abffba305b30886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f43f6cd32635430a2a9efb6b4bcfa02e') in 0.037849 seconds
+  Import took 0.042176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.037486 seconds.
+  path: Assets/Screens/Arrow_iPhone Position.png
+  artifactKey: Guid(887c8f4a7fa5d4f1c8c5b3f88f45252d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screens/Arrow_iPhone Position.png using Guid(887c8f4a7fa5d4f1c8c5b3f88f45252d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aedde834e51e8367e1425de87d700cc6') in 0.019153 seconds
+  Import took 0.022753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000612 seconds.
+  path: Assets/Screens/Arrow_iPhone Position.png
+  artifactKey: Guid(887c8f4a7fa5d4f1c8c5b3f88f45252d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screens/Arrow_iPhone Position.png using Guid(887c8f4a7fa5d4f1c8c5b3f88f45252d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aedde834e51e8367e1425de87d700cc6') in 0.033732 seconds
+  Import took 0.037082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1064.163118 seconds.
+  path: Assets/Scripts/MultipleImageTracking.cs
+  artifactKey: Guid(bbb347e072a7c413c8720e27f97a1f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MultipleImageTracking.cs using Guid(bbb347e072a7c413c8720e27f97a1f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a3253ca7b6a2249b8fca52a8bb28262') in 0.392795 seconds
+  Import took 0.396138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1155.539927 seconds.
+  path: Assets/Editor/ARHikingPass.colors
+  artifactKey: Guid(778e17f266d914dbc806eb954be33305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/ARHikingPass.colors using Guid(778e17f266d914dbc806eb954be33305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb92b4c6613dd821283c124f1bb952c4') in 1.359046 seconds
+  Import took 1.363089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.273763 seconds.
+  path: Assets/XR/XRGeneralSettings.asset
+  artifactKey: Guid(bc4f53745d71f4121b1800ce3df6ac00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/XRGeneralSettings.asset using Guid(bc4f53745d71f4121b1800ce3df6ac00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1134dd0ecbd47f90e583a6a8d50eb020') in 0.395723 seconds
+  Import took 0.400440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.120671 seconds.
+  path: Assets/XR/Loaders/AR Core Loader.asset
+  artifactKey: Guid(59300a08a13494e5cb1f0620d4ea1b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Loaders/AR Core Loader.asset using Guid(59300a08a13494e5cb1f0620d4ea1b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9418110303e67af7e4c36e2e87126ef4') in 0.011146 seconds
+  Import took 0.014541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/XR/Loaders/AR Kit Loader.asset
+  artifactKey: Guid(1c2036f469b664871ab8d287248c589d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Loaders/AR Kit Loader.asset using Guid(1c2036f469b664871ab8d287248c589d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea8c64d3da22bbc039524e4ca91797ad') in 0.006442 seconds
+  Import took 0.010338 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001041 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.245 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1535 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 160.4 MB.
+System memory in use after: 160.5 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2026.
+Total: 2.086022 ms (FindLiveObjects: 0.166677 ms CreateObjectMapping: 0.043196 ms MarkObjects: 1.514400 ms  DeleteObjects: 0.360913 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000554 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.061 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1532 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 160.6 MB.
+System memory in use after: 160.7 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2030.
+Total: 1.881756 ms (FindLiveObjects: 0.195189 ms CreateObjectMapping: 0.043351 ms MarkObjects: 1.607886 ms  DeleteObjects: 0.034510 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.1 MB.
+System memory in use after: 130.2 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 2030.
+Total: 1.907479 ms (FindLiveObjects: 0.195331 ms CreateObjectMapping: 0.093315 ms MarkObjects: 1.581816 ms  DeleteObjects: 0.036362 ms)
+
