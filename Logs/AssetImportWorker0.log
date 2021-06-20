@@ -1,0 +1,146 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.9f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/lisa/Dropbox/Mein Mac (Lisa’s MacBook Pro (2))/Documents/GitHub/ProWork2_AR_Hiking-Pass
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+59938
+Successfully changed project path to: /Users/lisa/Dropbox/Mein Mac (Lisa’s MacBook Pro (2))/Documents/GitHub/ProWork2_AR_Hiking-Pass
+/Users/lisa/Dropbox/Mein Mac (Lisa’s MacBook Pro (2))/Documents/GitHub/ProWork2_AR_Hiking-Pass
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 57.76 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.9f1 (108be757e447)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.9f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/lisa/Dropbox/Mein Mac (Lisa’s MacBook Pro (2))/Documents/GitHub/ProWork2_AR_Hiking-Pass/Assets
+GfxDevice: creating device client; threaded=0
+2021-06-20 10:26:13.298 Unity[14600:737733] Color LCD preferred device: AMD Radeon Pro 555 (high power)
+2021-06-20 10:26:13.298 Unity[14600:737733] Metal devices available: 2
+2021-06-20 10:26:13.298 Unity[14600:737733] 0: AMD Radeon Pro 555 (high power)
+2021-06-20 10:26:13.298 Unity[14600:737733] 1: Intel(R) HD Graphics 630 (low power)
+2021-06-20 10:26:13.299 Unity[14600:737733] Using device AMD Radeon Pro 555 (high power)
+Initializing Metal device caps: AMD Radeon Pro 555
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.9f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.9f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.9f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56600
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.9f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.002436 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 33.16 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.491 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001525 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 31.10 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.365 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.9f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1545 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.7 MB.
+System memory in use after: 126.8 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1992.
+Total: 2.838261 ms (FindLiveObjects: 0.287509 ms CreateObjectMapping: 0.063141 ms MarkObjects: 2.344325 ms  DeleteObjects: 0.142363 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/2D-Recources/cat.jpg
+  artifactKey: Guid(d97eb2aabda524321823d49fa541d088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D-Recources/cat.jpg using Guid(d97eb2aabda524321823d49fa541d088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebe6535318603ce3a857e5cca60ede6a') in 1.729772 seconds
+  Import took 1.733294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000422 seconds.
+  path: Assets/2D-Recources/bird.jpg
+  artifactKey: Guid(5631d374922e7463cab4485760520707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D-Recources/bird.jpg using Guid(5631d374922e7463cab4485760520707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd578faa9494a8a8712d4015aaf89f633') in 0.315350 seconds
+  Import took 0.319056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/2D-Recources/alpaca.jpg
+  artifactKey: Guid(0551af59f72294838966a4362e51fb89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D-Recources/alpaca.jpg using Guid(0551af59f72294838966a4362e51fb89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ae6103e1f020316c0c12329fc352699') in 0.055481 seconds
+  Import took 0.059182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.228124 seconds.
+  path: Assets/2D-Recources/IMG_9495.HEIC
+  artifactKey: Guid(1398874cab6be45c889d563b07108f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D-Recources/IMG_9495.HEIC using Guid(1398874cab6be45c889d563b07108f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aca61bab71e406fa25f09094cb77129') in 1.006654 seconds
+  Import took 1.010676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 106.756326 seconds.
+  path: Assets/2D-Recources/uhrturm.jpg
+  artifactKey: Guid(9325e21c422194dfabb4264b6b20bbdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D-Recources/uhrturm.jpg using Guid(9325e21c422194dfabb4264b6b20bbdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85eb28626024fb09686023ab6fb4c619') in 0.384180 seconds
+  Import took 0.389738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 59.759218 seconds.
+  path: Assets/2D-Recources
+  artifactKey: Guid(4d93e9f65e7cf4aa8ad167291e4bd99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D-Recources using Guid(4d93e9f65e7cf4aa8ad167291e4bd99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ce6c3f0aefacfbf90779e46123fc476') in 0.006763 seconds
+  Import took 0.011412 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.161075 seconds.
+  path: Assets/3dResources/FBX/butterfly.fbm/butterfly_Albedo.tga
+  artifactKey: Guid(3ea3d3361ab100043a14f9a9bc253219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dResources/FBX/butterfly.fbm/butterfly_Albedo.tga using Guid(3ea3d3361ab100043a14f9a9bc253219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39e7b78d67c040bc667554769af9e577') in 1.750512 seconds
+  Import took 1.755495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.001667 seconds.
+  path: Assets/3dResources/FBX/butterfly.fbm/hair_unity.tga
+  artifactKey: Guid(eae13b46864b43943b232edf7821b954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dResources/FBX/butterfly.fbm/hair_unity.tga using Guid(eae13b46864b43943b232edf7821b954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cc183dfb0a5212b6d3d1613ee3a71d8') in 0.103943 seconds
+  Import took 0.109616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001331 seconds.
+  path: Assets/3dResources/FBX/fbx/Texture.png
+  artifactKey: Guid(689302a6f0552da4a983b708fe57f02b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dResources/FBX/fbx/Texture.png using Guid(689302a6f0552da4a983b708fe57f02b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33daca64b312762e39f468c24741117e') in 1.900333 seconds
+  Import took 1.904511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000457 seconds.
+  path: Assets/3dResources/FBX/butterfly.fbm/hair_unity.tga
+  artifactKey: Guid(eae13b46864b43943b232edf7821b954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dResources/FBX/butterfly.fbm/hair_unity.tga using Guid(eae13b46864b43943b232edf7821b954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cc183dfb0a5212b6d3d1613ee3a71d8') in 0.080240 seconds
+  Import took 0.083426 seconds .
+
