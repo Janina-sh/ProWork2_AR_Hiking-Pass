@@ -1,107 +1,135 @@
 Using pre-set license
 
  COMMAND LINE ARGUMENTS:
-/Applications/Unity/Hub/Editor/2020.3.3f1/Unity.app/Contents/MacOS/Unity
+/Applications/Unity/Hub/Editor/2020.3.9f1/Unity.app/Contents/MacOS/Unity
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-/Users/janini/Desktop/FH-Joanneum/Sem_2/ProWork2_AR_Arjun/ProWork2_AR_Hiking-Pass
+/Users/lisa/Dropbox/Mein Mac (Lisa’s MacBook Pro (2))/Documents/GitHub/ProWork2_AR_Hiking-Pass
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49639
-Successfully changed project path to: /Users/janini/Desktop/FH-Joanneum/Sem_2/ProWork2_AR_Arjun/ProWork2_AR_Hiking-Pass
-/Users/janini/Desktop/FH-Joanneum/Sem_2/ProWork2_AR_Arjun/ProWork2_AR_Hiking-Pass
+56814
+Successfully changed project path to: /Users/lisa/Dropbox/Mein Mac (Lisa’s MacBook Pro (2))/Documents/GitHub/ProWork2_AR_Hiking-Pass
+/Users/lisa/Dropbox/Mein Mac (Lisa’s MacBook Pro (2))/Documents/GitHub/ProWork2_AR_Hiking-Pass
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 30.96 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 37.73 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2020.3.3f1 (76626098c1c4)
-[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.3f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/janini/Desktop/FH-Joanneum/Sem_2/ProWork2_AR_Arjun/ProWork2_AR_Hiking-Pass/Assets
+Initialize engine version: 2020.3.9f1 (108be757e447)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.9f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/lisa/Dropbox/Mein Mac (Lisa’s MacBook Pro (2))/Documents/GitHub/ProWork2_AR_Hiking-Pass/Assets
 GfxDevice: creating device client; threaded=0
-2021-06-20 21:48:07.535 Unity[886:11290] Color LCD preferred device: AMD Radeon Pro 555X (high power)
-2021-06-20 21:48:07.535 Unity[886:11290] Metal devices available: 2
-2021-06-20 21:48:07.535 Unity[886:11290] 0: AMD Radeon Pro 555X (high power)
-2021-06-20 21:48:07.535 Unity[886:11290] 1: Intel(R) UHD Graphics 630 (low power)
-2021-06-20 21:48:07.535 Unity[886:11290] Using device AMD Radeon Pro 555X (high power)
-Initializing Metal device caps: AMD Radeon Pro 555X
+2021-06-23 12:30:23.131 Unity[23444:733717] Color LCD preferred device: AMD Radeon Pro 555 (high power)
+2021-06-23 12:30:23.131 Unity[23444:733717] Metal devices available: 2
+2021-06-23 12:30:23.131 Unity[23444:733717] 0: AMD Radeon Pro 555 (high power)
+2021-06-23 12:30:23.131 Unity[23444:733717] 1: Intel(R) HD Graphics 630 (low power)
+2021-06-23 12:30:23.131 Unity[23444:733717] Using device AMD Radeon Pro 555 (high power)
+Initializing Metal device caps: AMD Radeon Pro 555
 Initialize mono
-Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.3f1/Unity.app/Contents/Managed'
-Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.3f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = '/Applications/Unity/Hub/Editor/2020.3.3f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56886
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.9f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.9f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.9f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56444
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: /Applications/Unity/Hub/Editor/2020.3.3f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000490 seconds.
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.9f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.002610 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 27.09 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 31.26 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.074 seconds
+- Completed reload, in  5.362 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000387 seconds.
+Registered in 0.001367 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 27.94 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 27.86 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.024 seconds
+- Completed reload, in  1.220 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launching external process: /Applications/Unity/Hub/Editor/2020.3.3f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.9f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0.70 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1545 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 128.1 MB.
-System memory in use after: 128.2 MB.
+System memory in use before: 126.6 MB.
+System memory in use after: 126.7 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1992.
-Total: 2.244372 ms (FindLiveObjects: 0.168422 ms CreateObjectMapping: 0.085237 ms MarkObjects: 1.881263 ms  DeleteObjects: 0.108525 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/3dResources/Panther.fbx
-  artifactKey: Guid(ca1d6ed96b81644d692c65757d13b17b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3dResources/Panther.fbx using Guid(ca1d6ed96b81644d692c65757d13b17b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9af2773c765fcfbc25e57be2db6e2a84') in 0.743676 seconds
-  Import took 0.747014 seconds .
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1992.
+Total: 1.932646 ms (FindLiveObjects: 0.225514 ms CreateObjectMapping: 0.052358 ms MarkObjects: 1.581542 ms  DeleteObjects: 0.072326 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 186.884402 seconds.
-  path: Assets/3dResources/mixamo.com.anim
-  artifactKey: Guid(01e95f78593684751b18b0a9d359dda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3dResources/mixamo.com.anim using Guid(01e95f78593684751b18b0a9d359dda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac1c10393c66619d8c2878fa35a81c89') in 0.168616 seconds
-  Import took 0.171240 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 98.311985 seconds.
-  path: Assets/3dResources/testi.com.anim
-  artifactKey: Guid(01e95f78593684751b18b0a9d359dda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3dResources/testi.com.anim using Guid(01e95f78593684751b18b0a9d359dda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a0fb6cc3f84bd00831651dc9173bc8f') in 0.010075 seconds
-  Import took 0.012974 seconds .
+  path: Assets/Prefabs/Panther.prefab
+  artifactKey: Guid(01a6cf4fb380c45cc95eb9f69bca6734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Panther.prefab using Guid(01a6cf4fb380c45cc95eb9f69bca6734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce6ceebb0d720127db87e9ace123c7ba') in 1.524744 seconds
+  Import took 1.528592 seconds .
 
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 1.15 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 124.0 MB.
-System memory in use after: 124.1 MB.
+System memory in use before: 103.8 MB.
+System memory in use after: 103.9 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2036.
-Total: 3.231202 ms (FindLiveObjects: 0.249239 ms CreateObjectMapping: 0.075050 ms MarkObjects: 2.831530 ms  DeleteObjects: 0.073816 ms)
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1999.
+Total: 3.649580 ms (FindLiveObjects: 0.236606 ms CreateObjectMapping: 0.079882 ms MarkObjects: 3.288456 ms  DeleteObjects: 0.043236 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 396.589475 seconds.
+  path: Assets/Prefabs/Panther.prefab
+  artifactKey: Guid(01a6cf4fb380c45cc95eb9f69bca6734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Panther.prefab using Guid(01a6cf4fb380c45cc95eb9f69bca6734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dc8090b46d26782656a814a065b0f4b') in 0.076511 seconds
+  Import took 0.081162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.674657 seconds.
+  path: Assets/Prefabs/Panther.prefab
+  artifactKey: Guid(01a6cf4fb380c45cc95eb9f69bca6734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Panther.prefab using Guid(01a6cf4fb380c45cc95eb9f69bca6734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16e473f616d740545b22a2e05cd91214') in 0.059345 seconds
+  Import took 0.063485 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000749 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.112 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1532 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.8 MB.
+System memory in use after: 133.8 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2003.
+Total: 2.079689 ms (FindLiveObjects: 0.177429 ms CreateObjectMapping: 0.051675 ms MarkObjects: 1.807645 ms  DeleteObjects: 0.041983 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.89 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.2 MB.
+System memory in use after: 103.3 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 2003.
+Total: 2.902512 ms (FindLiveObjects: 0.230831 ms CreateObjectMapping: 0.088155 ms MarkObjects: 2.533631 ms  DeleteObjects: 0.048629 ms)
 
