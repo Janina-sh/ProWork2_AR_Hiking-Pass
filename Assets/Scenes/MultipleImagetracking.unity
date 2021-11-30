@@ -7170,7 +7170,7 @@ MonoBehaviour:
   PrevButton: {fileID: 0}
   NextButton: {fileID: 0}
   transitionSpeed: 7.5
-  UseHardSwipe: 0
+  UseHardSwipe: 1
   UseFastSwipe: 0
   UseSwipeDeltaThreshold: 0
   FastSwipeThreshold: 100
@@ -7211,7 +7211,7 @@ MonoBehaviour:
   m_Elasticity: 0.1
   m_Inertia: 1
   m_DecelerationRate: 0.01
-  m_ScrollSensitivity: 0.2
+  m_ScrollSensitivity: 0.7
   m_Viewport: {fileID: 0}
   m_HorizontalScrollbar: {fileID: 0}
   m_VerticalScrollbar: {fileID: 0}
