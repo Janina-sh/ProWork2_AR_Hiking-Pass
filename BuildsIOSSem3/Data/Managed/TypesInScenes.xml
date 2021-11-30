@@ -56,6 +56,7 @@
 	</assembly>
 	<assembly fullname="Assembly-CSharp">
 		<type fullname="MultipleImageTracking" preserve="nothing"/>
+		<type fullname="UnityEngine.UI.Extensions.HorizontalScrollSnap" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Unity.XR.ARFoundation">
 		<type fullname="UnityEngine.XR.ARFoundation.ARCameraBackground" preserve="nothing"/>
