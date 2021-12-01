@@ -178,3 +178,36 @@ Total: 1.924965 ms (FindLiveObjects: 0.220775 ms CreateObjectMapping: 0.063099 m
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.76 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 111.6 MB.
+System memory in use after: 111.7 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 2293.
+Total: 2.261941 ms (FindLiveObjects: 0.201662 ms CreateObjectMapping: 0.061231 ms MarkObjects: 1.932875 ms  DeleteObjects: 0.064819 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.72 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 111.8 MB.
+System memory in use after: 111.9 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 2293.
+Total: 2.326374 ms (FindLiveObjects: 0.211214 ms CreateObjectMapping: 0.069196 ms MarkObjects: 1.978122 ms  DeleteObjects: 0.066614 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.70 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 112.0 MB.
+System memory in use after: 112.1 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 2293.
+Total: 2.302928 ms (FindLiveObjects: 0.220254 ms CreateObjectMapping: 0.073076 ms MarkObjects: 1.946475 ms  DeleteObjects: 0.061529 ms)
+
