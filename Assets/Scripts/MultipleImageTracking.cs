@@ -11,7 +11,7 @@ using UnityEngine.XR.ARFoundation;
 public class MultipleImageTracking : MonoBehaviour
 {
     [SerializeField] private GameObject[] placeablePrefabs; //our Prefabs, that will be created at runtime
-    
+     public GameObject pantherView;
     private Dictionary<string, GameObject> spawnedPrefabs = new Dictionary<string, GameObject>();  //will call sporned prefabs out of Prefab Array (string = used for finding a prefab from the placeable Prefab array with the same name
     public AudioSource geschichte;
     private ARTrackedImageManager trackedImageManager; //contains the reference image library, detects the images in it
@@ -22,9 +22,10 @@ geschichte = GetComponent<AudioSource>();
 }
     private void Awake()
     {
+
       //  ARcamera.enabled = false;
         trackedImageManager = FindObjectOfType<ARTrackedImageManager>(); //getting and storing a reference to the trackedImageManager
-           Debug.Log("Prefab 1");
+           Debug.Log("Panther");
         //presporn one of the placeable Prefabs in our Array
         foreach (GameObject prefab in placeablePrefabs)
         {
@@ -33,6 +34,8 @@ geschichte = GetComponent<AudioSource>();
             newPrefab.name = prefab.name; //searching for the right prefab
             spawnedPrefabs.Add(prefab.name, newPrefab); //add this to the spawnedPrefab Dictionary, newPrefab=Reference
            // geschichte.Play();
+
+
         }
     }
 
@@ -66,13 +69,14 @@ geschichte = GetComponent<AudioSource>();
 
     private void UpdateImage(ARTrackedImage trackedImage)
     {
+
         string name = trackedImage.referenceImage.name; //temporarily store the name of the tracked image
         Vector3 position = trackedImage.transform.localPosition;
 
         GameObject prefab = spawnedPrefabs[name]; //GameObject will be from our spawnedPrefabs Dictionary selected by the name
         prefab.transform.localPosition = position;
         prefab.SetActive(true); //see the prefab linked to the current image
-
+pantherView.gameObject.SetActive(true);
         foreach (GameObject go in spawnedPrefabs.Values)
         {
             if (go.name != name)
