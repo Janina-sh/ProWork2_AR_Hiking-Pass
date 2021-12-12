@@ -1005,7 +1005,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 0.99999976, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -2121,7 +2121,7 @@ RectTransform:
   m_GameObject: {fileID: 390214409}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.44823602, y: 0.9854324, z: 1}
+  m_LocalScale: {x: 0.46517932, y: 0.9854324, z: 1}
   m_Children:
   - {fileID: 1248842763}
   m_Father: {fileID: 664315035}
@@ -5847,8 +5847,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1043369998}
   m_HandleRect: {fileID: 1043369997}
   m_Direction: 0
-  m_Value: -0.00000025160713
-  m_Size: 0.62248945
+  m_Value: -0.00000012580348
+  m_Size: 0.6224893
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -5998,8 +5998,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-    m_Left: 0
-    m_Right: 0
+    m_Left: 7
+    m_Right: 5
     m_Top: 18
     m_Bottom: 0
   m_ChildAlignment: 3
@@ -6222,7 +6222,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -156.83063, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: -17}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1551264180
@@ -7376,7 +7376,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 689, y: -479}
+  m_AnchoredPosition: {x: 652, y: -479}
   m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1743611449
@@ -7621,8 +7621,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1664643919}
   m_HandleRect: {fileID: 1664643918}
   m_Direction: 0
-  m_Value: 0.00000006580986
-  m_Size: 0.3013303
+  m_Value: 0.00000012636653
+  m_Size: 0.29282534
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -9948,7 +9948,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 139581155}
   m_Direction: 0
   m_Value: 0
-  m_Size: 0
+  m_Size: 0.99999976
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
