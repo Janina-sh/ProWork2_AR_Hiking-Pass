@@ -1026,7 +1026,7 @@ GameObject:
   - component: {fileID: 257821226}
   - component: {fileID: 257821225}
   m_Layer: 5
-  m_Name: Scroll View Collectables new
+  m_Name: Scroll View Collectables
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

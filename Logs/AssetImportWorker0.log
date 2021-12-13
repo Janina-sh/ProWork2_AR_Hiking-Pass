@@ -375,3 +375,45 @@ Received Import Request.
 Start importing Assets/Screens/Missing-Collectable01.png using Guid(2e3b3bb420353454085c9535fc1ca818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c7cf34da27b3fd3705f69c3315fb933') in 0.035901 seconds
   Import took 0.039868 seconds .
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000517 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.072 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1794 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 147.7 MB.
+System memory in use after: 147.7 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2319.
+Total: 1.954894 ms (FindLiveObjects: 0.197116 ms CreateObjectMapping: 0.069686 ms MarkObjects: 1.626101 ms  DeleteObjects: 0.060887 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 109.091761 seconds.
+  path: Assets/Screens/Collectables
+  artifactKey: Guid(8ba41a7df766e4a1ebebdfab3ec14539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screens/Collectables using Guid(8ba41a7df766e4a1ebebdfab3ec14539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3850f7a209ec6d7d19d299ca11b11f9') in 0.005256 seconds
+  Import took 0.008200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008917 seconds.
+  path: Assets/Screens/Collectables
+  artifactKey: Guid(8ba41a7df766e4a1ebebdfab3ec14539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screens/Collectables using Guid(8ba41a7df766e4a1ebebdfab3ec14539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3850f7a209ec6d7d19d299ca11b11f9') in 0.001430 seconds
+  Import took 0.004756 seconds .
+
