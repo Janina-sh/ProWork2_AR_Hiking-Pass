@@ -283,3 +283,95 @@ Total: 2.007922 ms (FindLiveObjects: 0.215617 ms CreateObjectMapping: 0.077986 m
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000577 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.057 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1794 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 147.2 MB.
+System memory in use after: 147.3 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2308.
+Total: 2.034229 ms (FindLiveObjects: 0.241083 ms CreateObjectMapping: 0.081233 ms MarkObjects: 1.650221 ms  DeleteObjects: 0.060440 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000550 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.978 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1794 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 147.4 MB.
+System memory in use after: 147.5 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2312.
+Total: 2.107439 ms (FindLiveObjects: 0.256330 ms CreateObjectMapping: 0.097671 ms MarkObjects: 1.690278 ms  DeleteObjects: 0.061815 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 998.347050 seconds.
+  path: Assets/Screens/Scan Sign.png
+  artifactKey: Guid(e4a535d550cb2421d9fe6039db038ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screens/Scan Sign.png using Guid(e4a535d550cb2421d9fe6039db038ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8932f737fed7a277a7efc4ccaf3a99cd') in 0.065403 seconds
+  Import took 0.068980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.553507 seconds.
+  path: Assets/Screens/Overview_Scan-Sign_Button.png
+  artifactKey: Guid(e4a535d550cb2421d9fe6039db038ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screens/Overview_Scan-Sign_Button.png using Guid(e4a535d550cb2421d9fe6039db038ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb7e5d1469895ac5b2173746225b0f76') in 0.033161 seconds
+  Import took 0.036497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 274.343680 seconds.
+  path: Assets/Screens/Missing-Collectable01.png
+  artifactKey: Guid(2e3b3bb420353454085c9535fc1ca818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screens/Missing-Collectable01.png using Guid(2e3b3bb420353454085c9535fc1ca818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '743ace633ff580b0c3692420f3d4d554') in 0.043358 seconds
+  Import took 0.047039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000516 seconds.
+  path: Assets/Screens/Missing-Collectable01.png
+  artifactKey: Guid(2e3b3bb420353454085c9535fc1ca818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screens/Missing-Collectable01.png using Guid(2e3b3bb420353454085c9535fc1ca818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '743ace633ff580b0c3692420f3d4d554') in 0.023070 seconds
+  Import took 0.026463 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.552747 seconds.
+  path: Assets/Screens/Missing-Collectable01.png
+  artifactKey: Guid(2e3b3bb420353454085c9535fc1ca818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screens/Missing-Collectable01.png using Guid(2e3b3bb420353454085c9535fc1ca818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c7cf34da27b3fd3705f69c3315fb933') in 0.035901 seconds
+  Import took 0.039868 seconds .
+
