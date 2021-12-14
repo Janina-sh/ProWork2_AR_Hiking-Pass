@@ -180,3 +180,157 @@ Total: 2.019309 ms (FindLiveObjects: 0.206696 ms CreateObjectMapping: 0.078987 m
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 661.615345 seconds.
+  path: Assets/Screens/Hero_BG 1.png
+  artifactKey: Guid(7e3623067546f42f3962116f6dd3d974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screens/Hero_BG 1.png using Guid(7e3623067546f42f3962116f6dd3d974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcdb291143cab610155da3761713ef2d') in 0.276911 seconds
+  Import took 0.281501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.328721 seconds.
+  path: Assets/Screens/Hero_BG 1.png
+  artifactKey: Guid(7e3623067546f42f3962116f6dd3d974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screens/Hero_BG 1.png using Guid(7e3623067546f42f3962116f6dd3d974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1edcaba150b26167fd0f7aa519c34cde') in 0.022957 seconds
+  Import took 0.026695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.052857 seconds.
+  path: Assets/Screens/Hero_BG.png
+  artifactKey: Guid(7e3623067546f42f3962116f6dd3d974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screens/Hero_BG.png using Guid(7e3623067546f42f3962116f6dd3d974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e7b27048d81ea996930ecd7e5eaac86') in 0.020599 seconds
+  Import took 0.025558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.160839 seconds.
+  path: Assets/Screens/Hero_BG.png
+  artifactKey: Guid(7e3623067546f42f3962116f6dd3d974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screens/Hero_BG.png using Guid(7e3623067546f42f3962116f6dd3d974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9e0bc5c1e5259204917ea6188a502de') in 0.040930 seconds
+  Import took 0.045163 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.439813 seconds.
+  path: Assets/Screens/Hero_BG.png
+  artifactKey: Guid(7e3623067546f42f3962116f6dd3d974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screens/Hero_BG.png using Guid(7e3623067546f42f3962116f6dd3d974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7654376b45fb168c72264346b02772d') in 0.018214 seconds
+  Import took 0.021366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.183801 seconds.
+  path: Assets/Screens/Hero_BG 1.png
+  artifactKey: Guid(7e3623067546f42f3962116f6dd3d974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screens/Hero_BG 1.png using Guid(7e3623067546f42f3962116f6dd3d974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cbc2a84ccce237b6578da430f56aa3e') in 0.017632 seconds
+  Import took 0.021729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001870 seconds.
+  path: Assets/Screens/Hero_BG 1.png
+  artifactKey: Guid(7e3623067546f42f3962116f6dd3d974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screens/Hero_BG 1.png using Guid(7e3623067546f42f3962116f6dd3d974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cbc2a84ccce237b6578da430f56aa3e') in 0.024910 seconds
+  Import took 0.028638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.530066 seconds.
+  path: Assets/Screens/Hero_BG 1.png
+  artifactKey: Guid(7e3623067546f42f3962116f6dd3d974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screens/Hero_BG 1.png using Guid(7e3623067546f42f3962116f6dd3d974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbf7aee4bc3a2b71b93edc1551068e61') in 0.254870 seconds
+  Import took 0.258889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 106.805988 seconds.
+  path: Assets/Screens/Hero_BG 1.png
+  artifactKey: Guid(81e0d27329a7c4bd3ab8417f35c64f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screens/Hero_BG 1.png using Guid(81e0d27329a7c4bd3ab8417f35c64f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3400b8de3afdc6dd925b23ac079d4bc7') in 0.254651 seconds
+  Import took 0.259242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.301540 seconds.
+  path: Assets/Screens/Hero_BG 1.png
+  artifactKey: Guid(81e0d27329a7c4bd3ab8417f35c64f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screens/Hero_BG 1.png using Guid(81e0d27329a7c4bd3ab8417f35c64f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57c2d37cb9d308b89f6a0d1ff8b51ed3') in 0.034242 seconds
+  Import took 0.038585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.391076 seconds.
+  path: Assets/Screens/Hero_BG.png
+  artifactKey: Guid(81e0d27329a7c4bd3ab8417f35c64f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screens/Hero_BG.png using Guid(81e0d27329a7c4bd3ab8417f35c64f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6f4562a8f144e9bb2bc2c00a0800961') in 0.035982 seconds
+  Import took 0.040301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.058349 seconds.
+  path: Assets/Screens/Read-story_BG 1.png
+  artifactKey: Guid(80e9edf8ed12649c29f9be2cf5eb97cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screens/Read-story_BG 1.png using Guid(80e9edf8ed12649c29f9be2cf5eb97cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '612d00ebbd4f49e46ff172393aabc668') in 0.245812 seconds
+  Import took 0.249417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002357 seconds.
+  path: Assets/Screens/Read-story_BG 1.png
+  artifactKey: Guid(80e9edf8ed12649c29f9be2cf5eb97cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screens/Read-story_BG 1.png using Guid(80e9edf8ed12649c29f9be2cf5eb97cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '612d00ebbd4f49e46ff172393aabc668') in 0.243445 seconds
+  Import took 0.246938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.985644 seconds.
+  path: Assets/Screens/Read-story_BG 1.png
+  artifactKey: Guid(80e9edf8ed12649c29f9be2cf5eb97cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screens/Read-story_BG 1.png using Guid(80e9edf8ed12649c29f9be2cf5eb97cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd8f78d734e81eb29701e2dae0373c78') in 0.034249 seconds
+  Import took 0.037705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.485446 seconds.
+  path: Assets/Screens/Read-story_B.png
+  artifactKey: Guid(80e9edf8ed12649c29f9be2cf5eb97cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screens/Read-story_B.png using Guid(80e9edf8ed12649c29f9be2cf5eb97cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62f28afffb31516ed73e98a4d82036c1') in 0.034418 seconds
+  Import took 0.038623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.547234 seconds.
+  path: Assets/Screens/Read-story_BG.png
+  artifactKey: Guid(80e9edf8ed12649c29f9be2cf5eb97cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screens/Read-story_BG.png using Guid(80e9edf8ed12649c29f9be2cf5eb97cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7b15f6f26929836eacb77b7a89886e3') in 0.033746 seconds
+  Import took 0.037794 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000482 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.943 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1794 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 146.6 MB.
+System memory in use after: 146.6 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2297.
+Total: 2.047210 ms (FindLiveObjects: 0.191687 ms CreateObjectMapping: 0.067667 ms MarkObjects: 1.725955 ms  DeleteObjects: 0.060516 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
