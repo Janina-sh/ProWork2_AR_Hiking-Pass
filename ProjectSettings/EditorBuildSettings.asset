@@ -5,9 +5,15 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/MultipleImagetracking.unity
-    guid: 562c917ceab374b66b80bc58410b0563
+    path: Assets/Scenes/MultipleImagetracking2.unity
+    guid: 98cff1b95ba844391a954528b151b27b
+  - enabled: 1
+    path: Assets/Scenes/MultipleImagetracking 1.unity
+    guid: d9ace03be828d4797b9121edb303baaf
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 05f2fec33cb0c40688808695990c5000, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 583289a341f274f3b92fc7f0e311f7ac, type: 2}
