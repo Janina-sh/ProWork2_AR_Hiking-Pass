@@ -311,7 +311,16 @@ extern bool _unityAppReady;
 
 - (void)checkOrientationRequest
 {
+    // if no orientation/allowed-orientation change - do nothing
     if (!UnityHasOrientationRequest() && !UnityShouldChangeAllowedOrientations())
+        return;
+
+    // if there is a presentation controller, it takes over orientation control
+    //   in this case we should completely ignore all orientation changes
+    // mind you, we just *delay* them, and they will be satisfied once presentation controller is dismissed
+    // extra care like this is needed, because below we might recreate ViewController completely breaking
+    //   presentation controller dismissal
+    if (_rootController.presentedViewController)
         return;
 
     // normally we want to call attemptRotationToDeviceOrientation to tell iOS that we changed orientation constraints

@@ -7,7 +7,8 @@
             "fullManagedTypeName": "UnityEngine.Behaviour",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/MultipleImagetracking.unity"
+                "Assets/Scenes/MultipleImagetracking2.unity",
+                "Assets/Scenes/MultipleImagetracking 1.unity"
             ]
         },
         {
@@ -30,7 +31,8 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/MultipleImagetracking.unity"
+                "Assets/Scenes/MultipleImagetracking2.unity",
+                "Assets/Scenes/MultipleImagetracking 1.unity"
             ]
         },
         {
@@ -74,7 +76,8 @@
             "fullManagedTypeName": "UnityEngine.Component",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/MultipleImagetracking.unity"
+                "Assets/Scenes/MultipleImagetracking2.unity",
+                "Assets/Scenes/MultipleImagetracking 1.unity"
             ]
         },
         {
@@ -83,7 +86,8 @@
             "fullManagedTypeName": "UnityEngine.Material",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/MultipleImagetracking.unity"
+                "Assets/Scenes/MultipleImagetracking2.unity",
+                "Assets/Scenes/MultipleImagetracking 1.unity"
             ]
         },
         {
@@ -122,15 +126,6 @@
             "usedInScenes": []
         },
         {
-            "managedAssemblyName": "",
-            "nativeClass": "NamedObject",
-            "fullManagedTypeName": "",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scenes/MultipleImagetracking.unity"
-            ]
-        },
-        {
             "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "PhysicsManager",
             "fullManagedTypeName": "UnityEditor.PhysicsManager",
@@ -143,7 +138,8 @@
             "fullManagedTypeName": "UnityEngine.TextAsset",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/MultipleImagetracking.unity"
+                "Assets/Scenes/MultipleImagetracking2.unity",
+                "Assets/Scenes/MultipleImagetracking 1.unity"
             ]
         },
         {
@@ -152,7 +148,8 @@
             "fullManagedTypeName": "UnityEditor.MonoScript",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/MultipleImagetracking.unity"
+                "Assets/Scenes/MultipleImagetracking2.unity",
+                "Assets/Scenes/MultipleImagetracking 1.unity"
             ]
         },
         {
@@ -161,7 +158,8 @@
             "fullManagedTypeName": "UnityEngine.Object",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/MultipleImagetracking.unity"
+                "Assets/Scenes/MultipleImagetracking2.unity",
+                "Assets/Scenes/MultipleImagetracking 1.unity"
             ]
         },
         {
@@ -170,6 +168,16 @@
             "fullManagedTypeName": "",
             "moduleName": "AI",
             "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "",
+            "nativeClass": "NamedObject",
+            "fullManagedTypeName": "",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/MultipleImagetracking2.unity",
+                "Assets/Scenes/MultipleImagetracking 1.unity"
+            ]
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
@@ -184,7 +192,8 @@
             "fullManagedTypeName": "UnityEngine.Shader",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/MultipleImagetracking.unity"
+                "Assets/Scenes/MultipleImagetracking2.unity",
+                "Assets/Scenes/MultipleImagetracking 1.unity"
             ]
         },
         {
@@ -193,7 +202,8 @@
             "fullManagedTypeName": "UnityEngine.MonoBehaviour",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/MultipleImagetracking.unity"
+                "Assets/Scenes/MultipleImagetracking2.unity",
+                "Assets/Scenes/MultipleImagetracking 1.unity"
             ]
         },
         {
@@ -209,7 +219,8 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/MultipleImagetracking.unity"
+                "Assets/Scenes/MultipleImagetracking2.unity",
+                "Assets/Scenes/MultipleImagetracking 1.unity"
             ]
         },
         {
@@ -235,20 +246,12 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "SkinnedMeshRenderer",
-            "fullManagedTypeName": "UnityEngine.SkinnedMeshRenderer",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scenes/MultipleImagetracking.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "AudioSource",
             "fullManagedTypeName": "UnityEngine.AudioSource",
             "moduleName": "Audio",
             "usedInScenes": [
-                "Assets/Scenes/MultipleImagetracking.unity"
+                "Assets/Scenes/MultipleImagetracking2.unity",
+                "Assets/Scenes/MultipleImagetracking 1.unity"
             ]
         },
         {
@@ -257,7 +260,8 @@
             "fullManagedTypeName": "UnityEngine.AudioBehaviour",
             "moduleName": "Audio",
             "usedInScenes": [
-                "Assets/Scenes/MultipleImagetracking.unity"
+                "Assets/Scenes/MultipleImagetracking2.unity",
+                "Assets/Scenes/MultipleImagetracking 1.unity"
             ]
         },
         {
@@ -266,7 +270,8 @@
             "fullManagedTypeName": "UnityEngine.AudioListener",
             "moduleName": "Audio",
             "usedInScenes": [
-                "Assets/Scenes/MultipleImagetracking.unity"
+                "Assets/Scenes/MultipleImagetracking2.unity",
+                "Assets/Scenes/MultipleImagetracking 1.unity"
             ]
         },
         {
@@ -275,34 +280,8 @@
             "fullManagedTypeName": "UnityEngine.Rigidbody",
             "moduleName": "Physics",
             "usedInScenes": [
-                "Assets/Scenes/MultipleImagetracking.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Collider",
-            "fullManagedTypeName": "UnityEngine.Collider",
-            "moduleName": "Physics",
-            "usedInScenes": [
-                "Assets/Scenes/MultipleImagetracking.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "BoxCollider",
-            "fullManagedTypeName": "UnityEngine.BoxCollider",
-            "moduleName": "Physics",
-            "usedInScenes": [
-                "Assets/Scenes/MultipleImagetracking.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "SphereCollider",
-            "fullManagedTypeName": "UnityEngine.SphereCollider",
-            "moduleName": "Physics",
-            "usedInScenes": [
-                "Assets/Scenes/MultipleImagetracking.unity"
+                "Assets/Scenes/MultipleImagetracking2.unity",
+                "Assets/Scenes/MultipleImagetracking 1.unity"
             ]
         },
         {
@@ -311,61 +290,8 @@
             "fullManagedTypeName": "UnityEngine.Canvas",
             "moduleName": "UI",
             "usedInScenes": [
-                "Assets/Scenes/MultipleImagetracking.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Animation",
-            "fullManagedTypeName": "UnityEngine.Animation",
-            "moduleName": "Animation",
-            "usedInScenes": [
-                "Assets/Scenes/MultipleImagetracking.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "AnimationClip",
-            "fullManagedTypeName": "UnityEngine.AnimationClip",
-            "moduleName": "Animation",
-            "usedInScenes": [
-                "Assets/Scenes/MultipleImagetracking.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Animator",
-            "fullManagedTypeName": "UnityEngine.Animator",
-            "moduleName": "Animation",
-            "usedInScenes": [
-                "Assets/Scenes/MultipleImagetracking.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "AnimatorController",
-            "fullManagedTypeName": "UnityEditor.Animations.AnimatorController",
-            "moduleName": "Animation",
-            "usedInScenes": [
-                "Assets/Scenes/MultipleImagetracking.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "RuntimeAnimatorController",
-            "fullManagedTypeName": "UnityEngine.RuntimeAnimatorController",
-            "moduleName": "Animation",
-            "usedInScenes": [
-                "Assets/Scenes/MultipleImagetracking.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Avatar",
-            "fullManagedTypeName": "UnityEngine.Avatar",
-            "moduleName": "Animation",
-            "usedInScenes": [
-                "Assets/Scenes/MultipleImagetracking.unity"
+                "Assets/Scenes/MultipleImagetracking2.unity",
+                "Assets/Scenes/MultipleImagetracking 1.unity"
             ]
         },
         {
@@ -374,7 +300,8 @@
             "fullManagedTypeName": "UnityEngine.Font",
             "moduleName": "TextRendering",
             "usedInScenes": [
-                "Assets/Scenes/MultipleImagetracking.unity"
+                "Assets/Scenes/MultipleImagetracking2.unity",
+                "Assets/Scenes/MultipleImagetracking 1.unity"
             ]
         },
         {
@@ -383,7 +310,8 @@
             "fullManagedTypeName": "UnityEngine.Renderer",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/MultipleImagetracking.unity"
+                "Assets/Scenes/MultipleImagetracking2.unity",
+                "Assets/Scenes/MultipleImagetracking 1.unity"
             ]
         },
         {
@@ -392,7 +320,8 @@
             "fullManagedTypeName": "UnityEngine.Sprite",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/MultipleImagetracking.unity"
+                "Assets/Scenes/MultipleImagetracking2.unity",
+                "Assets/Scenes/MultipleImagetracking 1.unity"
             ]
         },
         {
@@ -401,7 +330,8 @@
             "fullManagedTypeName": "UnityEngine.Texture2D",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/MultipleImagetracking.unity"
+                "Assets/Scenes/MultipleImagetracking2.unity",
+                "Assets/Scenes/MultipleImagetracking 1.unity"
             ]
         },
         {
@@ -410,16 +340,8 @@
             "fullManagedTypeName": "UnityEngine.RenderSettings",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/MultipleImagetracking.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "MeshRenderer",
-            "fullManagedTypeName": "UnityEngine.MeshRenderer",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scenes/MultipleImagetracking.unity"
+                "Assets/Scenes/MultipleImagetracking2.unity",
+                "Assets/Scenes/MultipleImagetracking 1.unity"
             ]
         },
         {
@@ -428,25 +350,8 @@
             "fullManagedTypeName": "UnityEngine.Transform",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/MultipleImagetracking.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Light",
-            "fullManagedTypeName": "UnityEngine.Light",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scenes/MultipleImagetracking.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Camera",
-            "fullManagedTypeName": "UnityEngine.Camera",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scenes/MultipleImagetracking.unity"
+                "Assets/Scenes/MultipleImagetracking2.unity",
+                "Assets/Scenes/MultipleImagetracking 1.unity"
             ]
         },
         {
@@ -455,16 +360,8 @@
             "fullManagedTypeName": "UnityEngine.Texture",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/MultipleImagetracking.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Mesh",
-            "fullManagedTypeName": "UnityEngine.Mesh",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scenes/MultipleImagetracking.unity"
+                "Assets/Scenes/MultipleImagetracking2.unity",
+                "Assets/Scenes/MultipleImagetracking 1.unity"
             ]
         },
         {
@@ -473,7 +370,8 @@
             "fullManagedTypeName": "UnityEngine.GameObject",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/MultipleImagetracking.unity"
+                "Assets/Scenes/MultipleImagetracking2.unity",
+                "Assets/Scenes/MultipleImagetracking 1.unity"
             ]
         },
         {
@@ -482,7 +380,7 @@
             "fullManagedTypeName": "UnityEngine.SpriteRenderer",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/MultipleImagetracking.unity"
+                "Assets/Scenes/MultipleImagetracking2.unity"
             ]
         },
         {
@@ -491,7 +389,8 @@
             "fullManagedTypeName": "UnityEngine.AudioClip",
             "moduleName": "Audio",
             "usedInScenes": [
-                "Assets/Scenes/MultipleImagetracking.unity"
+                "Assets/Scenes/MultipleImagetracking2.unity",
+                "Assets/Scenes/MultipleImagetracking 1.unity"
             ]
         },
         {
@@ -500,7 +399,8 @@
             "fullManagedTypeName": "",
             "moduleName": "AI",
             "usedInScenes": [
-                "Assets/Scenes/MultipleImagetracking.unity"
+                "Assets/Scenes/MultipleImagetracking2.unity",
+                "Assets/Scenes/MultipleImagetracking 1.unity"
             ]
         },
         {
@@ -509,16 +409,8 @@
             "fullManagedTypeName": "",
             "moduleName": "Audio",
             "usedInScenes": [
-                "Assets/Scenes/MultipleImagetracking.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "MeshFilter",
-            "fullManagedTypeName": "UnityEngine.MeshFilter",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scenes/MultipleImagetracking.unity"
+                "Assets/Scenes/MultipleImagetracking2.unity",
+                "Assets/Scenes/MultipleImagetracking 1.unity"
             ]
         },
         {
@@ -527,16 +419,18 @@
             "fullManagedTypeName": "UnityEngine.RectTransform",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/MultipleImagetracking.unity"
+                "Assets/Scenes/MultipleImagetracking2.unity",
+                "Assets/Scenes/MultipleImagetracking 1.unity"
             ]
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Motion",
-            "fullManagedTypeName": "UnityEngine.Motion",
-            "moduleName": "Animation",
+            "nativeClass": "Light",
+            "fullManagedTypeName": "UnityEngine.Light",
+            "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/MultipleImagetracking.unity"
+                "Assets/Scenes/MultipleImagetracking2.unity",
+                "Assets/Scenes/MultipleImagetracking 1.unity"
             ]
         },
         {
@@ -545,7 +439,8 @@
             "fullManagedTypeName": "UnityEngine.CanvasRenderer",
             "moduleName": "UI",
             "usedInScenes": [
-                "Assets/Scenes/MultipleImagetracking.unity"
+                "Assets/Scenes/MultipleImagetracking2.unity",
+                "Assets/Scenes/MultipleImagetracking 1.unity"
             ]
         },
         {
@@ -554,7 +449,8 @@
             "fullManagedTypeName": "UnityEngine.Cubemap",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/MultipleImagetracking.unity"
+                "Assets/Scenes/MultipleImagetracking2.unity",
+                "Assets/Scenes/MultipleImagetracking 1.unity"
             ]
         },
         {
@@ -563,7 +459,8 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/MultipleImagetracking.unity"
+                "Assets/Scenes/MultipleImagetracking2.unity",
+                "Assets/Scenes/MultipleImagetracking 1.unity"
             ]
         },
         {
@@ -572,13 +469,156 @@
             "fullManagedTypeName": "UnityEngine.LightmapSettings",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/MultipleImagetracking.unity"
+                "Assets/Scenes/MultipleImagetracking2.unity",
+                "Assets/Scenes/MultipleImagetracking 1.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Camera",
+            "fullManagedTypeName": "UnityEngine.Camera",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/MultipleImagetracking 1.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "SkinnedMeshRenderer",
+            "fullManagedTypeName": "UnityEngine.SkinnedMeshRenderer",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/MultipleImagetracking 1.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "MeshRenderer",
+            "fullManagedTypeName": "UnityEngine.MeshRenderer",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/MultipleImagetracking 1.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Collider",
+            "fullManagedTypeName": "UnityEngine.Collider",
+            "moduleName": "Physics",
+            "usedInScenes": [
+                "Assets/Scenes/MultipleImagetracking 1.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "BoxCollider",
+            "fullManagedTypeName": "UnityEngine.BoxCollider",
+            "moduleName": "Physics",
+            "usedInScenes": [
+                "Assets/Scenes/MultipleImagetracking 1.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "SphereCollider",
+            "fullManagedTypeName": "UnityEngine.SphereCollider",
+            "moduleName": "Physics",
+            "usedInScenes": [
+                "Assets/Scenes/MultipleImagetracking 1.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Animation",
+            "fullManagedTypeName": "UnityEngine.Animation",
+            "moduleName": "Animation",
+            "usedInScenes": [
+                "Assets/Scenes/MultipleImagetracking 1.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "AnimationClip",
+            "fullManagedTypeName": "UnityEngine.AnimationClip",
+            "moduleName": "Animation",
+            "usedInScenes": [
+                "Assets/Scenes/MultipleImagetracking 1.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Animator",
+            "fullManagedTypeName": "UnityEngine.Animator",
+            "moduleName": "Animation",
+            "usedInScenes": [
+                "Assets/Scenes/MultipleImagetracking 1.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "AnimatorController",
+            "fullManagedTypeName": "UnityEditor.Animations.AnimatorController",
+            "moduleName": "Animation",
+            "usedInScenes": [
+                "Assets/Scenes/MultipleImagetracking 1.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "RuntimeAnimatorController",
+            "fullManagedTypeName": "UnityEngine.RuntimeAnimatorController",
+            "moduleName": "Animation",
+            "usedInScenes": [
+                "Assets/Scenes/MultipleImagetracking 1.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Avatar",
+            "fullManagedTypeName": "UnityEngine.Avatar",
+            "moduleName": "Animation",
+            "usedInScenes": [
+                "Assets/Scenes/MultipleImagetracking 1.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Mesh",
+            "fullManagedTypeName": "UnityEngine.Mesh",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/MultipleImagetracking 1.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "MeshFilter",
+            "fullManagedTypeName": "UnityEngine.MeshFilter",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/MultipleImagetracking 1.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Motion",
+            "fullManagedTypeName": "UnityEngine.Motion",
+            "moduleName": "Animation",
+            "usedInScenes": [
+                "Assets/Scenes/MultipleImagetracking 1.unity"
             ]
         },
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
             "fullManagedTypeName": "MultipleImageTracking",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "SceneChanger",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -1605,6 +1645,12 @@
             "module": "Editor",
             "baseName": "NamedObject",
             "baseModule": "Core"
+        },
+        {
+            "name": "AndroidAssetPackImporter",
+            "module": "Editor",
+            "baseName": "AssetImporter",
+            "baseModule": "Editor"
         },
         {
             "name": "AssemblyDefinitionImporter",

@@ -244,6 +244,7 @@ IL2CPP_EXTERN_C RuntimeClass* Oid_tD6586F9C615C5CBE741A5099DFB67FE0F99F4800_il2c
 IL2CPP_EXTERN_C RuntimeClass* RuntimeObject_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* StringBuilder_t_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* String_t_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Type_t_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* UriComponents_tA599793722A9810EC23036FF1B1B02A905B4EA76_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* UriFormatException_tAA45C6D2264E9E74935A066FC3DF8DF68B37B61D_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* UriHelper_tBEFC75B3A4E9E35CB41ADAAE22E0D1D7EE65E53D_il2cpp_TypeInfo_var;
@@ -413,6 +414,8 @@ IL2CPP_EXTERN_C const RuntimeMethod* X509SubjectKeyIdentifierExtension__ctor_m7C
 IL2CPP_EXTERN_C const RuntimeMethod* X509SubjectKeyIdentifierExtension__ctor_mDEF8BD36D2A43B1BDC54760AC6E57458E5ECBFE6_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* X509SubjectKeyIdentifierExtension_get_SubjectKeyIdentifier_mD90F985708EE4E69C37AA8B09AEBBE64A4002601_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* X509Utils_FindOidInfo_m7CC1462A6CC9DA7C40CA09FA5EACEE9B9117EC8C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeType* String_t_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Uri_t4A915E1CC15B2C650F478099AD448E9466CBF612_0_0_0_var;
 struct Exception_t_marshaled_com;
 struct Exception_t_marshaled_pinvoke;
 
@@ -433,7 +436,7 @@ IL2CPP_EXTERN_C_END
 
 
 // System.Collections.Generic.Dictionary`2<System.Int32,System.String>
-struct  Dictionary_2_t0ACB62D0885C7AB376463C70665400A39808C5FB  : public RuntimeObject
+struct Dictionary_2_t0ACB62D0885C7AB376463C70665400A39808C5FB  : public RuntimeObject
 {
 public:
 	// System.Int32[] System.Collections.Generic.Dictionary`2::buckets
@@ -547,7 +550,7 @@ public:
 
 
 // System.Collections.Generic.Dictionary`2<System.String,System.UriParser>
-struct  Dictionary_2_t29257EB2565DDF3180663167EF129FA9827836C5  : public RuntimeObject
+struct Dictionary_2_t29257EB2565DDF3180663167EF129FA9827836C5  : public RuntimeObject
 {
 public:
 	// System.Int32[] System.Collections.Generic.Dictionary`2::buckets
@@ -661,7 +664,7 @@ public:
 
 
 // Mono.Security.ASN1
-struct  ASN1_tCB86B6A02250200ED166EA857DC3D1C422BD94D8  : public RuntimeObject
+struct ASN1_tCB86B6A02250200ED166EA857DC3D1C422BD94D8  : public RuntimeObject
 {
 public:
 	// System.Byte Mono.Security.ASN1::m_nTag
@@ -705,7 +708,7 @@ struct Il2CppArrayBounds;
 
 
 // System.Security.Cryptography.AsnEncodedData
-struct  AsnEncodedData_t88A440F72C4F1143E416540D78B910A875CC0FDA  : public RuntimeObject
+struct AsnEncodedData_t88A440F72C4F1143E416540D78B910A875CC0FDA  : public RuntimeObject
 {
 public:
 	// System.Security.Cryptography.Oid System.Security.Cryptography.AsnEncodedData::_oid
@@ -735,7 +738,7 @@ public:
 
 
 // System.Runtime.Versioning.BinaryCompatibility
-struct  BinaryCompatibility_t44EDF0C684F7241E727B341DF3896349BC34D810  : public RuntimeObject
+struct BinaryCompatibility_t44EDF0C684F7241E727B341DF3896349BC34D810  : public RuntimeObject
 {
 public:
 
@@ -770,7 +773,7 @@ public:
 
 
 // System.Configuration.ConfigurationElement
-struct  ConfigurationElement_t571C446CFDFF39CF17130653C433786BEFF25DFA  : public RuntimeObject
+struct ConfigurationElement_t571C446CFDFF39CF17130653C433786BEFF25DFA  : public RuntimeObject
 {
 public:
 
@@ -779,7 +782,7 @@ public:
 
 
 // System.Configuration.ConfigurationPropertyCollection
-struct  ConfigurationPropertyCollection_t8C098DB59DF7BA2C2A71369978F4225B92B2F59B  : public RuntimeObject
+struct ConfigurationPropertyCollection_t8C098DB59DF7BA2C2A71369978F4225B92B2F59B  : public RuntimeObject
 {
 public:
 
@@ -788,7 +791,7 @@ public:
 
 
 // System.Text.DecoderFallback
-struct  DecoderFallback_tF86D337D6576E81E5DA285E5673183EBC66DEF8D  : public RuntimeObject
+struct DecoderFallback_tF86D337D6576E81E5DA285E5673183EBC66DEF8D  : public RuntimeObject
 {
 public:
 	// System.Boolean System.Text.DecoderFallback::bIsMicrosoftBestFitFallback
@@ -845,7 +848,7 @@ public:
 
 
 // System.Text.EncoderFallback
-struct  EncoderFallback_t02AC990075E17EB09F0D7E4831C3B3F264025CC4  : public RuntimeObject
+struct EncoderFallback_t02AC990075E17EB09F0D7E4831C3B3F264025CC4  : public RuntimeObject
 {
 public:
 	// System.Boolean System.Text.EncoderFallback::bIsMicrosoftBestFitFallback
@@ -902,7 +905,7 @@ public:
 
 
 // System.Text.Encoding
-struct  Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827  : public RuntimeObject
+struct Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827  : public RuntimeObject
 {
 public:
 	// System.Int32 System.Text.Encoding::m_codePage
@@ -1089,7 +1092,7 @@ public:
 
 
 // System.Security.Cryptography.HashAlgorithm
-struct  HashAlgorithm_t7F831BEF35F9D0AF5016FFB0E474AF9F93908F31  : public RuntimeObject
+struct HashAlgorithm_t7F831BEF35F9D0AF5016FFB0E474AF9F93908F31  : public RuntimeObject
 {
 public:
 	// System.Int32 System.Security.Cryptography.HashAlgorithm::HashSizeValue
@@ -1138,7 +1141,7 @@ public:
 
 
 // System.Reflection.MemberInfo
-struct  MemberInfo_t  : public RuntimeObject
+struct MemberInfo_t  : public RuntimeObject
 {
 public:
 
@@ -1147,7 +1150,7 @@ public:
 
 
 // System.Security.Cryptography.OidCollection
-struct  OidCollection_tA091E185B8840648BE96A6C547F0C26F88E3A902  : public RuntimeObject
+struct OidCollection_tA091E185B8840648BE96A6C547F0C26F88E3A902  : public RuntimeObject
 {
 public:
 	// System.Collections.ArrayList System.Security.Cryptography.OidCollection::m_list
@@ -1166,7 +1169,7 @@ public:
 
 
 // System.Security.Cryptography.X509Certificates.PublicKey
-struct  PublicKey_t40ABE7E0985F3E274C9564670970EC6F3B39A4A2  : public RuntimeObject
+struct PublicKey_t40ABE7E0985F3E274C9564670970EC6F3B39A4A2  : public RuntimeObject
 {
 public:
 	// System.Security.Cryptography.AsnEncodedData System.Security.Cryptography.X509Certificates.PublicKey::_keyValue
@@ -1224,7 +1227,7 @@ public:
 
 
 // System.Runtime.Serialization.SerializationInfo
-struct  SerializationInfo_t097DA64D9DB49ED7F2458E964BE8CCCF63FC67C1  : public RuntimeObject
+struct SerializationInfo_t097DA64D9DB49ED7F2458E964BE8CCCF63FC67C1  : public RuntimeObject
 {
 public:
 	// System.String[] System.Runtime.Serialization.SerializationInfo::m_members
@@ -1360,7 +1363,7 @@ public:
 
 
 // System.String
-struct  String_t  : public RuntimeObject
+struct String_t  : public RuntimeObject
 {
 public:
 	// System.Int32 System.String::m_stringLength
@@ -1405,7 +1408,7 @@ public:
 
 
 // System.Text.StringBuilder
-struct  StringBuilder_t  : public RuntimeObject
+struct StringBuilder_t  : public RuntimeObject
 {
 public:
 	// System.Char[] System.Text.StringBuilder::m_ChunkChars
@@ -1465,7 +1468,7 @@ public:
 
 
 // System.UriHelper
-struct  UriHelper_tBEFC75B3A4E9E35CB41ADAAE22E0D1D7EE65E53D  : public RuntimeObject
+struct UriHelper_tBEFC75B3A4E9E35CB41ADAAE22E0D1D7EE65E53D  : public RuntimeObject
 {
 public:
 
@@ -1491,7 +1494,7 @@ public:
 
 
 // System.ValueType
-struct  ValueType_tDBF999C1B75C48C68621878250DBF6CDBCF51E52  : public RuntimeObject
+struct ValueType_tDBF999C1B75C48C68621878250DBF6CDBCF51E52  : public RuntimeObject
 {
 public:
 
@@ -1508,7 +1511,7 @@ struct ValueType_tDBF999C1B75C48C68621878250DBF6CDBCF51E52_marshaled_com
 };
 
 // System.Security.Cryptography.X509Certificates.X509Utils
-struct  X509Utils_tC790ED685B9F900AAEC02480B011B3492CD44BE9  : public RuntimeObject
+struct X509Utils_tC790ED685B9F900AAEC02480B011B3492CD44BE9  : public RuntimeObject
 {
 public:
 
@@ -1517,7 +1520,7 @@ public:
 
 
 // System.Text.RegularExpressions.RegexCharClass/SingleRange
-struct  SingleRange_tEE8EA054843A8B8979D082D2CCC8E52A12155624  : public RuntimeObject
+struct SingleRange_tEE8EA054843A8B8979D082D2CCC8E52A12155624  : public RuntimeObject
 {
 public:
 	// System.Char System.Text.RegularExpressions.RegexCharClass/SingleRange::_first
@@ -1545,7 +1548,7 @@ public:
 
 
 // System.Text.RegularExpressions.RegexCharClass/SingleRangeComparer
-struct  SingleRangeComparer_t2D22B185700E925165F9548B3647E0E1FC9DB075  : public RuntimeObject
+struct SingleRangeComparer_t2D22B185700E925165F9548B3647E0E1FC9DB075  : public RuntimeObject
 {
 public:
 
@@ -1554,7 +1557,7 @@ public:
 
 
 // System.ComponentModel.TypeConverter/StandardValuesCollection
-struct  StandardValuesCollection_tB8B2368EBF592D624D7A07BE6C539DE9BA9A1FB1  : public RuntimeObject
+struct StandardValuesCollection_tB8B2368EBF592D624D7A07BE6C539DE9BA9A1FB1  : public RuntimeObject
 {
 public:
 
@@ -1563,7 +1566,7 @@ public:
 
 
 // System.Uri/MoreInfo
-struct  MoreInfo_t15D42286ECE8DAD0B0FE9CDC1291109300C3E727  : public RuntimeObject
+struct MoreInfo_t15D42286ECE8DAD0B0FE9CDC1291109300C3E727  : public RuntimeObject
 {
 public:
 	// System.String System.Uri/MoreInfo::Path
@@ -1625,7 +1628,7 @@ public:
 
 
 // System.Boolean
-struct  Boolean_t07D1E3F34E4813023D64F584DFF7B34C9D922F37 
+struct Boolean_t07D1E3F34E4813023D64F584DFF7B34C9D922F37 
 {
 public:
 	// System.Boolean System.Boolean::m_value
@@ -1671,7 +1674,7 @@ public:
 
 
 // System.Byte
-struct  Byte_t0111FAB8B8685667EDDAF77683F0D8F86B659056 
+struct Byte_t0111FAB8B8685667EDDAF77683F0D8F86B659056 
 {
 public:
 	// System.Byte System.Byte::m_value
@@ -1689,7 +1692,7 @@ public:
 
 
 // System.Char
-struct  Char_tFF60D8E7E89A20BE2294A003734341BD1DF43E14 
+struct Char_tFF60D8E7E89A20BE2294A003734341BD1DF43E14 
 {
 public:
 	// System.Char System.Char::m_value
@@ -1724,7 +1727,7 @@ public:
 
 
 // System.Configuration.ConfigurationElementCollection
-struct  ConfigurationElementCollection_t09097ED83C909F1481AEF6E4451CF7595AFA403E  : public ConfigurationElement_t571C446CFDFF39CF17130653C433786BEFF25DFA
+struct ConfigurationElementCollection_t09097ED83C909F1481AEF6E4451CF7595AFA403E  : public ConfigurationElement_t571C446CFDFF39CF17130653C433786BEFF25DFA
 {
 public:
 
@@ -1733,7 +1736,7 @@ public:
 
 
 // System.Configuration.ConfigurationSection
-struct  ConfigurationSection_t0D68AA1EA007506253A4935DB9F357AF9B50C683  : public ConfigurationElement_t571C446CFDFF39CF17130653C433786BEFF25DFA
+struct ConfigurationSection_t0D68AA1EA007506253A4935DB9F357AF9B50C683  : public ConfigurationElement_t571C446CFDFF39CF17130653C433786BEFF25DFA
 {
 public:
 
@@ -1742,7 +1745,7 @@ public:
 
 
 // System.Text.DecoderReplacementFallback
-struct  DecoderReplacementFallback_t8DA345EC4EF3A35A2667365F691EE69408A62130  : public DecoderFallback_tF86D337D6576E81E5DA285E5673183EBC66DEF8D
+struct DecoderReplacementFallback_t8DA345EC4EF3A35A2667365F691EE69408A62130  : public DecoderFallback_tF86D337D6576E81E5DA285E5673183EBC66DEF8D
 {
 public:
 	// System.String System.Text.DecoderReplacementFallback::strDefault
@@ -1761,7 +1764,7 @@ public:
 
 
 // System.Text.EncoderReplacementFallback
-struct  EncoderReplacementFallback_t61E36A507D7FA8034B49F86DBE560EC77A6A8418  : public EncoderFallback_t02AC990075E17EB09F0D7E4831C3B3F264025CC4
+struct EncoderReplacementFallback_t61E36A507D7FA8034B49F86DBE560EC77A6A8418  : public EncoderFallback_t02AC990075E17EB09F0D7E4831C3B3F264025CC4
 {
 public:
 	// System.String System.Text.EncoderReplacementFallback::strDefault
@@ -1780,7 +1783,7 @@ public:
 
 
 // System.Enum
-struct  Enum_t23B90B40F60E677A8025267341651C94AE079CDA  : public ValueType_tDBF999C1B75C48C68621878250DBF6CDBCF51E52
+struct Enum_t23B90B40F60E677A8025267341651C94AE079CDA  : public ValueType_tDBF999C1B75C48C68621878250DBF6CDBCF51E52
 {
 public:
 
@@ -1814,7 +1817,7 @@ struct Enum_t23B90B40F60E677A8025267341651C94AE079CDA_marshaled_com
 };
 
 // System.Int16
-struct  Int16_tD0F031114106263BB459DA1F099FF9F42691295A 
+struct Int16_tD0F031114106263BB459DA1F099FF9F42691295A 
 {
 public:
 	// System.Int16 System.Int16::m_value
@@ -1832,7 +1835,7 @@ public:
 
 
 // System.Int32
-struct  Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046 
+struct Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046 
 {
 public:
 	// System.Int32 System.Int32::m_value
@@ -1850,7 +1853,7 @@ public:
 
 
 // System.IntPtr
-struct  IntPtr_t 
+struct IntPtr_t 
 {
 public:
 	// System.Void* System.IntPtr::m_value
@@ -1884,7 +1887,7 @@ public:
 
 
 // System.Security.Cryptography.SHA1
-struct  SHA1_t15B592B9935E19EC3FD5679B969239AC572E2C0E  : public HashAlgorithm_t7F831BEF35F9D0AF5016FFB0E474AF9F93908F31
+struct SHA1_t15B592B9935E19EC3FD5679B969239AC572E2C0E  : public HashAlgorithm_t7F831BEF35F9D0AF5016FFB0E474AF9F93908F31
 {
 public:
 
@@ -1893,7 +1896,7 @@ public:
 
 
 // System.UInt32
-struct  UInt32_tE60352A06233E4E69DD198BCC67142159F686B15 
+struct UInt32_tE60352A06233E4E69DD198BCC67142159F686B15 
 {
 public:
 	// System.UInt32 System.UInt32::m_value
@@ -1911,7 +1914,7 @@ public:
 
 
 // System.Void
-struct  Void_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5 
+struct Void_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5 
 {
 public:
 	union
@@ -1927,7 +1930,7 @@ public:
 
 
 // System.Net.Configuration.WebProxyScriptElement
-struct  WebProxyScriptElement_t6E2DB4259FF77920BA00BBA7AC7E0BAC995FD76F  : public ConfigurationElement_t571C446CFDFF39CF17130653C433786BEFF25DFA
+struct WebProxyScriptElement_t6E2DB4259FF77920BA00BBA7AC7E0BAC995FD76F  : public ConfigurationElement_t571C446CFDFF39CF17130653C433786BEFF25DFA
 {
 public:
 
@@ -1936,7 +1939,7 @@ public:
 
 
 // System.Net.Configuration.WebRequestModuleElement
-struct  WebRequestModuleElement_t4B7D6319D7B88AE61D59F549801BCE4EC4611F39  : public ConfigurationElement_t571C446CFDFF39CF17130653C433786BEFF25DFA
+struct WebRequestModuleElement_t4B7D6319D7B88AE61D59F549801BCE4EC4611F39  : public ConfigurationElement_t571C446CFDFF39CF17130653C433786BEFF25DFA
 {
 public:
 
@@ -1945,7 +1948,7 @@ public:
 
 
 // System.Security.Cryptography.X509Certificates.X509Extension
-struct  X509Extension_t9142CAA11EB46CC4CAB51A26D3B84BDA06FA9FF5  : public AsnEncodedData_t88A440F72C4F1143E416540D78B910A875CC0FDA
+struct X509Extension_t9142CAA11EB46CC4CAB51A26D3B84BDA06FA9FF5  : public AsnEncodedData_t88A440F72C4F1143E416540D78B910A875CC0FDA
 {
 public:
 	// System.Boolean System.Security.Cryptography.X509Certificates.X509Extension::_critical
@@ -1963,7 +1966,7 @@ public:
 
 
 // <PrivateImplementationDetails>/__StaticArrayInitTypeSize=128
-struct  __StaticArrayInitTypeSizeU3D128_t2C1166FE3CC05212DD55648859D997CA8842A83B 
+struct __StaticArrayInitTypeSizeU3D128_t2C1166FE3CC05212DD55648859D997CA8842A83B 
 {
 public:
 	union
@@ -1982,7 +1985,7 @@ public:
 
 
 // <PrivateImplementationDetails>/__StaticArrayInitTypeSize=32
-struct  __StaticArrayInitTypeSizeU3D32_tD37BEF7101998702862991181C721026AB96A59F 
+struct __StaticArrayInitTypeSizeU3D32_tD37BEF7101998702862991181C721026AB96A59F 
 {
 public:
 	union
@@ -2001,7 +2004,7 @@ public:
 
 
 // System.Text.RegularExpressions.RegexCharClass/LowerCaseMapping
-struct  LowerCaseMapping_t54FB537AEA4CA2EBAB5BDCC79881428C202241DE 
+struct LowerCaseMapping_t54FB537AEA4CA2EBAB5BDCC79881428C202241DE 
 {
 public:
 	// System.Char System.Text.RegularExpressions.RegexCharClass/LowerCaseMapping::_chMin
@@ -2066,7 +2069,7 @@ struct LowerCaseMapping_t54FB537AEA4CA2EBAB5BDCC79881428C202241DE_marshaled_com
 
 // System.Uri/Offset
 #pragma pack(push, tp, 1)
-struct  Offset_t6F140A0C5B2AB5511E7E458806A6A73AE0A34DE5 
+struct Offset_t6F140A0C5B2AB5511E7E458806A6A73AE0A34DE5 
 {
 public:
 	// System.UInt16 System.Uri/Offset::Scheme
@@ -2155,7 +2158,7 @@ public:
 
 
 // <PrivateImplementationDetails>
-struct  U3CPrivateImplementationDetailsU3E_t1267FAF6E08D720F26ABF676554E6948A7F6A2D0  : public RuntimeObject
+struct U3CPrivateImplementationDetailsU3E_t1267FAF6E08D720F26ABF676554E6948A7F6A2D0  : public RuntimeObject
 {
 public:
 
@@ -2210,7 +2213,7 @@ public:
 
 
 // System.Security.Cryptography.AsnDecodeStatus
-struct  AsnDecodeStatus_tBE4ADA7C45EBFD656BFEE0F04CAEC70A1C1BD15E 
+struct AsnDecodeStatus_tBE4ADA7C45EBFD656BFEE0F04CAEC70A1C1BD15E 
 {
 public:
 	// System.Int32 System.Security.Cryptography.AsnDecodeStatus::value__
@@ -2228,7 +2231,7 @@ public:
 
 
 // System.Reflection.BindingFlags
-struct  BindingFlags_tAAAB07D9AC588F0D55D844E51D7035E96DF94733 
+struct BindingFlags_tAAAB07D9AC588F0D55D844E51D7035E96DF94733 
 {
 public:
 	// System.Int32 System.Reflection.BindingFlags::value__
@@ -2246,7 +2249,7 @@ public:
 
 
 // System.Exception
-struct  Exception_t  : public RuntimeObject
+struct Exception_t  : public RuntimeObject
 {
 public:
 	// System.String System.Exception::_className
@@ -2472,7 +2475,7 @@ struct Exception_t_marshaled_com
 };
 
 // System.Security.Cryptography.OidGroup
-struct  OidGroup_tA8D8DA27353F8D70638E08569F65A34BCA3D5EB4 
+struct OidGroup_tA8D8DA27353F8D70638E08569F65A34BCA3D5EB4 
 {
 public:
 	// System.Int32 System.Security.Cryptography.OidGroup::value__
@@ -2490,7 +2493,7 @@ public:
 
 
 // System.RuntimeFieldHandle
-struct  RuntimeFieldHandle_t7BE65FC857501059EBAC9772C93B02CD413D9C96 
+struct RuntimeFieldHandle_t7BE65FC857501059EBAC9772C93B02CD413D9C96 
 {
 public:
 	// System.IntPtr System.RuntimeFieldHandle::value
@@ -2508,7 +2511,7 @@ public:
 
 
 // System.RuntimeTypeHandle
-struct  RuntimeTypeHandle_tC33965ADA3E041E0C94AF05E5CB527B56482CEF9 
+struct RuntimeTypeHandle_tC33965ADA3E041E0C94AF05E5CB527B56482CEF9 
 {
 public:
 	// System.IntPtr System.RuntimeTypeHandle::value
@@ -2526,7 +2529,7 @@ public:
 
 
 // System.Runtime.Serialization.StreamingContextStates
-struct  StreamingContextStates_tF4C7FE6D6121BD4C67699869C8269A60B36B42C3 
+struct StreamingContextStates_tF4C7FE6D6121BD4C67699869C8269A60B36B42C3 
 {
 public:
 	// System.Int32 System.Runtime.Serialization.StreamingContextStates::value__
@@ -2544,7 +2547,7 @@ public:
 
 
 // System.ComponentModel.TypeConverter
-struct  TypeConverter_t004F185B630F00F509F08BD8F8D82471867323B4  : public RuntimeObject
+struct TypeConverter_t004F185B630F00F509F08BD8F8D82471867323B4  : public RuntimeObject
 {
 public:
 
@@ -2569,7 +2572,7 @@ public:
 
 
 // System.UnescapeMode
-struct  UnescapeMode_tAAD72A439A031D63DA366126306CC0DDB9312850 
+struct UnescapeMode_tAAD72A439A031D63DA366126306CC0DDB9312850 
 {
 public:
 	// System.Int32 System.UnescapeMode::value__
@@ -2587,7 +2590,7 @@ public:
 
 
 // System.UriComponents
-struct  UriComponents_tA599793722A9810EC23036FF1B1B02A905B4EA76 
+struct UriComponents_tA599793722A9810EC23036FF1B1B02A905B4EA76 
 {
 public:
 	// System.Int32 System.UriComponents::value__
@@ -2605,7 +2608,7 @@ public:
 
 
 // System.UriFormat
-struct  UriFormat_t25C936463BDE737B16A8EC3DA05091FC31F1A71F 
+struct UriFormat_t25C936463BDE737B16A8EC3DA05091FC31F1A71F 
 {
 public:
 	// System.Int32 System.UriFormat::value__
@@ -2623,7 +2626,7 @@ public:
 
 
 // System.UriIdnScope
-struct  UriIdnScope_tBA22B992BA582F68F2B98CDEBCB24299F249DE4D 
+struct UriIdnScope_tBA22B992BA582F68F2B98CDEBCB24299F249DE4D 
 {
 public:
 	// System.Int32 System.UriIdnScope::value__
@@ -2641,7 +2644,7 @@ public:
 
 
 // System.UriKind
-struct  UriKind_tFC16ACC1842283AAE2C7F50C9C70EFBF6550B3FC 
+struct UriKind_tFC16ACC1842283AAE2C7F50C9C70EFBF6550B3FC 
 {
 public:
 	// System.Int32 System.UriKind::value__
@@ -2659,7 +2662,7 @@ public:
 
 
 // System.UriSyntaxFlags
-struct  UriSyntaxFlags_t00ABF83A3AA06E5B670D3F73E3E87BC21F72044A 
+struct UriSyntaxFlags_t00ABF83A3AA06E5B670D3F73E3E87BC21F72044A 
 {
 public:
 	// System.Int32 System.UriSyntaxFlags::value__
@@ -2677,7 +2680,7 @@ public:
 
 
 // System.Net.Configuration.WebRequestModuleElementCollection
-struct  WebRequestModuleElementCollection_tC1A60891298C544F74DA731DDEEFE603015C09C9  : public ConfigurationElementCollection_t09097ED83C909F1481AEF6E4451CF7595AFA403E
+struct WebRequestModuleElementCollection_tC1A60891298C544F74DA731DDEEFE603015C09C9  : public ConfigurationElementCollection_t09097ED83C909F1481AEF6E4451CF7595AFA403E
 {
 public:
 
@@ -2686,7 +2689,7 @@ public:
 
 
 // System.Net.Configuration.WebRequestModulesSection
-struct  WebRequestModulesSection_t2F6BB673DEE919615116B391BA37F70831084603  : public ConfigurationSection_t0D68AA1EA007506253A4935DB9F357AF9B50C683
+struct WebRequestModulesSection_t2F6BB673DEE919615116B391BA37F70831084603  : public ConfigurationSection_t0D68AA1EA007506253A4935DB9F357AF9B50C683
 {
 public:
 
@@ -2695,7 +2698,7 @@ public:
 
 
 // System.Security.Cryptography.X509Certificates.X509KeyUsageFlags
-struct  X509KeyUsageFlags_tA10D2E023BB8086E102AE4EBE10CF84656A18849 
+struct X509KeyUsageFlags_tA10D2E023BB8086E102AE4EBE10CF84656A18849 
 {
 public:
 	// System.Int32 System.Security.Cryptography.X509Certificates.X509KeyUsageFlags::value__
@@ -2713,7 +2716,7 @@ public:
 
 
 // System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierHashAlgorithm
-struct  X509SubjectKeyIdentifierHashAlgorithm_t38BCCB6F30D80F7CDF39B3A164129FDF81B11D29 
+struct X509SubjectKeyIdentifierHashAlgorithm_t38BCCB6F30D80F7CDF39B3A164129FDF81B11D29 
 {
 public:
 	// System.Int32 System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierHashAlgorithm::value__
@@ -2731,7 +2734,7 @@ public:
 
 
 // System.Uri/Check
-struct  Check_tEDA05554030AFFE9920C7E4C2233599B26DA74E8 
+struct Check_tEDA05554030AFFE9920C7E4C2233599B26DA74E8 
 {
 public:
 	// System.Int32 System.Uri/Check::value__
@@ -2749,7 +2752,7 @@ public:
 
 
 // System.Uri/Flags
-struct  Flags_t72C622DF5C3ED762F55AB36EC2CCDDF3AF56B8D4 
+struct Flags_t72C622DF5C3ED762F55AB36EC2CCDDF3AF56B8D4 
 {
 public:
 	// System.UInt64 System.Uri/Flags::value__
@@ -2767,7 +2770,7 @@ public:
 
 
 // System.Uri/UriInfo
-struct  UriInfo_tCB2302A896132D1F70E47C3895FAB9A0F2A6EE45  : public RuntimeObject
+struct UriInfo_tCB2302A896132D1F70E47C3895FAB9A0F2A6EE45  : public RuntimeObject
 {
 public:
 	// System.String System.Uri/UriInfo::Host
@@ -2840,7 +2843,7 @@ public:
 
 
 // System.UriParser/UriQuirksVersion
-struct  UriQuirksVersion_t5A2A88A1D01D0CBC52BC12C612CC1A7F714E79B6 
+struct UriQuirksVersion_t5A2A88A1D01D0CBC52BC12C612CC1A7F714E79B6 
 {
 public:
 	// System.Int32 System.UriParser/UriQuirksVersion::value__
@@ -2858,7 +2861,7 @@ public:
 
 
 // System.Security.Cryptography.Oid
-struct  Oid_tD6586F9C615C5CBE741A5099DFB67FE0F99F4800  : public RuntimeObject
+struct Oid_tD6586F9C615C5CBE741A5099DFB67FE0F99F4800  : public RuntimeObject
 {
 public:
 	// System.String System.Security.Cryptography.Oid::m_value
@@ -2898,7 +2901,7 @@ public:
 
 
 // System.Runtime.Serialization.StreamingContext
-struct  StreamingContext_t5888E7E8C81AB6EF3B14FDDA6674F458076A8505 
+struct StreamingContext_t5888E7E8C81AB6EF3B14FDDA6674F458076A8505 
 {
 public:
 	// System.Object System.Runtime.Serialization.StreamingContext::m_additionalContext
@@ -2939,7 +2942,7 @@ struct StreamingContext_t5888E7E8C81AB6EF3B14FDDA6674F458076A8505_marshaled_com
 };
 
 // System.SystemException
-struct  SystemException_tC551B4D6EE3772B5F32C71EE8C719F4B43ECCC62  : public Exception_t
+struct SystemException_tC551B4D6EE3772B5F32C71EE8C719F4B43ECCC62  : public Exception_t
 {
 public:
 
@@ -2948,7 +2951,7 @@ public:
 
 
 // System.Type
-struct  Type_t  : public MemberInfo_t
+struct Type_t  : public MemberInfo_t
 {
 public:
 	// System.RuntimeTypeHandle System.Type::_impl
@@ -3048,7 +3051,7 @@ public:
 
 
 // System.Uri
-struct  Uri_t4A915E1CC15B2C650F478099AD448E9466CBF612  : public RuntimeObject
+struct Uri_t4A915E1CC15B2C650F478099AD448E9466CBF612  : public RuntimeObject
 {
 public:
 	// System.String System.Uri::m_String
@@ -3373,7 +3376,7 @@ public:
 
 
 // System.UriParser
-struct  UriParser_t6DEBE5C6CDC3C29C9019CD951C7ECEBD6A5D3E3A  : public RuntimeObject
+struct UriParser_t6DEBE5C6CDC3C29C9019CD951C7ECEBD6A5D3E3A  : public RuntimeObject
 {
 public:
 	// System.UriSyntaxFlags System.UriParser::m_Flags
@@ -3666,7 +3669,7 @@ public:
 
 
 // System.UriTypeConverter
-struct  UriTypeConverter_tF512B4F48E57AC42B460E2847743CD78F4D24694  : public TypeConverter_t004F185B630F00F509F08BD8F8D82471867323B4
+struct UriTypeConverter_tF512B4F48E57AC42B460E2847743CD78F4D24694  : public TypeConverter_t004F185B630F00F509F08BD8F8D82471867323B4
 {
 public:
 
@@ -3675,7 +3678,7 @@ public:
 
 
 // System.Security.Cryptography.X509Certificates.X509BasicConstraintsExtension
-struct  X509BasicConstraintsExtension_t790FA4E7D9715A72A621A290FF0CDD5A647EF3CF  : public X509Extension_t9142CAA11EB46CC4CAB51A26D3B84BDA06FA9FF5
+struct X509BasicConstraintsExtension_t790FA4E7D9715A72A621A290FF0CDD5A647EF3CF  : public X509Extension_t9142CAA11EB46CC4CAB51A26D3B84BDA06FA9FF5
 {
 public:
 	// System.Boolean System.Security.Cryptography.X509Certificates.X509BasicConstraintsExtension::_certificateAuthority
@@ -3723,7 +3726,7 @@ public:
 
 
 // System.Security.Cryptography.X509Certificates.X509EnhancedKeyUsageExtension
-struct  X509EnhancedKeyUsageExtension_tD53B0C2AF93C2496461F2960946C5F40A33AC82B  : public X509Extension_t9142CAA11EB46CC4CAB51A26D3B84BDA06FA9FF5
+struct X509EnhancedKeyUsageExtension_tD53B0C2AF93C2496461F2960946C5F40A33AC82B  : public X509Extension_t9142CAA11EB46CC4CAB51A26D3B84BDA06FA9FF5
 {
 public:
 	// System.Security.Cryptography.OidCollection System.Security.Cryptography.X509Certificates.X509EnhancedKeyUsageExtension::_enhKeyUsage
@@ -3752,7 +3755,7 @@ public:
 
 
 // System.Security.Cryptography.X509Certificates.X509KeyUsageExtension
-struct  X509KeyUsageExtension_tF78A71F87AEE0E0DC54DFF837AB2880E3D9CF227  : public X509Extension_t9142CAA11EB46CC4CAB51A26D3B84BDA06FA9FF5
+struct X509KeyUsageExtension_tF78A71F87AEE0E0DC54DFF837AB2880E3D9CF227  : public X509Extension_t9142CAA11EB46CC4CAB51A26D3B84BDA06FA9FF5
 {
 public:
 	// System.Security.Cryptography.X509Certificates.X509KeyUsageFlags System.Security.Cryptography.X509Certificates.X509KeyUsageExtension::_keyUsages
@@ -3780,7 +3783,7 @@ public:
 
 
 // System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension
-struct  X509SubjectKeyIdentifierExtension_t9781D24066D84C09C7137124FBC848491BF54567  : public X509Extension_t9142CAA11EB46CC4CAB51A26D3B84BDA06FA9FF5
+struct X509SubjectKeyIdentifierExtension_t9781D24066D84C09C7137124FBC848491BF54567  : public X509Extension_t9142CAA11EB46CC4CAB51A26D3B84BDA06FA9FF5
 {
 public:
 	// System.Byte[] System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension::_subjectKeyIdentifier
@@ -3820,7 +3823,7 @@ public:
 
 
 // System.ArgumentException
-struct  ArgumentException_t505FA8C11E883F2D96C797AD9D396490794DEE00  : public SystemException_tC551B4D6EE3772B5F32C71EE8C719F4B43ECCC62
+struct ArgumentException_t505FA8C11E883F2D96C797AD9D396490794DEE00  : public SystemException_tC551B4D6EE3772B5F32C71EE8C719F4B43ECCC62
 {
 public:
 	// System.String System.ArgumentException::m_paramName
@@ -3839,7 +3842,7 @@ public:
 
 
 // System.Security.Cryptography.CryptographicException
-struct  CryptographicException_tFFE56EF733D1150A0F3738DDE2CC4DE1A61849D5  : public SystemException_tC551B4D6EE3772B5F32C71EE8C719F4B43ECCC62
+struct CryptographicException_tFFE56EF733D1150A0F3738DDE2CC4DE1A61849D5  : public SystemException_tC551B4D6EE3772B5F32C71EE8C719F4B43ECCC62
 {
 public:
 
@@ -3848,7 +3851,7 @@ public:
 
 
 // System.Runtime.InteropServices.ExternalException
-struct  ExternalException_tC18275DD0AEB2CDF9F85D94670C5A49A4DC3B783  : public SystemException_tC551B4D6EE3772B5F32C71EE8C719F4B43ECCC62
+struct ExternalException_tC18275DD0AEB2CDF9F85D94670C5A49A4DC3B783  : public SystemException_tC551B4D6EE3772B5F32C71EE8C719F4B43ECCC62
 {
 public:
 
@@ -3857,7 +3860,7 @@ public:
 
 
 // System.FormatException
-struct  FormatException_t119BB207B54B4B1BC28D9B1783C4625AE23D4759  : public SystemException_tC551B4D6EE3772B5F32C71EE8C719F4B43ECCC62
+struct FormatException_t119BB207B54B4B1BC28D9B1783C4625AE23D4759  : public SystemException_tC551B4D6EE3772B5F32C71EE8C719F4B43ECCC62
 {
 public:
 
@@ -3866,7 +3869,7 @@ public:
 
 
 // System.InvalidOperationException
-struct  InvalidOperationException_t10D3EE59AD28EC641ACEE05BCA4271A527E5ECAB  : public SystemException_tC551B4D6EE3772B5F32C71EE8C719F4B43ECCC62
+struct InvalidOperationException_t10D3EE59AD28EC641ACEE05BCA4271A527E5ECAB  : public SystemException_tC551B4D6EE3772B5F32C71EE8C719F4B43ECCC62
 {
 public:
 
@@ -3875,7 +3878,7 @@ public:
 
 
 // System.NotImplementedException
-struct  NotImplementedException_t26260C4EE0444C5FA022994203060B3A42A3ADE6  : public SystemException_tC551B4D6EE3772B5F32C71EE8C719F4B43ECCC62
+struct NotImplementedException_t26260C4EE0444C5FA022994203060B3A42A3ADE6  : public SystemException_tC551B4D6EE3772B5F32C71EE8C719F4B43ECCC62
 {
 public:
 
@@ -3884,7 +3887,7 @@ public:
 
 
 // System.UriParser/BuiltInUriParser
-struct  BuiltInUriParser_tD002C3439D3683127C216D09E22B0973AB9FDF26  : public UriParser_t6DEBE5C6CDC3C29C9019CD951C7ECEBD6A5D3E3A
+struct BuiltInUriParser_tD002C3439D3683127C216D09E22B0973AB9FDF26  : public UriParser_t6DEBE5C6CDC3C29C9019CD951C7ECEBD6A5D3E3A
 {
 public:
 
@@ -3893,7 +3896,7 @@ public:
 
 
 // System.ArgumentNullException
-struct  ArgumentNullException_tFB5C4621957BC53A7D1B4FDD5C38B4D6E15DB8FB  : public ArgumentException_t505FA8C11E883F2D96C797AD9D396490794DEE00
+struct ArgumentNullException_tFB5C4621957BC53A7D1B4FDD5C38B4D6E15DB8FB  : public ArgumentException_t505FA8C11E883F2D96C797AD9D396490794DEE00
 {
 public:
 
@@ -3902,7 +3905,7 @@ public:
 
 
 // System.ArgumentOutOfRangeException
-struct  ArgumentOutOfRangeException_tFAF23713820951D4A09ABBFE5CC091E445A6F3D8  : public ArgumentException_t505FA8C11E883F2D96C797AD9D396490794DEE00
+struct ArgumentOutOfRangeException_tFAF23713820951D4A09ABBFE5CC091E445A6F3D8  : public ArgumentException_t505FA8C11E883F2D96C797AD9D396490794DEE00
 {
 public:
 	// System.Object System.ArgumentOutOfRangeException::m_actualValue
@@ -3938,7 +3941,7 @@ public:
 
 
 // System.UriFormatException
-struct  UriFormatException_tAA45C6D2264E9E74935A066FC3DF8DF68B37B61D  : public FormatException_t119BB207B54B4B1BC28D9B1783C4625AE23D4759
+struct UriFormatException_tAA45C6D2264E9E74935A066FC3DF8DF68B37B61D  : public FormatException_t119BB207B54B4B1BC28D9B1783C4625AE23D4759
 {
 public:
 
@@ -3947,7 +3950,7 @@ public:
 
 
 // System.ComponentModel.Win32Exception
-struct  Win32Exception_t4B7A329153AA0E88CA08533EFB6DB2F2A8E90950  : public ExternalException_tC18275DD0AEB2CDF9F85D94670C5A49A4DC3B783
+struct Win32Exception_t4B7A329153AA0E88CA08533EFB6DB2F2A8E90950  : public ExternalException_tC18275DD0AEB2CDF9F85D94670C5A49A4DC3B783
 {
 public:
 	// System.Int32 System.ComponentModel.Win32Exception::nativeErrorCode
@@ -4239,6 +4242,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Monitor_Exit_mA776B403DA88AC77CDEEF67AB9
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UriParser_InFact_m4E58BAFAB5A9BC24854C815FC093E16D4F1CFA4D (UriParser_t6DEBE5C6CDC3C29C9019CD951C7ECEBD6A5D3E3A * __this, int32_t ___flags0, const RuntimeMethod* method);
 // System.Void System.ComponentModel.TypeConverter::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TypeConverter__ctor_mCD87E569A2C4CB1331A069396FFA98E65726A16C (TypeConverter_t004F185B630F00F509F08BD8F8D82471867323B4 * __this, const RuntimeMethod* method);
+// System.Type System.Type::GetTypeFromHandle(System.RuntimeTypeHandle)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t * Type_GetTypeFromHandle_m8BB57524FF7F9DB1803BC561D2B3A4DBACEB385E (RuntimeTypeHandle_tC33965ADA3E041E0C94AF05E5CB527B56482CEF9  ___handle0, const RuntimeMethod* method);
+// System.Boolean System.Type::op_Equality(System.Type,System.Type)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Type_op_Equality_mA438719A1FDF103C7BBBB08AEF564E7FAEEA0046 (Type_t * ___left0, Type_t * ___right1, const RuntimeMethod* method);
 // System.Int32 System.Runtime.InteropServices.Marshal::GetLastWin32Error()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Marshal_GetLastWin32Error_m87DFFDB64662B46C9CF913EC08E5CEFF3A6E314D (const RuntimeMethod* method);
 // System.Void System.ComponentModel.Win32Exception::.ctor(System.Int32)
@@ -8029,6 +8036,57 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UriTypeConverter__ctor_mA17261C142F48B53
 	{
 		TypeConverter__ctor_mCD87E569A2C4CB1331A069396FFA98E65726A16C(__this, /*hidden argument*/NULL);
 		return;
+	}
+}
+// System.Boolean System.UriTypeConverter::CanConvert(System.Type)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UriTypeConverter_CanConvert_mA0211689C50AF82982D1A12135FA0CFB8548A392 (UriTypeConverter_tF512B4F48E57AC42B460E2847743CD78F4D24694 * __this, Type_t * ___type0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&String_t_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Uri_t4A915E1CC15B2C650F478099AD448E9466CBF612_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Type_t * L_0 = ___type0;
+		RuntimeTypeHandle_tC33965ADA3E041E0C94AF05E5CB527B56482CEF9  L_1 = { reinterpret_cast<intptr_t> (String_t_0_0_0_var) };
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_2;
+		L_2 = Type_GetTypeFromHandle_m8BB57524FF7F9DB1803BC561D2B3A4DBACEB385E(L_1, /*hidden argument*/NULL);
+		bool L_3;
+		L_3 = Type_op_Equality_mA438719A1FDF103C7BBBB08AEF564E7FAEEA0046(L_0, L_2, /*hidden argument*/NULL);
+		if (!L_3)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		return (bool)1;
+	}
+
+IL_0014:
+	{
+		Type_t * L_4 = ___type0;
+		RuntimeTypeHandle_tC33965ADA3E041E0C94AF05E5CB527B56482CEF9  L_5 = { reinterpret_cast<intptr_t> (Uri_t4A915E1CC15B2C650F478099AD448E9466CBF612_0_0_0_var) };
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_6;
+		L_6 = Type_GetTypeFromHandle_m8BB57524FF7F9DB1803BC561D2B3A4DBACEB385E(L_5, /*hidden argument*/NULL);
+		bool L_7;
+		L_7 = Type_op_Equality_mA438719A1FDF103C7BBBB08AEF564E7FAEEA0046(L_4, L_6, /*hidden argument*/NULL);
+		if (!L_7)
+		{
+			goto IL_0028;
+		}
+	}
+	{
+		return (bool)1;
+	}
+
+IL_0028:
+	{
+		return (bool)0;
 	}
 }
 #ifdef __clang__

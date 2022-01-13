@@ -67,7 +67,7 @@ IL2CPP_EXTERN_C_END
 #endif
 
 // <Module>
-struct  U3CModuleU3E_tD63710BA729AB26F68A06F88FD5557BC1A838A68 
+struct U3CModuleU3E_tD63710BA729AB26F68A06F88FD5557BC1A838A68 
 {
 public:
 
@@ -83,7 +83,7 @@ struct Il2CppArrayBounds;
 
 
 // System.String
-struct  String_t  : public RuntimeObject
+struct String_t  : public RuntimeObject
 {
 public:
 	// System.Int32 System.String::m_stringLength
@@ -128,7 +128,7 @@ public:
 
 
 // UnityEngine.Networking.UnityWebRequestTexture
-struct  UnityWebRequestTexture_tAFCA9B4B27B787F08D35CA883AAA2BC3371313E4  : public RuntimeObject
+struct UnityWebRequestTexture_tAFCA9B4B27B787F08D35CA883AAA2BC3371313E4  : public RuntimeObject
 {
 public:
 
@@ -137,7 +137,7 @@ public:
 
 
 // System.ValueType
-struct  ValueType_tDBF999C1B75C48C68621878250DBF6CDBCF51E52  : public RuntimeObject
+struct ValueType_tDBF999C1B75C48C68621878250DBF6CDBCF51E52  : public RuntimeObject
 {
 public:
 
@@ -154,7 +154,7 @@ struct ValueType_tDBF999C1B75C48C68621878250DBF6CDBCF51E52_marshaled_com
 };
 
 // System.Boolean
-struct  Boolean_t07D1E3F34E4813023D64F584DFF7B34C9D922F37 
+struct Boolean_t07D1E3F34E4813023D64F584DFF7B34C9D922F37 
 {
 public:
 	// System.Boolean System.Boolean::m_value
@@ -200,7 +200,7 @@ public:
 
 
 // System.Byte
-struct  Byte_t0111FAB8B8685667EDDAF77683F0D8F86B659056 
+struct Byte_t0111FAB8B8685667EDDAF77683F0D8F86B659056 
 {
 public:
 	// System.Byte System.Byte::m_value
@@ -218,7 +218,7 @@ public:
 
 
 // System.Int32
-struct  Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046 
+struct Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046 
 {
 public:
 	// System.Int32 System.Int32::m_value
@@ -236,7 +236,7 @@ public:
 
 
 // System.IntPtr
-struct  IntPtr_t 
+struct IntPtr_t 
 {
 public:
 	// System.Void* System.IntPtr::m_value
@@ -270,7 +270,7 @@ public:
 
 
 // System.Void
-struct  Void_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5 
+struct Void_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5 
 {
 public:
 	union
@@ -286,7 +286,7 @@ public:
 
 
 // UnityEngine.Networking.CertificateHandler
-struct  CertificateHandler_tDA66C86D1302CE4266DBB078361F7A363C7B005E  : public RuntimeObject
+struct CertificateHandler_tDA66C86D1302CE4266DBB078361F7A363C7B005E  : public RuntimeObject
 {
 public:
 	// System.IntPtr UnityEngine.Networking.CertificateHandler::m_Ptr
@@ -314,7 +314,7 @@ struct CertificateHandler_tDA66C86D1302CE4266DBB078361F7A363C7B005E_marshaled_co
 };
 
 // UnityEngine.Networking.DownloadHandler
-struct  DownloadHandler_tEEAE0DD53DB497C8A491C4F7B7A14C3CA027B1DB  : public RuntimeObject
+struct DownloadHandler_tEEAE0DD53DB497C8A491C4F7B7A14C3CA027B1DB  : public RuntimeObject
 {
 public:
 	// System.IntPtr UnityEngine.Networking.DownloadHandler::m_Ptr
@@ -342,7 +342,7 @@ struct DownloadHandler_tEEAE0DD53DB497C8A491C4F7B7A14C3CA027B1DB_marshaled_com
 };
 
 // UnityEngine.Object
-struct  Object_tF2F3778131EFF286AF62B7B013A170F95A91571A  : public RuntimeObject
+struct Object_tF2F3778131EFF286AF62B7B013A170F95A91571A  : public RuntimeObject
 {
 public:
 	// System.IntPtr UnityEngine.Object::m_CachedPtr
@@ -386,7 +386,7 @@ struct Object_tF2F3778131EFF286AF62B7B013A170F95A91571A_marshaled_com
 };
 
 // UnityEngine.Networking.UploadHandler
-struct  UploadHandler_t5F80A2A6874D4D330751BE3524009C21C9B74BDA  : public RuntimeObject
+struct UploadHandler_t5F80A2A6874D4D330751BE3524009C21C9B74BDA  : public RuntimeObject
 {
 public:
 	// System.IntPtr UnityEngine.Networking.UploadHandler::m_Ptr
@@ -414,7 +414,7 @@ struct UploadHandler_t5F80A2A6874D4D330751BE3524009C21C9B74BDA_marshaled_com
 };
 
 // UnityEngine.Networking.DownloadHandlerTexture
-struct  DownloadHandlerTexture_tA2708E80049AA58E9B0DBE9F5325CC9A1B487142  : public DownloadHandler_tEEAE0DD53DB497C8A491C4F7B7A14C3CA027B1DB
+struct DownloadHandlerTexture_tA2708E80049AA58E9B0DBE9F5325CC9A1B487142  : public DownloadHandler_tEEAE0DD53DB497C8A491C4F7B7A14C3CA027B1DB
 {
 public:
 	// UnityEngine.Texture2D UnityEngine.Networking.DownloadHandlerTexture::mTexture
@@ -467,7 +467,7 @@ struct DownloadHandlerTexture_tA2708E80049AA58E9B0DBE9F5325CC9A1B487142_marshale
 };
 
 // UnityEngine.Texture
-struct  Texture_t9FE0218A1EEDF266E8C85879FE123265CACC95AE  : public Object_tF2F3778131EFF286AF62B7B013A170F95A91571A
+struct Texture_t9FE0218A1EEDF266E8C85879FE123265CACC95AE  : public Object_tF2F3778131EFF286AF62B7B013A170F95A91571A
 {
 public:
 
@@ -492,7 +492,7 @@ public:
 
 
 // UnityEngine.Networking.UnityWebRequest
-struct  UnityWebRequest_tB75B39F6951CA0DBA2D5BEDF85FDCAAC6026A37E  : public RuntimeObject
+struct UnityWebRequest_tB75B39F6951CA0DBA2D5BEDF85FDCAAC6026A37E  : public RuntimeObject
 {
 public:
 	// System.IntPtr UnityEngine.Networking.UnityWebRequest::m_Ptr
@@ -608,7 +608,7 @@ struct UnityWebRequest_tB75B39F6951CA0DBA2D5BEDF85FDCAAC6026A37E_marshaled_com
 };
 
 // UnityEngine.Texture2D
-struct  Texture2D_t9B604D0D8E28032123641A7E7338FA872E2698BF  : public Texture_t9FE0218A1EEDF266E8C85879FE123265CACC95AE
+struct Texture2D_t9B604D0D8E28032123641A7E7338FA872E2698BF  : public Texture_t9FE0218A1EEDF266E8C85879FE123265CACC95AE
 {
 public:
 

@@ -63,6 +63,9 @@ extern "C" void UnityKeyboard_LayoutChanged(NSString* layout);
     // not pretty but seems like easiest way to keep "we are rotating" status
     BOOL            _rotating;
     NSRange         _hiddenSelection;
+
+    // used for < iOS 14 external keyboard
+    CGFloat         _heightOfKeyboard;
 }
 
 @synthesize area;
@@ -163,6 +166,17 @@ extern "C" void UnityKeyboard_LayoutChanged(NSString* layout);
 {
     _active = YES;
     UnityKeyboard_LayoutChanged(textField.textInputMode.primaryLanguage);
+
+    // We only need to do this in < iOS 14
+    // Used in keyboardDidShow as keyboardWillShow might not have the height ready yet as it's not on screen and
+    // we're only interested in the height when it's fully on screen.
+    if (@available(iOS 14, tvOS 14, *)) {}
+    else
+    {
+        CGRect srcRect  = [[notification.userInfo objectForKey: UIKeyboardFrameEndUserInfoKey] CGRectValue];
+        CGRect rect     = [UnityGetGLView() convertRect: srcRect fromView: nil];
+        _heightOfKeyboard = rect.size.height;
+    }
 }
 
 - (void)keyboardWillHide:(NSNotification*)notification
@@ -330,7 +344,8 @@ extern "C" void UnityKeyboard_LayoutChanged(NSString* layout);
     traits.autocorrectionType = param.autocorrectionType;
     traits.keyboardAppearance = param.appearance;
     traits.autocapitalizationType = capitalization;
-    traits.secureTextEntry = param.secure;
+    if (!_inputHidden)
+        traits.secureTextEntry = param.secure;
 }
 
 - (void)setKeyboardParams:(KeyboardShowParam)param
@@ -486,6 +501,10 @@ extern "C" void UnityKeyboard_LayoutChanged(NSString* layout);
 
     editView.hidden     = _inputHidden ? YES : NO;
     inputView.hidden    = _inputHidden ? YES : NO;
+    if (_inputHidden)
+        textField.secureTextEntry = NO;
+    else
+        textField.secureTextEntry = cachedKeyboardParam.secure;
 }
 
 #if PLATFORM_IOS
@@ -639,6 +658,15 @@ extern "C" void UnityKeyboard_LayoutChanged(NSString* layout);
     _inputHidden = hide;
 }
 
+- (BOOL)hasExternalKeyboard
+{
+    // iOS 14 and above has a public API in the GameController framework. If this is missing then this will return false
+    if (@available(iOS 14, tvOS 14, *))
+        return [NSClassFromString(@"GCKeyboard") valueForKey: @"coalescedKeyboard"] != nil;
+    else // The minimum height a software keyboard will be on iOS is 160, A bluetooth keyboard just uses a toolbar which will be smaller than this.
+        return _heightOfKeyboard < 160.0f;
+}
+
 static bool StringContainsEmoji(NSString *string);
 - (BOOL)textField:(UITextField*)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString*)string_
 {
@@ -697,7 +725,17 @@ static bool StringContainsEmoji(NSString *string);
         [textField setText: newText];
 #endif
 
-        return NO;
+        // If we're trying to exceed the max length of the field BUT the text can merge into
+        // precomposed characters then we should allow the input.
+        NSString* precomposedNewText = [currentText precomposedStringWithCompatibilityMapping];
+        __block int count = 0;
+        [precomposedNewText enumerateSubstringsInRange: NSMakeRange(0, [precomposedNewText length]) options: NSStringEnumerationByComposedCharacterSequences
+         usingBlock: ^(NSString *inSubstring, NSRange inSubstringRange, NSRange inEnclosingRange, BOOL *outStop) {
+             count++;
+         }];
+        // count of characters of precomposed string will equal the character limit
+        // if there has been characters merged bringing us under the limit.
+        return count <= _characterLimit;
     }
     else
     {

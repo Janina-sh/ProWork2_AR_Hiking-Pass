@@ -47,6 +47,18 @@ static MTLPixelFormat GetColorFormatForSurface(const UnityDisplaySurfaceMTL* sur
     return colorFormat;
 }
 
+static uint32_t GetCVPixelFormatForSurface(const UnityDisplaySurfaceMTL* surface)
+{
+    // this makes sense only for ios (at least we dont support this on macos)
+    uint32_t colorFormat = kCVPixelFormatType_32BGRA;
+#if PLATFORM_IOS || PLATFORM_TVOS
+    if (surface->wideColor && UnityIsWideColorSupported())
+        colorFormat = kCVPixelFormatType_30RGB;
+#endif
+
+    return colorFormat;
+}
+
 extern "C" void CreateSystemRenderingSurfaceMTL(UnityDisplaySurfaceMTL* surface)
 {
     DestroySystemRenderingSurfaceMTL(surface);
@@ -103,18 +115,17 @@ extern "C" void CreateSystemRenderingSurfaceMTL(UnityDisplaySurfaceMTL* surface)
 
     @synchronized(surface->layer)
     {
-        OSAtomicCompareAndSwap32Barrier(0, 0, &surface->bufferCompleted);
-        OSAtomicCompareAndSwap32Barrier(0, 0, &surface->bufferSwap);
+#if PLATFORM_OSX
+        surface->proxySwaps = 0;
+#endif
 
         for (int i = 0; i < kUnityNumOffscreenSurfaces; i++)
         {
             // Allocating a proxy texture is cheap until it's being rendered to and the GPU driver does allocation
             surface->drawableProxyRT[i] = [surface->device newTextureWithDescriptor: txDesc];
             surface->drawableProxyRT[i].label = @"DrawableProxy";
-            // We mostly need the proxy for some of its state like width, height and pixelFormat (not the actual memory) before we can get the real drawable
-            // Making it empty discards its backed memory/contents
-            for (int i = 0; i < kUnityNumOffscreenSurfaces; ++i)
-                [surface->drawableProxyRT[i] setPurgeableState: MTLPurgeableStateEmpty];
+            // When display link blit is active - we do need drawableProxies to be backed by memory
+            [surface->drawableProxyRT[i] setPurgeableState: MTLPurgeableStateNonVolatile];
         }
     }
 }
@@ -135,7 +146,8 @@ extern "C" void CreateRenderingSurfaceMTL(UnityDisplaySurfaceMTL* surface)
 
         if (surface->cvTextureCache)
         {
-            surface->cvTextureCacheTexture = CreateReadableRTFromCVTextureCache(surface->cvTextureCache, surface->targetW, surface->targetH, &surface->cvPixelBuffer);
+            surface->cvTextureCacheTexture = CreateReadableRTFromCVTextureCache2(surface->cvTextureCache, surface->targetW, surface->targetH,
+                GetCVPixelFormatForSurface(surface), colorFormat, &surface->cvPixelBuffer);
             surface->targetColorRT = GetMetalTextureFromCVTextureCache(surface->cvTextureCacheTexture);
         }
         else
@@ -339,18 +351,6 @@ extern "C" void StartFrameRenderingMTL(UnityDisplaySurfaceMTL* surface)
 {
     // we will acquire drawable lazily in AcquireDrawableMTL
     surface->drawable = nil;
-
-#if PLATFORM_OSX
-    bool bufferSwap = OSAtomicCompareAndSwap32Barrier(1, 0, &surface->bufferSwap);
-
-    if (bufferSwap || surface->bufferCompleted == 1)
-    {
-        MTLTextureRef texture0 = surface->drawableProxyRT[0];
-        MTLTextureRef texture1 = surface->drawableProxyRT[1];
-        surface->drawableProxyRT[0] = texture1;
-        surface->drawableProxyRT[1] = texture0;
-    }
-#endif
     surface->systemColorRB  = surface->drawableProxyRT[0];
 
     UnityRenderBufferDesc sys_desc = { surface->systemW, surface->systemH, 1, 1, 1};
@@ -379,14 +379,36 @@ extern "C" void EndFrameRenderingMTL(UnityDisplaySurfaceMTL* surface)
         surface->systemColorRB  = nil;
         surface->drawable       = nil;
     }
+
+#if PLATFORM_OSX
+    @synchronized(surface->layer)
+    {
+        // Swap proxy buffers
+        MTLTextureRef texture0 = surface->drawableProxyRT[0];
+        MTLTextureRef texture1 = surface->drawableProxyRT[1];
+        surface->drawableProxyRT[0] = texture1;
+        surface->drawableProxyRT[1] = texture0;
+        surface->proxySwaps++;
+        surface->proxyReady = 1;
+    }
+#endif
 }
 
 extern "C" void PreparePresentNonMainScreenMTL(UnityDisplaySurfaceMTL* surface)
 {
     if (surface->drawable)
     {
-        surface->presentCB = [surface->drawableCommandQueue commandBuffer];
-        [surface->presentCB presentDrawable: surface->drawable];
+        // presentCB logic should be removed when we update the minimum version to iOS 12.0
+        // as the "one presentDrawable per command buffer" behaviour apparently was fixed
+        if (@available(iOS 12.0, *))
+        {
+            [UnityCurrentMTLCommandBuffer() presentDrawable: surface->drawable];
+        }
+        else
+        {
+            surface->presentCB = [surface->drawableCommandQueue commandBuffer];
+            [surface->presentCB presentDrawable: surface->drawable];
+        }
     }
 }
 

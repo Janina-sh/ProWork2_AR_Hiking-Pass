@@ -132,6 +132,19 @@ NSInteger _forceInterfaceOrientationMask = 0;
     UnitySetPlayerFocus(1);
 
     AVAudioSession* audioSession = [AVAudioSession sharedInstance];
+    [audioSession setCategory: AVAudioSessionCategoryAmbient error: nil];
+    if (UnityIsAudioManagerAvailableAndEnabled())
+    {
+        if (UnityShouldPrepareForIOSRecording())
+        {
+            [audioSession setCategory: AVAudioSessionCategoryPlayAndRecord error: nil];
+        }
+        else if (UnityShouldMuteOtherAudioSources())
+        {
+            [audioSession setCategory: AVAudioSessionCategorySoloAmbient error: nil];
+        }
+    }
+
     [audioSession setActive: YES error: nil];
     [audioSession addObserver: self forKeyPath: @"outputVolume" options: 0 context: nil];
     UnityUpdateMuteState([audioSession outputVolume] < 0.01f ? 1 : 0);
@@ -293,6 +306,30 @@ extern "C" void UnityCleanupTrampoline()
     return YES;
 }
 
+#if (PLATFORM_IOS && defined(__IPHONE_13_0)) || (PLATFORM_TVOS && defined(__TVOS_13_0))
+- (UIWindowScene*)pickStartupWindowScene:(NSSet<UIScene*>*)scenes API_AVAILABLE(ios(13.0), tvos(13.0))
+{
+    // if we have scene with UISceneActivationStateForegroundActive - pick it
+    // otherwise UISceneActivationStateForegroundInactive will work
+    //   it will be the scene going into active state
+    UIWindowScene* foregroundScene = nil;
+    for (UIScene* scene in scenes)
+    {
+        if (![scene isKindOfClass: [UIWindowScene class]])
+            continue;
+        UIWindowScene* windowScene = (UIWindowScene*)scene;
+
+        if (scene.activationState == UISceneActivationStateForegroundActive)
+            return windowScene;
+        if (scene.activationState == UISceneActivationStateForegroundInactive)
+            foregroundScene = windowScene;
+    }
+
+    NSAssert(foregroundScene != nil, @"No foreground window scene found at startup");
+    return foregroundScene;
+}
+#endif
+
 - (BOOL)application:(UIApplication*)application didFinishLaunchingWithOptions:(NSDictionary*)launchOptions
 {
     ::printf("-> applicationDidFinishLaunching()\n");
@@ -311,11 +348,22 @@ extern "C" void UnityCleanupTrampoline()
     [self selectRenderingAPI];
     [UnityRenderingView InitializeForAPI: self.renderingAPI];
 
-    _window         = [[UIWindow alloc] initWithFrame: [UIScreen mainScreen].bounds];
-    _unityView      = [self createUnityView];
+#if (PLATFORM_IOS && defined(__IPHONE_13_0)) || (PLATFORM_TVOS && defined(__TVOS_13_0))
+    if (@available(iOS 13, tvOS 13, *))
+        _window = [[UIWindow alloc] initWithWindowScene: [self pickStartupWindowScene: application.connectedScenes]];
+    else
+#endif
+    _window = [[UIWindow alloc] initWithFrame: [UIScreen mainScreen].bounds];
+
+    _unityView = [self createUnityView];
+#if (PLATFORM_IOS && defined(__IPHONE_13_0))
+    if (@available(iOS 13, *))
+        _unityView.backgroundColor = [UIColor systemBackgroundColor];
+#endif
+
 
     [DisplayManager Initialize];
-    _mainDisplay    = [DisplayManager Instance].mainDisplay;
+    _mainDisplay = [DisplayManager Instance].mainDisplay;
     [_mainDisplay createWithWindow: _window andView: _unityView];
 
     [self createUI];

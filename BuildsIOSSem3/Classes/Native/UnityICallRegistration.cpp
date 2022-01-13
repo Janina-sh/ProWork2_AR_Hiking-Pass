@@ -146,6 +146,10 @@ void RegisterAllStrippedInternalCalls()
 
 	//Start Registrations for type : UnityEngine.Application
 
+		//System.Boolean UnityEngine.Application::get_isBatchMode()
+		void Register_UnityEngine_Application_get_isBatchMode();
+		Register_UnityEngine_Application_get_isBatchMode();
+
 		//System.Boolean UnityEngine.Application::get_isPlaying()
 		void Register_UnityEngine_Application_get_isPlaying();
 		Register_UnityEngine_Application_get_isPlaying();
@@ -734,6 +738,10 @@ void RegisterAllStrippedInternalCalls()
 
 	//Start Registrations for type : UnityEngine.Experimental.Rendering.GraphicsFormatUtility
 
+		//System.Boolean UnityEngine.Experimental.Rendering.GraphicsFormatUtility::CanDecompressFormat(UnityEngine.Experimental.Rendering.GraphicsFormat,System.Boolean)
+		void Register_UnityEngine_Experimental_Rendering_GraphicsFormatUtility_CanDecompressFormat();
+		Register_UnityEngine_Experimental_Rendering_GraphicsFormatUtility_CanDecompressFormat();
+
 		//System.Boolean UnityEngine.Experimental.Rendering.GraphicsFormatUtility::IsCompressedTextureFormat(UnityEngine.TextureFormat)
 		void Register_UnityEngine_Experimental_Rendering_GraphicsFormatUtility_IsCompressedTextureFormat();
 		Register_UnityEngine_Experimental_Rendering_GraphicsFormatUtility_IsCompressedTextureFormat();
@@ -945,6 +953,10 @@ void RegisterAllStrippedInternalCalls()
 	//End Registrations for type : UnityEngine.GUILayoutUtility
 
 	//Start Registrations for type : UnityEngine.GUIStyle
+
+		//System.Boolean UnityEngine.GUIStyle::IsTooltipActive(System.String)
+		void Register_UnityEngine_GUIStyle_IsTooltipActive();
+		Register_UnityEngine_GUIStyle_IsTooltipActive();
 
 		//System.Boolean UnityEngine.GUIStyle::get_stretchHeight()
 		void Register_UnityEngine_GUIStyle_get_stretchHeight();

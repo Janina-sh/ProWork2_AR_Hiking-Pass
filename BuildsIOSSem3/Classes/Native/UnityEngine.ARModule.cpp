@@ -29,7 +29,7 @@ IL2CPP_EXTERN_C_END
 #endif
 
 // <Module>
-struct  U3CModuleU3E_t7768C1C288272E025E1B9080894F8B56DBF683E5 
+struct U3CModuleU3E_t7768C1C288272E025E1B9080894F8B56DBF683E5 
 {
 public:
 
@@ -45,7 +45,7 @@ struct Il2CppArrayBounds;
 
 
 // UnityEngine.XR.Tango.TangoInputTracking
-struct  TangoInputTracking_t304D3DAB1AE120AC3C4351A28FC9641AEC90D5F9  : public RuntimeObject
+struct TangoInputTracking_t304D3DAB1AE120AC3C4351A28FC9641AEC90D5F9  : public RuntimeObject
 {
 public:
 
@@ -54,7 +54,7 @@ public:
 
 
 // System.ValueType
-struct  ValueType_tDBF999C1B75C48C68621878250DBF6CDBCF51E52  : public RuntimeObject
+struct ValueType_tDBF999C1B75C48C68621878250DBF6CDBCF51E52  : public RuntimeObject
 {
 public:
 
@@ -71,7 +71,7 @@ struct ValueType_tDBF999C1B75C48C68621878250DBF6CDBCF51E52_marshaled_com
 };
 
 // System.Boolean
-struct  Boolean_t07D1E3F34E4813023D64F584DFF7B34C9D922F37 
+struct Boolean_t07D1E3F34E4813023D64F584DFF7B34C9D922F37 
 {
 public:
 	// System.Boolean System.Boolean::m_value
@@ -117,7 +117,7 @@ public:
 
 
 // System.Double
-struct  Double_t42821932CB52DE2057E685D0E1AF3DE5033D2181 
+struct Double_t42821932CB52DE2057E685D0E1AF3DE5033D2181 
 {
 public:
 	// System.Double System.Double::m_value
@@ -151,7 +151,7 @@ public:
 
 
 // System.Enum
-struct  Enum_t23B90B40F60E677A8025267341651C94AE079CDA  : public ValueType_tDBF999C1B75C48C68621878250DBF6CDBCF51E52
+struct Enum_t23B90B40F60E677A8025267341651C94AE079CDA  : public ValueType_tDBF999C1B75C48C68621878250DBF6CDBCF51E52
 {
 public:
 
@@ -185,7 +185,7 @@ struct Enum_t23B90B40F60E677A8025267341651C94AE079CDA_marshaled_com
 };
 
 // UnityEngine.Quaternion
-struct  Quaternion_t6D28618CF65156D4A0AD747370DDFD0C514A31B4 
+struct Quaternion_t6D28618CF65156D4A0AD747370DDFD0C514A31B4 
 {
 public:
 	// System.Single UnityEngine.Quaternion::x
@@ -249,7 +249,7 @@ public:
 
 
 // System.Single
-struct  Single_tE07797BA3C98D4CA9B5A19413C19A76688AB899E 
+struct Single_tE07797BA3C98D4CA9B5A19413C19A76688AB899E 
 {
 public:
 	// System.Single System.Single::m_value
@@ -267,7 +267,7 @@ public:
 
 
 // UnityEngine.Vector3
-struct  Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E 
+struct Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E 
 {
 public:
 	// System.Single UnityEngine.Vector3::x
@@ -411,7 +411,7 @@ public:
 
 
 // System.Void
-struct  Void_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5 
+struct Void_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5 
 {
 public:
 	union
@@ -427,7 +427,7 @@ public:
 
 
 // UnityEngine.XR.Tango.PoseStatus
-struct  PoseStatus_tE2709BBA5C636A8485BD0FB152CD936CACA9336C 
+struct PoseStatus_tE2709BBA5C636A8485BD0FB152CD936CACA9336C 
 {
 public:
 	// System.Int32 UnityEngine.XR.Tango.PoseStatus::value__
@@ -445,7 +445,7 @@ public:
 
 
 // UnityEngine.XR.Tango.PoseData
-struct  PoseData_t291D206DDA816BEA210B5659CEB0E5953912809E 
+struct PoseData_t291D206DDA816BEA210B5659CEB0E5953912809E 
 {
 public:
 	// System.Double UnityEngine.XR.Tango.PoseData::orientation_x

@@ -137,6 +137,7 @@ UnityExternCall(const char*,      UnitySystemLanguage);
 UnityExternCall(int,              UnityGetLowPowerModeEnabled);
 UnityExternCall(int,              UnityGetWantsSoftwareDimming);
 UnityExternCall(void,             UnitySetWantsSoftwareDimming, int);
+UnityExternCall(int,              UnityGetIosAppOnMac);
 
 // Unity/DisplayManager.mm
 UnityExternCall(void,             UnityActivateScreenForRendering, void*);

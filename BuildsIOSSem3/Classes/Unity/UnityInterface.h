@@ -61,7 +61,7 @@ void    UnityInputProcess();                // no longer used, will be removed s
 
 int     UnityGetRenderingAPI();
 void    UnityFinishRendering();
-void    UnityDisplayLinkCallback(double machAbsoluteTimeSeconds);
+void    UnityDisplayLinkCallback(double /*machAbsoluteTimeSeconds*/); // argument is not used anymore
 
 // controling player internals
 
@@ -75,6 +75,9 @@ void    UnitySendMessage(const char* obj, const char* method, const char* msg);
 void    UnityUpdateMuteState(int mute);
 void    UnityUpdateAudioOutputState();
 
+int     UnityShouldMuteOtherAudioSources(void);
+int     UnityShouldPrepareForIOSRecording(void);
+int     UnityIsAudioManagerAvailableAndEnabled(void);
 EAGLContext*        UnityGetDataContextGLES();
 
 #ifdef __cplusplus
@@ -331,6 +334,7 @@ int             UnityAdTrackingEnabled();
 int             UnityGetLowPowerModeEnabled();
 int             UnityGetWantsSoftwareDimming();
 void            UnitySetWantsSoftwareDimming(int enabled);
+int             UnityGetIosAppOnMac();
 const char*     UnityDeviceName();
 const char*     UnitySystemName();
 const char*     UnitySystemVersion();

@@ -189,7 +189,7 @@ IL2CPP_EXTERN_C_END
 #endif
 
 // <Module>
-struct  U3CModuleU3E_tC451880E1B66784143BA4EFDDE1B655D2AAB3053 
+struct U3CModuleU3E_tC451880E1B66784143BA4EFDDE1B655D2AAB3053 
 {
 public:
 
@@ -201,7 +201,7 @@ public:
 
 
 // System.Collections.Generic.Dictionary`2<System.Type,UnityEngine.ISubsystem>
-struct  Dictionary_2_t4F3B5B526335E16355EDBC766052AEAB07B1777B  : public RuntimeObject
+struct Dictionary_2_t4F3B5B526335E16355EDBC766052AEAB07B1777B  : public RuntimeObject
 {
 public:
 	// System.Int32[] System.Collections.Generic.Dictionary`2::buckets
@@ -315,7 +315,7 @@ public:
 
 
 // System.Collections.Generic.HashSet`1<UnityEngine.XR.Management.XRLoader>
-struct  HashSet_1_t0BB7AD0707F32BD77A251670A64E2F9355AC13F6  : public RuntimeObject
+struct HashSet_1_t0BB7AD0707F32BD77A251670A64E2F9355AC13F6  : public RuntimeObject
 {
 public:
 	// System.Int32[] System.Collections.Generic.HashSet`1::_buckets
@@ -407,7 +407,7 @@ public:
 
 
 // System.Collections.Generic.List`1<UnityEngine.Rendering.GraphicsDeviceType>
-struct  List_1_t00813CFE30B665F36E8422B4070F39D77D700541  : public RuntimeObject
+struct List_1_t00813CFE30B665F36E8422B4070F39D77D700541  : public RuntimeObject
 {
 public:
 	// T[] System.Collections.Generic.List`1::_items
@@ -474,7 +474,7 @@ public:
 
 
 // System.Collections.Generic.List`1<System.Int32Enum>
-struct  List_1_tD9A0DAE3CF1F9450036B041168264AE0CEF1737A  : public RuntimeObject
+struct List_1_tD9A0DAE3CF1F9450036B041168264AE0CEF1737A  : public RuntimeObject
 {
 public:
 	// T[] System.Collections.Generic.List`1::_items
@@ -541,7 +541,7 @@ public:
 
 
 // System.Collections.Generic.List`1<System.Object>
-struct  List_1_t3F94120C77410A62EAE48421CF166B83AB95A2F5  : public RuntimeObject
+struct List_1_t3F94120C77410A62EAE48421CF166B83AB95A2F5  : public RuntimeObject
 {
 public:
 	// T[] System.Collections.Generic.List`1::_items
@@ -608,7 +608,7 @@ public:
 
 
 // System.Collections.Generic.List`1<UnityEngine.XR.Management.XRLoader>
-struct  List_1_t6331523A19E51FB87CA899920C03B10A48A562B0  : public RuntimeObject
+struct List_1_t6331523A19E51FB87CA899920C03B10A48A562B0  : public RuntimeObject
 {
 public:
 	// T[] System.Collections.Generic.List`1::_items
@@ -679,7 +679,7 @@ struct Il2CppArrayBounds;
 
 
 // System.Attribute
-struct  Attribute_t037CA9D9F3B742C063DB364D2EEBBF9FC5772C71  : public RuntimeObject
+struct Attribute_t037CA9D9F3B742C063DB364D2EEBBF9FC5772C71  : public RuntimeObject
 {
 public:
 
@@ -688,7 +688,7 @@ public:
 
 
 // System.String
-struct  String_t  : public RuntimeObject
+struct String_t  : public RuntimeObject
 {
 public:
 	// System.Int32 System.String::m_stringLength
@@ -733,7 +733,7 @@ public:
 
 
 // System.ValueType
-struct  ValueType_tDBF999C1B75C48C68621878250DBF6CDBCF51E52  : public RuntimeObject
+struct ValueType_tDBF999C1B75C48C68621878250DBF6CDBCF51E52  : public RuntimeObject
 {
 public:
 
@@ -750,7 +750,7 @@ struct ValueType_tDBF999C1B75C48C68621878250DBF6CDBCF51E52_marshaled_com
 };
 
 // UnityEngine.XR.Management.XRManagementAnalytics
-struct  XRManagementAnalytics_tDE4A4982DC5ED0711D2F4A52850AB7F44E446251  : public RuntimeObject
+struct XRManagementAnalytics_tDE4A4982DC5ED0711D2F4A52850AB7F44E446251  : public RuntimeObject
 {
 public:
 
@@ -775,7 +775,7 @@ public:
 
 
 // System.Collections.Generic.List`1/Enumerator<System.Object>
-struct  Enumerator_tB6009981BD4E3881E3EC83627255A24198F902D6 
+struct Enumerator_tB6009981BD4E3881E3EC83627255A24198F902D6 
 {
 public:
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator::list
@@ -825,7 +825,7 @@ public:
 
 
 // System.Collections.Generic.List`1/Enumerator<UnityEngine.XR.Management.XRLoader>
-struct  Enumerator_t5E925E051A8E0B9BEF75F1250A9B42E275E89FCF 
+struct Enumerator_t5E925E051A8E0B9BEF75F1250A9B42E275E89FCF 
 {
 public:
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator::list
@@ -875,7 +875,7 @@ public:
 
 
 // System.Boolean
-struct  Boolean_t07D1E3F34E4813023D64F584DFF7B34C9D922F37 
+struct Boolean_t07D1E3F34E4813023D64F584DFF7B34C9D922F37 
 {
 public:
 	// System.Boolean System.Boolean::m_value
@@ -921,7 +921,7 @@ public:
 
 
 // System.Enum
-struct  Enum_t23B90B40F60E677A8025267341651C94AE079CDA  : public ValueType_tDBF999C1B75C48C68621878250DBF6CDBCF51E52
+struct Enum_t23B90B40F60E677A8025267341651C94AE079CDA  : public ValueType_tDBF999C1B75C48C68621878250DBF6CDBCF51E52
 {
 public:
 
@@ -955,7 +955,7 @@ struct Enum_t23B90B40F60E677A8025267341651C94AE079CDA_marshaled_com
 };
 
 // System.Int32
-struct  Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046 
+struct Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046 
 {
 public:
 	// System.Int32 System.Int32::m_value
@@ -973,7 +973,7 @@ public:
 
 
 // System.IntPtr
-struct  IntPtr_t 
+struct IntPtr_t 
 {
 public:
 	// System.Void* System.IntPtr::m_value
@@ -1007,7 +1007,7 @@ public:
 
 
 // System.Void
-struct  Void_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5 
+struct Void_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5 
 {
 public:
 	union
@@ -1023,7 +1023,7 @@ public:
 
 
 // UnityEngine.XR.Management.XRConfigurationDataAttribute
-struct  XRConfigurationDataAttribute_tC94F83D607B934FF3F894802DF857C51AA165236  : public Attribute_t037CA9D9F3B742C063DB364D2EEBBF9FC5772C71
+struct XRConfigurationDataAttribute_tC94F83D607B934FF3F894802DF857C51AA165236  : public Attribute_t037CA9D9F3B742C063DB364D2EEBBF9FC5772C71
 {
 public:
 	// System.String UnityEngine.XR.Management.XRConfigurationDataAttribute::<displayName>k__BackingField
@@ -1053,7 +1053,7 @@ public:
 
 
 // UnityEngine.XR.Management.XRManagementAnalytics/BuildEvent
-struct  BuildEvent_t91DF130C6ECDD6C929257705DB0AFE481F5BFE17 
+struct BuildEvent_t91DF130C6ECDD6C929257705DB0AFE481F5BFE17 
 {
 public:
 	// System.String UnityEngine.XR.Management.XRManagementAnalytics/BuildEvent::buildGuid
@@ -1121,7 +1121,7 @@ struct BuildEvent_t91DF130C6ECDD6C929257705DB0AFE481F5BFE17_marshaled_com
 };
 
 // System.Delegate
-struct  Delegate_t  : public RuntimeObject
+struct Delegate_t  : public RuntimeObject
 {
 public:
 	// System.IntPtr System.Delegate::method_ptr
@@ -1273,7 +1273,7 @@ struct Delegate_t_marshaled_com
 };
 
 // System.Exception
-struct  Exception_t  : public RuntimeObject
+struct Exception_t  : public RuntimeObject
 {
 public:
 	// System.String System.Exception::_className
@@ -1499,7 +1499,7 @@ struct Exception_t_marshaled_com
 };
 
 // UnityEngine.Rendering.GraphicsDeviceType
-struct  GraphicsDeviceType_t531071CD9311C868D1279D2550F83670D18FB779 
+struct GraphicsDeviceType_t531071CD9311C868D1279D2550F83670D18FB779 
 {
 public:
 	// System.Int32 UnityEngine.Rendering.GraphicsDeviceType::value__
@@ -1517,7 +1517,7 @@ public:
 
 
 // System.Int32Enum
-struct  Int32Enum_t9B63F771913F2B6D586F1173B44A41FBE26F6B5C 
+struct Int32Enum_t9B63F771913F2B6D586F1173B44A41FBE26F6B5C 
 {
 public:
 	// System.Int32 System.Int32Enum::value__
@@ -1535,7 +1535,7 @@ public:
 
 
 // UnityEngine.Object
-struct  Object_tF2F3778131EFF286AF62B7B013A170F95A91571A  : public RuntimeObject
+struct Object_tF2F3778131EFF286AF62B7B013A170F95A91571A  : public RuntimeObject
 {
 public:
 	// System.IntPtr UnityEngine.Object::m_CachedPtr
@@ -1579,7 +1579,7 @@ struct Object_tF2F3778131EFF286AF62B7B013A170F95A91571A_marshaled_com
 };
 
 // UnityEngine.XR.Management.XRManagerSettings/<InitializeLoader>d__24
-struct  U3CInitializeLoaderU3Ed__24_tBE52372328AAFF3147B0E3361196652E33780D08  : public RuntimeObject
+struct U3CInitializeLoaderU3Ed__24_tBE52372328AAFF3147B0E3361196652E33780D08  : public RuntimeObject
 {
 public:
 	// System.Int32 UnityEngine.XR.Management.XRManagerSettings/<InitializeLoader>d__24::<>1__state
@@ -1633,7 +1633,7 @@ public:
 
 
 // System.MulticastDelegate
-struct  MulticastDelegate_t  : public Delegate_t
+struct MulticastDelegate_t  : public Delegate_t
 {
 public:
 	// System.Delegate[] System.MulticastDelegate::delegates
@@ -1662,7 +1662,7 @@ struct MulticastDelegate_t_marshaled_com : public Delegate_t_marshaled_com
 };
 
 // UnityEngine.ScriptableObject
-struct  ScriptableObject_t4361E08CEBF052C650D3666C7CEC37EB31DE116A  : public Object_tF2F3778131EFF286AF62B7B013A170F95A91571A
+struct ScriptableObject_t4361E08CEBF052C650D3666C7CEC37EB31DE116A  : public Object_tF2F3778131EFF286AF62B7B013A170F95A91571A
 {
 public:
 
@@ -1679,7 +1679,7 @@ struct ScriptableObject_t4361E08CEBF052C650D3666C7CEC37EB31DE116A_marshaled_com 
 };
 
 // System.SystemException
-struct  SystemException_tC551B4D6EE3772B5F32C71EE8C719F4B43ECCC62  : public Exception_t
+struct SystemException_tC551B4D6EE3772B5F32C71EE8C719F4B43ECCC62  : public Exception_t
 {
 public:
 
@@ -1688,7 +1688,7 @@ public:
 
 
 // System.Action
-struct  Action_tAF41423D285AE0862865348CF6CE51CD085ABBA6  : public MulticastDelegate_t
+struct Action_tAF41423D285AE0862865348CF6CE51CD085ABBA6  : public MulticastDelegate_t
 {
 public:
 
@@ -1697,7 +1697,7 @@ public:
 
 
 // System.NotSupportedException
-struct  NotSupportedException_tB9D89F0E9470A2C423D239D7C68EE0CFD77F9339  : public SystemException_tC551B4D6EE3772B5F32C71EE8C719F4B43ECCC62
+struct NotSupportedException_tB9D89F0E9470A2C423D239D7C68EE0CFD77F9339  : public SystemException_tC551B4D6EE3772B5F32C71EE8C719F4B43ECCC62
 {
 public:
 
@@ -1706,7 +1706,7 @@ public:
 
 
 // UnityEngine.XR.Management.XRGeneralSettings
-struct  XRGeneralSettings_t32A12852D8662239F55902E9FD6A299201C04042  : public ScriptableObject_t4361E08CEBF052C650D3666C7CEC37EB31DE116A
+struct XRGeneralSettings_t32A12852D8662239F55902E9FD6A299201C04042  : public ScriptableObject_t4361E08CEBF052C650D3666C7CEC37EB31DE116A
 {
 public:
 	// UnityEngine.XR.Management.XRManagerSettings UnityEngine.XR.Management.XRGeneralSettings::m_LoaderManagerInstance
@@ -1794,7 +1794,7 @@ public:
 
 
 // UnityEngine.XR.Management.XRLoader
-struct  XRLoader_tE37B92C6B9CDD944DDF7AFF5704E9EB342D62F6B  : public ScriptableObject_t4361E08CEBF052C650D3666C7CEC37EB31DE116A
+struct XRLoader_tE37B92C6B9CDD944DDF7AFF5704E9EB342D62F6B  : public ScriptableObject_t4361E08CEBF052C650D3666C7CEC37EB31DE116A
 {
 public:
 
@@ -1803,7 +1803,7 @@ public:
 
 
 // UnityEngine.XR.Management.XRManagerSettings
-struct  XRManagerSettings_t8F274E413BAFFBB547DAD1B7E50EDD9D7B16E19F  : public ScriptableObject_t4361E08CEBF052C650D3666C7CEC37EB31DE116A
+struct XRManagerSettings_t8F274E413BAFFBB547DAD1B7E50EDD9D7B16E19F  : public ScriptableObject_t4361E08CEBF052C650D3666C7CEC37EB31DE116A
 {
 public:
 	// System.Boolean UnityEngine.XR.Management.XRManagerSettings::m_InitializationComplete
@@ -1884,7 +1884,7 @@ public:
 
 
 // UnityEngine.XR.Management.XRLoaderHelper
-struct  XRLoaderHelper_t37A55C343AC31D25BB3EBD203DABFA357F51C013  : public XRLoader_tE37B92C6B9CDD944DDF7AFF5704E9EB342D62F6B
+struct XRLoaderHelper_t37A55C343AC31D25BB3EBD203DABFA357F51C013  : public XRLoader_tE37B92C6B9CDD944DDF7AFF5704E9EB342D62F6B
 {
 public:
 	// System.Collections.Generic.Dictionary`2<System.Type,UnityEngine.ISubsystem> UnityEngine.XR.Management.XRLoaderHelper::m_SubsystemInstanceMap

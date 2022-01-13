@@ -82,8 +82,8 @@ typedef struct UnityDisplaySurfaceBase
     UnityRenderBufferHandle systemColorBuffer;
     UnityRenderBufferHandle systemDepthBuffer;
 
-    void*               cvTextureCache;         // CVOpenGLESTextureCacheRef
-    void*               cvTextureCacheTexture;  // CVOpenGLESTextureRef
+    void*               cvTextureCache;         // CVMetalTextureCacheRef
+    void*               cvTextureCacheTexture;  // CVMetalTextureRef
     void*               cvPixelBuffer;          // CVPixelBufferRef
 
     unsigned            targetW, targetH;
@@ -149,9 +149,9 @@ OBJC_OBJECT_PTR CAMetalDrawableRef  drawable;
 
 OBJC_OBJECT_PTR MTLTextureRef       drawableProxyRT[kUnityNumOffscreenSurfaces];
 
-// These are used on a Mac with drawableProxyRT when off-screen rendering is used
-volatile int32_t                    bufferCompleted;
-volatile int32_t                    bufferSwap;
+// This is used on a Mac with drawableProxyRT when off-screen rendering is used
+int                                 proxySwaps;         // Counts times proxy RTs have swapped since surface recreated
+int                                 proxyReady;         // [bool] Proxy RT has swapped since last present; frame ended
 
 OBJC_OBJECT_PTR MTLTextureRef       systemColorRB;
 OBJC_OBJECT_PTR MTLTextureRef       targetColorRT;

@@ -34,7 +34,7 @@ IL2CPP_EXTERN_C_END
 
 
 // System.ValueType
-struct  ValueType_tDBF999C1B75C48C68621878250DBF6CDBCF51E52  : public RuntimeObject
+struct ValueType_tDBF999C1B75C48C68621878250DBF6CDBCF51E52  : public RuntimeObject
 {
 public:
 
@@ -51,7 +51,7 @@ struct ValueType_tDBF999C1B75C48C68621878250DBF6CDBCF51E52_marshaled_com
 };
 
 // System.Enum
-struct  Enum_t23B90B40F60E677A8025267341651C94AE079CDA  : public ValueType_tDBF999C1B75C48C68621878250DBF6CDBCF51E52
+struct Enum_t23B90B40F60E677A8025267341651C94AE079CDA  : public ValueType_tDBF999C1B75C48C68621878250DBF6CDBCF51E52
 {
 public:
 
@@ -85,7 +85,7 @@ struct Enum_t23B90B40F60E677A8025267341651C94AE079CDA_marshaled_com
 };
 
 // System.IntPtr
-struct  IntPtr_t 
+struct IntPtr_t 
 {
 public:
 	// System.Void* System.IntPtr::m_value
@@ -119,7 +119,7 @@ public:
 
 
 // UnityEngine.RectInt
-struct  RectInt_tE7B8105A280C1AC73A4157ED41F9B86C9BD91E49 
+struct RectInt_tE7B8105A280C1AC73A4157ED41F9B86C9BD91E49 
 {
 public:
 	// System.Int32 UnityEngine.RectInt::m_XMin
@@ -167,7 +167,7 @@ public:
 
 
 // UnityEngine.Vector2Int
-struct  Vector2Int_tF49F5C2443670DE126D9EC8DBE81D8F480EAA6E9 
+struct Vector2Int_tF49F5C2443670DE126D9EC8DBE81D8F480EAA6E9 
 {
 public:
 	// System.Int32 UnityEngine.Vector2Int::m_X
@@ -261,7 +261,7 @@ public:
 
 
 // System.Void
-struct  Void_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5 
+struct Void_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5 
 {
 public:
 	union
@@ -277,7 +277,7 @@ public:
 
 
 // UnityEngine.XR.ARKit.ARWorldMapRequestStatus
-struct  ARWorldMapRequestStatus_t9A2ABBA3D64593F57CCFC959D7D294CE5E54E73C 
+struct ARWorldMapRequestStatus_t9A2ABBA3D64593F57CCFC959D7D294CE5E54E73C 
 {
 public:
 	// System.Int32 UnityEngine.XR.ARKit.ARWorldMapRequestStatus::value__
@@ -295,7 +295,7 @@ public:
 
 
 // UnityEngine.XR.ARKit.NSError
-struct  NSError_t2F84A3F44A97C98D4782E39A8052CCC879098DE9 
+struct NSError_t2F84A3F44A97C98D4782E39A8052CCC879098DE9 
 {
 public:
 	// System.IntPtr UnityEngine.XR.ARKit.NSError::m_Self
@@ -313,7 +313,7 @@ public:
 
 
 // UnityEngine.TextureFormat
-struct  TextureFormat_tBED5388A0445FE978F97B41D247275B036407932 
+struct TextureFormat_tBED5388A0445FE978F97B41D247275B036407932 
 {
 public:
 	// System.Int32 UnityEngine.TextureFormat::value__
@@ -331,7 +331,7 @@ public:
 
 
 // UnityEngine.XR.ARSubsystems.XRCpuImage/AsyncConversionStatus
-struct  AsyncConversionStatus_t94171EDB7E6E25979DFCEF01F7B6EA6B8A5DAD42 
+struct AsyncConversionStatus_t94171EDB7E6E25979DFCEF01F7B6EA6B8A5DAD42 
 {
 public:
 	// System.Int32 UnityEngine.XR.ARSubsystems.XRCpuImage/AsyncConversionStatus::value__
@@ -349,7 +349,7 @@ public:
 
 
 // UnityEngine.XR.ARSubsystems.XRCpuImage/Transformation
-struct  Transformation_t5812B66180F359977F76AB67CC9E923CF0B55938 
+struct Transformation_t5812B66180F359977F76AB67CC9E923CF0B55938 
 {
 public:
 	// System.Int32 UnityEngine.XR.ARSubsystems.XRCpuImage/Transformation::value__
@@ -367,7 +367,7 @@ public:
 
 
 // UnityEngine.XR.ARSubsystems.XRCpuImage/ConversionParams
-struct  ConversionParams_t3DDB9752BA823641A302D0783C14048D9B09B74A 
+struct ConversionParams_t3DDB9752BA823641A302D0783C14048D9B09B74A 
 {
 public:
 	// UnityEngine.RectInt UnityEngine.XR.ARSubsystems.XRCpuImage/ConversionParams::m_InputRect

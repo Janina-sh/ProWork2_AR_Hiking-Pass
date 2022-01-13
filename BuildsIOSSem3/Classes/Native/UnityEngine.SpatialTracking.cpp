@@ -171,7 +171,7 @@ IL2CPP_EXTERN_C_END
 #endif
 
 // <Module>
-struct  U3CModuleU3E_tF7FEB84D8A221BE7CE101152ED17C3BE04A96C35 
+struct U3CModuleU3E_tF7FEB84D8A221BE7CE101152ED17C3BE04A96C35 
 {
 public:
 
@@ -183,7 +183,7 @@ public:
 
 
 // System.Collections.Generic.List`1<System.Int32Enum>
-struct  List_1_tD9A0DAE3CF1F9450036B041168264AE0CEF1737A  : public RuntimeObject
+struct List_1_tD9A0DAE3CF1F9450036B041168264AE0CEF1737A  : public RuntimeObject
 {
 public:
 	// T[] System.Collections.Generic.List`1::_items
@@ -250,7 +250,7 @@ public:
 
 
 // System.Collections.Generic.List`1<System.String>
-struct  List_1_t6C9F81EDBF0F4A31A9B0DA372D2EF34BDA3A1AF3  : public RuntimeObject
+struct List_1_t6C9F81EDBF0F4A31A9B0DA372D2EF34BDA3A1AF3  : public RuntimeObject
 {
 public:
 	// T[] System.Collections.Generic.List`1::_items
@@ -317,7 +317,7 @@ public:
 
 
 // System.Collections.Generic.List`1<UnityEngine.XR.XRNodeState>
-struct  List_1_t82E4873F3D4F1E8645F8EAD444668DC81AB70671  : public RuntimeObject
+struct List_1_t82E4873F3D4F1E8645F8EAD444668DC81AB70671  : public RuntimeObject
 {
 public:
 	// T[] System.Collections.Generic.List`1::_items
@@ -384,7 +384,7 @@ public:
 
 
 // System.Collections.Generic.List`1<UnityEngine.SpatialTracking.TrackedPoseDriver/TrackedPose>
-struct  List_1_tA9A7E2A508B3146A7DE46E73A64E988FE4BD5248  : public RuntimeObject
+struct List_1_tA9A7E2A508B3146A7DE46E73A64E988FE4BD5248  : public RuntimeObject
 {
 public:
 	// T[] System.Collections.Generic.List`1::_items
@@ -451,7 +451,7 @@ public:
 
 
 // System.Collections.Generic.List`1<UnityEngine.SpatialTracking.TrackedPoseDriverDataDescription/PoseData>
-struct  List_1_t33EFE71131470863D507CAF630920B63D09EBA7D  : public RuntimeObject
+struct List_1_t33EFE71131470863D507CAF630920B63D09EBA7D  : public RuntimeObject
 {
 public:
 	// T[] System.Collections.Generic.List`1::_items
@@ -522,7 +522,7 @@ struct Il2CppArrayBounds;
 
 
 // UnityEngine.SpatialTracking.PoseDataSource
-struct  PoseDataSource_t729321C69DC33F646ED3624A4E79FFDB69C51D44  : public RuntimeObject
+struct PoseDataSource_t729321C69DC33F646ED3624A4E79FFDB69C51D44  : public RuntimeObject
 {
 public:
 
@@ -548,7 +548,7 @@ public:
 
 
 // System.String
-struct  String_t  : public RuntimeObject
+struct String_t  : public RuntimeObject
 {
 public:
 	// System.Int32 System.String::m_stringLength
@@ -593,7 +593,7 @@ public:
 
 
 // UnityEngine.SpatialTracking.TrackedPoseDriverDataDescription
-struct  TrackedPoseDriverDataDescription_t1DDD4ABD8892762FC3F4825233D1EA413197B9A1  : public RuntimeObject
+struct TrackedPoseDriverDataDescription_t1DDD4ABD8892762FC3F4825233D1EA413197B9A1  : public RuntimeObject
 {
 public:
 
@@ -619,7 +619,7 @@ public:
 
 
 // System.ValueType
-struct  ValueType_tDBF999C1B75C48C68621878250DBF6CDBCF51E52  : public RuntimeObject
+struct ValueType_tDBF999C1B75C48C68621878250DBF6CDBCF51E52  : public RuntimeObject
 {
 public:
 
@@ -636,7 +636,7 @@ struct ValueType_tDBF999C1B75C48C68621878250DBF6CDBCF51E52_marshaled_com
 };
 
 // System.Boolean
-struct  Boolean_t07D1E3F34E4813023D64F584DFF7B34C9D922F37 
+struct Boolean_t07D1E3F34E4813023D64F584DFF7B34C9D922F37 
 {
 public:
 	// System.Boolean System.Boolean::m_value
@@ -682,7 +682,7 @@ public:
 
 
 // System.Enum
-struct  Enum_t23B90B40F60E677A8025267341651C94AE079CDA  : public ValueType_tDBF999C1B75C48C68621878250DBF6CDBCF51E52
+struct Enum_t23B90B40F60E677A8025267341651C94AE079CDA  : public ValueType_tDBF999C1B75C48C68621878250DBF6CDBCF51E52
 {
 public:
 
@@ -716,7 +716,7 @@ struct Enum_t23B90B40F60E677A8025267341651C94AE079CDA_marshaled_com
 };
 
 // System.Int32
-struct  Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046 
+struct Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046 
 {
 public:
 	// System.Int32 System.Int32::m_value
@@ -734,7 +734,7 @@ public:
 
 
 // System.IntPtr
-struct  IntPtr_t 
+struct IntPtr_t 
 {
 public:
 	// System.Void* System.IntPtr::m_value
@@ -768,7 +768,7 @@ public:
 
 
 // UnityEngine.Quaternion
-struct  Quaternion_t6D28618CF65156D4A0AD747370DDFD0C514A31B4 
+struct Quaternion_t6D28618CF65156D4A0AD747370DDFD0C514A31B4 
 {
 public:
 	// System.Single UnityEngine.Quaternion::x
@@ -832,7 +832,7 @@ public:
 
 
 // UnityEngine.Vector3
-struct  Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E 
+struct Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E 
 {
 public:
 	// System.Single UnityEngine.Vector3::x
@@ -976,7 +976,7 @@ public:
 
 
 // System.Void
-struct  Void_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5 
+struct Void_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5 
 {
 public:
 	union
@@ -992,7 +992,7 @@ public:
 
 
 // UnityEngine.SpatialTracking.TrackedPoseDriverDataDescription/PoseData
-struct  PoseData_t3F5C8C74C50A6ECAE42890BBEF683882DB4E97C3 
+struct PoseData_t3F5C8C74C50A6ECAE42890BBEF683882DB4E97C3 
 {
 public:
 	// System.Collections.Generic.List`1<System.String> UnityEngine.SpatialTracking.TrackedPoseDriverDataDescription/PoseData::PoseNames
@@ -1034,7 +1034,7 @@ struct PoseData_t3F5C8C74C50A6ECAE42890BBEF683882DB4E97C3_marshaled_com
 };
 
 // UnityEngine.XR.AvailableTrackingData
-struct  AvailableTrackingData_tECF9F41E063E32F92AF43156E0C61190C82B47FC 
+struct AvailableTrackingData_tECF9F41E063E32F92AF43156E0C61190C82B47FC 
 {
 public:
 	// System.Int32 UnityEngine.XR.AvailableTrackingData::value__
@@ -1052,7 +1052,7 @@ public:
 
 
 // System.Delegate
-struct  Delegate_t  : public RuntimeObject
+struct Delegate_t  : public RuntimeObject
 {
 public:
 	// System.IntPtr System.Delegate::method_ptr
@@ -1204,7 +1204,7 @@ struct Delegate_t_marshaled_com
 };
 
 // System.Int32Enum
-struct  Int32Enum_t9B63F771913F2B6D586F1173B44A41FBE26F6B5C 
+struct Int32Enum_t9B63F771913F2B6D586F1173B44A41FBE26F6B5C 
 {
 public:
 	// System.Int32 System.Int32Enum::value__
@@ -1222,7 +1222,7 @@ public:
 
 
 // UnityEngine.Object
-struct  Object_tF2F3778131EFF286AF62B7B013A170F95A91571A  : public RuntimeObject
+struct Object_tF2F3778131EFF286AF62B7B013A170F95A91571A  : public RuntimeObject
 {
 public:
 	// System.IntPtr UnityEngine.Object::m_CachedPtr
@@ -1266,7 +1266,7 @@ struct Object_tF2F3778131EFF286AF62B7B013A170F95A91571A_marshaled_com
 };
 
 // UnityEngine.Pose
-struct  Pose_t9F30358E65733E60A1DC8682FDB7104F40C9434A 
+struct Pose_t9F30358E65733E60A1DC8682FDB7104F40C9434A 
 {
 public:
 	// UnityEngine.Vector3 UnityEngine.Pose::position
@@ -1310,7 +1310,7 @@ public:
 
 
 // UnityEngine.SpatialTracking.PoseDataFlags
-struct  PoseDataFlags_tB6A466AA30BE06A3F9ABA4C63BC7E4912FB8C6D7 
+struct PoseDataFlags_tB6A466AA30BE06A3F9ABA4C63BC7E4912FB8C6D7 
 {
 public:
 	// System.Int32 UnityEngine.SpatialTracking.PoseDataFlags::value__
@@ -1328,7 +1328,7 @@ public:
 
 
 // UnityEngine.XR.Tango.PoseStatus
-struct  PoseStatus_tE2709BBA5C636A8485BD0FB152CD936CACA9336C 
+struct PoseStatus_tE2709BBA5C636A8485BD0FB152CD936CACA9336C 
 {
 public:
 	// System.Int32 UnityEngine.XR.Tango.PoseStatus::value__
@@ -1346,7 +1346,7 @@ public:
 
 
 // UnityEngine.XR.XRNode
-struct  XRNode_t07B789D60F5B3A4F0E4A169143881ABCA4176DBD 
+struct XRNode_t07B789D60F5B3A4F0E4A169143881ABCA4176DBD 
 {
 public:
 	// System.Int32 UnityEngine.XR.XRNode::value__
@@ -1364,7 +1364,7 @@ public:
 
 
 // UnityEngine.SpatialTracking.TrackedPoseDriver/DeviceType
-struct  DeviceType_tAE2B3246436F9B924A6284C9C0603322DD6D09E8 
+struct DeviceType_tAE2B3246436F9B924A6284C9C0603322DD6D09E8 
 {
 public:
 	// System.Int32 UnityEngine.SpatialTracking.TrackedPoseDriver/DeviceType::value__
@@ -1382,7 +1382,7 @@ public:
 
 
 // UnityEngine.SpatialTracking.TrackedPoseDriver/TrackedPose
-struct  TrackedPose_t1326EFD84D48C3339F652B2A072743C3189B581B 
+struct TrackedPose_t1326EFD84D48C3339F652B2A072743C3189B581B 
 {
 public:
 	// System.Int32 UnityEngine.SpatialTracking.TrackedPoseDriver/TrackedPose::value__
@@ -1400,7 +1400,7 @@ public:
 
 
 // UnityEngine.SpatialTracking.TrackedPoseDriver/TrackingType
-struct  TrackingType_t6524BC8345E54C620E3557D2BD223CEAF7CA5EA9 
+struct TrackingType_t6524BC8345E54C620E3557D2BD223CEAF7CA5EA9 
 {
 public:
 	// System.Int32 UnityEngine.SpatialTracking.TrackedPoseDriver/TrackingType::value__
@@ -1418,7 +1418,7 @@ public:
 
 
 // UnityEngine.SpatialTracking.TrackedPoseDriver/UpdateType
-struct  UpdateType_t4CA0C1D1034EEB2D3CB9C008009B2F4967CD658E 
+struct UpdateType_t4CA0C1D1034EEB2D3CB9C008009B2F4967CD658E 
 {
 public:
 	// System.Int32 UnityEngine.SpatialTracking.TrackedPoseDriver/UpdateType::value__
@@ -1436,7 +1436,7 @@ public:
 
 
 // UnityEngine.Component
-struct  Component_t62FBC8D2420DA4BE9037AFE430740F6B3EECA684  : public Object_tF2F3778131EFF286AF62B7B013A170F95A91571A
+struct Component_t62FBC8D2420DA4BE9037AFE430740F6B3EECA684  : public Object_tF2F3778131EFF286AF62B7B013A170F95A91571A
 {
 public:
 
@@ -1445,7 +1445,7 @@ public:
 
 
 // System.MulticastDelegate
-struct  MulticastDelegate_t  : public Delegate_t
+struct MulticastDelegate_t  : public Delegate_t
 {
 public:
 	// System.Delegate[] System.MulticastDelegate::delegates
@@ -1474,7 +1474,7 @@ struct MulticastDelegate_t_marshaled_com : public Delegate_t_marshaled_com
 };
 
 // UnityEngine.XR.Tango.PoseData
-struct  PoseData_t291D206DDA816BEA210B5659CEB0E5953912809E 
+struct PoseData_t291D206DDA816BEA210B5659CEB0E5953912809E 
 {
 public:
 	// System.Double UnityEngine.XR.Tango.PoseData::orientation_x
@@ -1562,7 +1562,7 @@ public:
 
 
 // UnityEngine.XR.XRNodeState
-struct  XRNodeState_t6DC58D0C1BF2C4323D16B3905FDBEE7C03E27D33 
+struct XRNodeState_t6DC58D0C1BF2C4323D16B3905FDBEE7C03E27D33 
 {
 public:
 	// UnityEngine.XR.XRNode UnityEngine.XR.XRNodeState::m_Type
@@ -1670,7 +1670,7 @@ public:
 
 
 // System.Collections.Generic.List`1/Enumerator<UnityEngine.XR.XRNodeState>
-struct  Enumerator_t15CBB2465342223EA1F0A012D990AC8D5FD3F434 
+struct Enumerator_t15CBB2465342223EA1F0A012D990AC8D5FD3F434 
 {
 public:
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator::list
@@ -1719,7 +1719,7 @@ public:
 
 
 // UnityEngine.Behaviour
-struct  Behaviour_t1A3DDDCF73B4627928FBFE02ED52B7251777DBD9  : public Component_t62FBC8D2420DA4BE9037AFE430740F6B3EECA684
+struct Behaviour_t1A3DDDCF73B4627928FBFE02ED52B7251777DBD9  : public Component_t62FBC8D2420DA4BE9037AFE430740F6B3EECA684
 {
 public:
 
@@ -1728,7 +1728,7 @@ public:
 
 
 // UnityEngine.Transform
-struct  Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1  : public Component_t62FBC8D2420DA4BE9037AFE430740F6B3EECA684
+struct Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1  : public Component_t62FBC8D2420DA4BE9037AFE430740F6B3EECA684
 {
 public:
 
@@ -1737,7 +1737,7 @@ public:
 
 
 // UnityEngine.Events.UnityAction
-struct  UnityAction_t22E545F8BE0A62EE051C6A83E209587A0DB1C099  : public MulticastDelegate_t
+struct UnityAction_t22E545F8BE0A62EE051C6A83E209587A0DB1C099  : public MulticastDelegate_t
 {
 public:
 
@@ -1746,7 +1746,7 @@ public:
 
 
 // UnityEngine.Camera
-struct  Camera_tC44E094BAB53AFC8A014C6F9CFCE11F4FC38006C  : public Behaviour_t1A3DDDCF73B4627928FBFE02ED52B7251777DBD9
+struct Camera_tC44E094BAB53AFC8A014C6F9CFCE11F4FC38006C  : public Behaviour_t1A3DDDCF73B4627928FBFE02ED52B7251777DBD9
 {
 public:
 
@@ -1794,7 +1794,7 @@ public:
 
 
 // UnityEngine.MonoBehaviour
-struct  MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A  : public Behaviour_t1A3DDDCF73B4627928FBFE02ED52B7251777DBD9
+struct MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A  : public Behaviour_t1A3DDDCF73B4627928FBFE02ED52B7251777DBD9
 {
 public:
 
@@ -1803,7 +1803,7 @@ public:
 
 
 // UnityEngine.Experimental.XR.Interaction.BasePoseProvider
-struct  BasePoseProvider_t04EB173A7CC01D10EF789D54577ACAEBFAD5B04E  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
+struct BasePoseProvider_t04EB173A7CC01D10EF789D54577ACAEBFAD5B04E  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
 {
 public:
 
@@ -1812,7 +1812,7 @@ public:
 
 
 // UnityEngine.SpatialTracking.TrackedPoseDriver
-struct  TrackedPoseDriver_t76FFA7BA9FCABF9DA0A77CA1D1B387E63BE3EDE8  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
+struct TrackedPoseDriver_t76FFA7BA9FCABF9DA0A77CA1D1B387E63BE3EDE8  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
 {
 public:
 	// UnityEngine.SpatialTracking.TrackedPoseDriver/DeviceType UnityEngine.SpatialTracking.TrackedPoseDriver::m_Device

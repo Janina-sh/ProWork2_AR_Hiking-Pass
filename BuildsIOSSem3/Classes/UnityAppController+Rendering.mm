@@ -96,8 +96,8 @@ static bool _enableRunLoopAcceptInput = false;
     _renderingInited = true;
 
     [self shouldAttachRenderDelegate];
-    [_renderDelegate mainDisplayInited: _mainDisplay.surface];
     [_unityView recreateRenderingSurface];
+    [_renderDelegate mainDisplayInited: _mainDisplay.surface];
 
     _mainDisplay.surface->allowScreenshot = 1;
 }
