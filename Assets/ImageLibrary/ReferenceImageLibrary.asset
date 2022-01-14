@@ -23,7 +23,7 @@ MonoBehaviour:
       m_GuidHigh: 9942629861277591177
     m_Size: {x: 0.16, y: 0.16161616}
     m_SpecifySize: 1
-    m_Name: Butterfly
+    m_Name: devil
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
       m_GuidLow: 4833414526480441127
@@ -33,7 +33,7 @@ MonoBehaviour:
       m_GuidHigh: 506464056837190858
     m_Size: {x: 0.197, y: 0.197}
     m_SpecifySize: 1
-    m_Name: bird
+    m_Name: farmers
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
       m_GuidLow: 5191722266501024085
@@ -43,7 +43,7 @@ MonoBehaviour:
       m_GuidHigh: 9858451763920904984
     m_Size: {x: 0.197, y: 0.197}
     m_SpecifySize: 1
-    m_Name: cat
+    m_Name: schlossberg
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
       m_GuidLow: 5019614962018970489
@@ -54,4 +54,24 @@ MonoBehaviour:
     m_Size: {x: 0.18, y: 0.26146394}
     m_SpecifySize: 1
     m_Name: Panther
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4902989215721741181
+      m_GuidHigh: 10829926636121126813
+    m_SerializedTextureGuid:
+      m_GuidLow: 6085845582485366980
+      m_GuidHigh: 11978424564925403689
+    m_Size: {x: 0.18, y: 0.18}
+    m_SpecifySize: 1
+    m_Name: easter
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5598607782428631175
+      m_GuidHigh: 12029934236421494656
+    m_SerializedTextureGuid:
+      m_GuidLow: 9522069728199052197
+      m_GuidHigh: 2612374130477160490
+    m_Size: {x: 0.18, y: 0.18}
+    m_SpecifySize: 1
+    m_Name: rock
     m_Texture: {fileID: 0}
