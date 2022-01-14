@@ -156,3 +156,67 @@ Received Import Request.
 Start importing Assets/Scenes/MultipleImagetracking2.unity using Guid(98cff1b95ba844391a954528b151b27b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49caf02e00b8933133fe287eb6881108') in 0.013372 seconds 
   Import took 0.016703 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 672.509568 seconds.
+  path: Assets/Screens/Log-out.png
+  artifactKey: Guid(8c8f41e5127654e1b84865012a5810b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screens/Log-out.png using Guid(8c8f41e5127654e1b84865012a5810b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54dc51c564f6cc546d73048e91cdcbb1') in 1.092472 seconds 
+  Import took 1.099056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Screens/Login 1.png
+  artifactKey: Guid(4c5f72ba898bd47d1ba8a8a7df21130f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screens/Login 1.png using Guid(4c5f72ba898bd47d1ba8a8a7df21130f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8f53c7d0cc838c352cf7c2ab70f4e1c') in 0.255085 seconds 
+  Import took 0.258121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.956757 seconds.
+  path: Assets/Screens/Log-out.png
+  artifactKey: Guid(8c8f41e5127654e1b84865012a5810b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screens/Log-out.png using Guid(8c8f41e5127654e1b84865012a5810b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7689dbf10d297532fcb1832e5348cae2') in 0.041214 seconds 
+  Import took 0.044727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 203.545957 seconds.
+  path: Assets/Screens/Log-out.png
+  artifactKey: Guid(8c8f41e5127654e1b84865012a5810b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screens/Log-out.png using Guid(8c8f41e5127654e1b84865012a5810b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68bc079335f09254c36ede582f1c2ddc') in 0.015267 seconds 
+  Import took 0.018547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.125357 seconds.
+  path: Assets/Screens/Log-out.png
+  artifactKey: Guid(8c8f41e5127654e1b84865012a5810b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screens/Log-out.png using Guid(8c8f41e5127654e1b84865012a5810b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bff1d7e3d1108f2f703a0cde85175f98') in 0.027793 seconds 
+  Import took 0.031963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 95.576705 seconds.
+  path: Assets/Screens/Log-out.png
+  artifactKey: Guid(8c8f41e5127654e1b84865012a5810b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screens/Log-out.png using Guid(8c8f41e5127654e1b84865012a5810b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33f9333a9b824f4c03279b0d5f5214aa') in 0.024628 seconds 
+  Import took 0.028043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.942321 seconds.
+  path: Assets/Screens/Log-out.png
+  artifactKey: Guid(8c8f41e5127654e1b84865012a5810b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screens/Log-out.png using Guid(8c8f41e5127654e1b84865012a5810b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '115057ccb0cf1f7429620b20520450c2') in 0.034309 seconds 
+  Import took 0.037689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 74.325786 seconds.
+  path: Assets/Screens/Log-out.png
+  artifactKey: Guid(8c8f41e5127654e1b84865012a5810b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screens/Log-out.png using Guid(8c8f41e5127654e1b84865012a5810b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5bf3ba956e0197dbdfcaddc248ef000') in 0.023119 seconds 
+  Import took 0.026821 seconds .
+
