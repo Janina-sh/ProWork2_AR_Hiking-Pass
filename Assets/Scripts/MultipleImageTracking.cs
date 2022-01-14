@@ -71,7 +71,7 @@ geschichte = GetComponent<AudioSource>();
     {
         string name = trackedImage.referenceImage.name; //temporarily store the name of the tracked image
         Vector3 position = trackedImage.transform.localPosition;
-
+Debug.Log("TrackedImage " + name);
         GameObject prefab = spawnedPrefabs[name]; //GameObject will be from our spawnedPrefabs Dictionary selected by the name
         prefab.transform.localPosition = position;
         prefab.SetActive(true); //see the prefab linked to the current image

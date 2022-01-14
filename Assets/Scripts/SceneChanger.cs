@@ -23,4 +23,9 @@ PantherCard.SetActive(true);
     public void Scene2() {  
         SceneManager.LoadScene("MultipleImagetracking 1");  
     }
+    public void Reset(){
+        panther=0;
+        PantherCard.SetActive(false);   
+    }
 }
+
