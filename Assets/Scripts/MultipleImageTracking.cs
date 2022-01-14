@@ -15,7 +15,11 @@ public class MultipleImageTracking : MonoBehaviour
     private Dictionary<string, GameObject> spawnedPrefabs = new Dictionary<string, GameObject>();  //will call sporned prefabs out of Prefab Array (string = used for finding a prefab from the placeable Prefab array with the same name
     public AudioSource geschichte;
     public int panther = 0;
-    public int farmers = 0;
+    public int farmers = 0;  
+    public int devil = 0;
+    public int easter = 0;
+      public int rock = 0;
+    public int schlossberg = 0;
 
     private ARTrackedImageManager trackedImageManager; //contains the reference image library, detects the images in it
 public bool showUICamera = false; //true = show UI camera, hide AR camera
@@ -25,6 +29,7 @@ geschichte = GetComponent<AudioSource>();
 }
     private void Awake()
     {
+         Debug.Log("panther Camera: " + panther);
       //  ARcamera.enabled = false;
         trackedImageManager = FindObjectOfType<ARTrackedImageManager>(); //getting and storing a reference to the trackedImageManager
            Debug.Log("Prefab 1");
@@ -81,10 +86,30 @@ geschichte = GetComponent<AudioSource>();
                 PlayerPrefs.SetInt("panther", panther);
                 Debug.Log("panther: " + panther);
         }
-        else if (name =="bird"){
+        else if (name =="farmers"){
             farmers = 1;
                 PlayerPrefs.SetInt("farmers", farmers);
                 Debug.Log("Farmers");
+        }
+         else if (name =="easter"){
+            farmers = 1;
+                PlayerPrefs.SetInt("easter", easter);
+                Debug.Log("Easter");
+        }
+         else if (name =="devil"){
+            farmers = 1;
+                PlayerPrefs.SetInt("deviil", devil);
+                Debug.Log("Devil");
+        }
+         else if (name =="rock"){
+            farmers = 1;
+                PlayerPrefs.SetInt("rock", rock);
+                Debug.Log("Rock");
+        }
+         else if (name =="schlossberg"){
+            farmers = 1;
+                PlayerPrefs.SetInt("schlossberg", schlossberg);
+                Debug.Log("schlossberg");
         }
 
         foreach (GameObject go in spawnedPrefabs.Values)
