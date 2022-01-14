@@ -87,27 +87,27 @@ geschichte = GetComponent<AudioSource>();
                 Debug.Log("panther: " + panther);
         }
         else if (name =="farmers"){
-            farmers = 1;
+                farmers = 1;
                 PlayerPrefs.SetInt("farmers", farmers);
                 Debug.Log("Farmers");
         }
          else if (name =="easter"){
-            farmers = 1;
+                easter = 1;
                 PlayerPrefs.SetInt("easter", easter);
                 Debug.Log("Easter");
         }
          else if (name =="devil"){
-            farmers = 1;
-                PlayerPrefs.SetInt("deviil", devil);
+                devil = 1;
+                PlayerPrefs.SetInt("devil", devil);
                 Debug.Log("Devil");
         }
          else if (name =="rock"){
-            farmers = 1;
+                rock = 1;
                 PlayerPrefs.SetInt("rock", rock);
                 Debug.Log("Rock");
         }
          else if (name =="schlossberg"){
-            farmers = 1;
+                schlossberg = 1;
                 PlayerPrefs.SetInt("schlossberg", schlossberg);
                 Debug.Log("schlossberg");
         }

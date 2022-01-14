@@ -4,15 +4,16 @@ using UnityEngine;
 using UnityEngine.SceneManagement; 
 
 
-public class SceneChanger : MonoBehaviour
-{
+public class SceneChanger : MonoBehaviour{
+public GameObject DisabledReadStoryButton;
+public GameObject ReadStoryButton;
 public GameObject PantherCard;
 public GameObject FarmersCard;
 public GameObject RockCard;
 public GameObject EasterCard;
 public GameObject Schlossbergcard;
 
-
+public GameObject PShadow;
 public GameObject Devilcard;
 //Fragezeichen ausblenden
 public GameObject QFarmersCard;
@@ -26,7 +27,8 @@ public int panther =0;
     public int easter =0;
     public int schlossberg = 0;
     public int devil = 0;
- 
+ public GameObject Overview;
+ public GameObject Login;
 
 public void Start(){
     panther = PlayerPrefs.GetInt("panther");
@@ -35,43 +37,71 @@ public void Start(){
      rock = PlayerPrefs.GetInt("rock");
     schlossberg=  PlayerPrefs.GetInt("schlossberg");
     devil = PlayerPrefs.GetInt("devil");
+    Debug.Log("Devil Int: " + devil);
         easter = PlayerPrefs.GetInt("easter");
+        Debug.Log("Ester Int: " + easter);
     Debug.Log("Farmers Int: " + farmers);
 }     private void Update(){
             if (panther == 1){
             PantherCard.SetActive(true); 
+            PShadow.SetActive(false);
         
             }
             if (farmers == 1){
             FarmersCard.SetActive(true); 
-            QFarmersCard.SetActive(false);       
+            QFarmersCard.SetActive(false); 
+             if (panther == 0){
+                 PShadow.SetActive(true);
+             }      
             }
             if(rock==1){
                 RockCard.SetActive(true);
                 QRockCard.SetActive(false);
+                 if (panther == 0){
+                 PShadow.SetActive(true);
+             }    
             }
              if (easter == 1){
             EasterCard.SetActive(true); 
             QEasterCard.SetActive(false);
+             if (panther == 0){
+                 PShadow.SetActive(true);
+             }    
             }
             if (schlossberg == 1){
             Schlossbergcard.SetActive(true); 
-            QSchlossbergCard.SetActive(false);       
+            QSchlossbergCard.SetActive(false);
+             if (panther == 0){
+                 PShadow.SetActive(true);
+             }           
             }
             if(devil==1){
                 Devilcard.SetActive(true);
                 QDevilCard.SetActive(false);
+                 if (panther == 0){
+                 PShadow.SetActive(true);
+             }    
+            }
+            if (panther == 1 && farmers == 1 && rock == 1 && easter == 1 && schlossberg ==1 && devil==1){
+            DisabledReadStoryButton.SetActive(false);
             }
      }
  public void Scene1() {  
         SceneManager.LoadScene("MultipleImagetracking2");  
+        Login.SetActive(false);
+        Overview.SetActive(true);
     }  
     public void Scene2() {  
         SceneManager.LoadScene("MultipleImagetracking 1");  
     }
     public void Reset(){
+        Debug.Log("Reset");
         panther=0;
         farmers = 0;
+rock = 0;
+easter =0;
+schlossberg = 0;
+devil = 0;
         PantherCard.SetActive(false);   
         FarmersCard.SetActive(false);
         Devilcard.SetActive(false); 
@@ -84,7 +114,8 @@ public void Start(){
         PlayerPrefs.SetInt("schlossberg", schlossberg);
          PlayerPrefs.SetInt("devil", devil);
         PlayerPrefs.SetInt("easter", easter);
-
+         PShadow.SetActive(false);
+         DisabledReadStoryButton.SetActive(true);
                //Fragezeichen wieder einblenden
     
                 QFarmersCard.SetActive(true); 
@@ -92,6 +123,7 @@ public void Start(){
                 QEasterCard.SetActive(true);
                 QSchlossbergCard.SetActive(true);
                 QRockCard.SetActive(true);
+                
     }
 }
 
