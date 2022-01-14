@@ -530,6 +530,8 @@ struct Delegate_t;
 struct DelegateData_t17DD30660E330C49381DAA99F934BE75CB11F288;
 // UnityEngine.UI.Extensions.DiamondGraph
 struct DiamondGraph_t453B0C70A2D2C1AC466B61E9FAB6AEC4966F33A1;
+// DisplayText
+struct DisplayText_tCFC0A99CB765C81896E199936A44AD387AD90D38;
 // UnityEngine.UI.Extensions.DragCorrector
 struct DragCorrector_tB312A8E8525033143583E91C270E7E48A4E275BC;
 // DrawLine
@@ -927,6 +929,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteral521FB55423CC068B92B5E8453A36DF0D6CBDD93F
 IL2CPP_EXTERN_C String_t* _stringLiteral526701599C1BFBC69FBB81831B088E7A26DD779A;
 IL2CPP_EXTERN_C String_t* _stringLiteral5425E4DDE72D9B019B45A16C8F497D3B7D8EE6B2;
 IL2CPP_EXTERN_C String_t* _stringLiteral62733A882156330A244D604AD5B0A3A3C585DF35;
+IL2CPP_EXTERN_C String_t* _stringLiteral783E2D5A6E59ABC235F845FFB2A8FDCE00A333B8;
 IL2CPP_EXTERN_C String_t* _stringLiteral7C6E7789D61E0EFE08F9C933CEDA221920456775;
 IL2CPP_EXTERN_C String_t* _stringLiteral7D090BF7C2DCC19D265F76C61963FCDE5372E39B;
 IL2CPP_EXTERN_C String_t* _stringLiteral7D872E6B8120467922BBCAEAC844C67A7AE35B3A;
@@ -10839,6 +10842,36 @@ public:
 };
 
 
+// DisplayText
+struct DisplayText_tCFC0A99CB765C81896E199936A44AD387AD90D38  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
+{
+public:
+	// UnityEngine.UI.Text DisplayText::obj_text
+	Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * ___obj_text_4;
+	// UnityEngine.UI.InputField DisplayText::display_text
+	InputField_tB41A2814F31A3E9373D443EDEBBB2856006324D0 * ___display_text_5;
+
+public:
+	inline static int32_t get_offset_of_obj_text_4() { return static_cast<int32_t>(offsetof(DisplayText_tCFC0A99CB765C81896E199936A44AD387AD90D38, ___obj_text_4)); }
+	inline Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * get_obj_text_4() const { return ___obj_text_4; }
+	inline Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 ** get_address_of_obj_text_4() { return &___obj_text_4; }
+	inline void set_obj_text_4(Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * value)
+	{
+		___obj_text_4 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___obj_text_4), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_display_text_5() { return static_cast<int32_t>(offsetof(DisplayText_tCFC0A99CB765C81896E199936A44AD387AD90D38, ___display_text_5)); }
+	inline InputField_tB41A2814F31A3E9373D443EDEBBB2856006324D0 * get_display_text_5() const { return ___display_text_5; }
+	inline InputField_tB41A2814F31A3E9373D443EDEBBB2856006324D0 ** get_address_of_display_text_5() { return &___display_text_5; }
+	inline void set_display_text_5(InputField_tB41A2814F31A3E9373D443EDEBBB2856006324D0 * value)
+	{
+		___display_text_5 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___display_text_5), (void*)value);
+	}
+};
+
+
 // UnityEngine.UI.Extensions.DragCorrector
 struct DragCorrector_tB312A8E8525033143583E91C270E7E48A4E275BC  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
 {
@@ -17726,6 +17759,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VertexHelper_AddVert_m5CD02FDA1B6ADBD0E2
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VertexHelper_AddTriangle_m1EE93E4BF27E3BCCE69A348358FAF605105B63C6 (VertexHelper_tDE8B67D3B076061C4F8DF325B0D63ED2E5367E55 * __this, int32_t ___idx00, int32_t ___idx11, int32_t ___idx22, const RuntimeMethod* method);
 // System.Void UnityEngine.UI.Extensions.UIPrimitiveBase::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIPrimitiveBase__ctor_m39FC89783FE50280092156C9EA030CD0ABA9EA12 (UIPrimitiveBase_t262CA6EF9965C777F40CB2E5B0D66420C52EFFAC * __this, const RuntimeMethod* method);
+// System.String UnityEngine.UI.InputField::get_text()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* InputField_get_text_m15D0C784A4A104390610325B02216FC2A6F1077C_inline (InputField_tB41A2814F31A3E9373D443EDEBBB2856006324D0 * __this, const RuntimeMethod* method);
+// System.Void UnityEngine.PlayerPrefs::Save()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerPrefs_Save_m2C1E628FA335095CD88D0DA1CB50ACC924667EEC (const RuntimeMethod* method);
 // System.Single UnityEngine.Screen::get_dpi()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Screen_get_dpi_m37167A82DE896C738517BBF75BFD70C616CCCF55 (const RuntimeMethod* method);
 // !!0 UnityEngine.Component::GetComponent<UnityEngine.EventSystems.EventSystem>()
@@ -18104,8 +18141,6 @@ inline void UnityEvent_1_AddListener_mFCFAC8ACA3F75283268DC2629ADEB5504E8FC0C2 (
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dropdown_set_value_mE4418D205D53F8A3AD23B957D1A8CD71489CB3B9 (Dropdown_t099F5232BB75810BC79EED6E27DDCED46C3BCD96 * __this, int32_t ___value0, const RuntimeMethod* method);
 // System.Void UnityEngine.UI.Extensions.Examples.FancyScrollViewExample07.ScrollView::JumpTo(System.Int32,UnityEngine.UI.Extensions.Examples.FancyScrollViewExample07.Alignment)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScrollView_JumpTo_m54372FB54BF986712C892B50179D07E4709DDA88 (ScrollView_t65BBCBA274FD23E83BEFD7FB6428112335C954F2 * __this, int32_t ___index0, int32_t ___alignment1, const RuntimeMethod* method);
-// System.String UnityEngine.UI.InputField::get_text()
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* InputField_get_text_m15D0C784A4A104390610325B02216FC2A6F1077C_inline (InputField_tB41A2814F31A3E9373D443EDEBBB2856006324D0 * __this, const RuntimeMethod* method);
 // System.Boolean System.Int32::TryParse(System.String,System.Int32&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Int32_TryParse_m748B8DB1D0C9D25C3D1812D7887411C4AFC1DDC2 (String_t* ___s0, int32_t* ___result1, const RuntimeMethod* method);
 // System.Void System.Action`1<System.Int32>::Invoke(!0)
@@ -28333,6 +28368,72 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DiamondGraph__ctor_m0F93DB9B8690F75502D2
 		__this->set_m_d_47((1.0f));
 		IL2CPP_RUNTIME_CLASS_INIT(UIPrimitiveBase_t262CA6EF9965C777F40CB2E5B0D66420C52EFFAC_il2cpp_TypeInfo_var);
 		UIPrimitiveBase__ctor_m39FC89783FE50280092156C9EA030CD0ABA9EA12(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void DisplayText::Start()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DisplayText_Start_mE96230B8E9D4ABF4809021C2CEF21F6CFF263609 (DisplayText_tCFC0A99CB765C81896E199936A44AD387AD90D38 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral783E2D5A6E59ABC235F845FFB2A8FDCE00A333B8);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// obj_text.text = PlayerPrefs.GetString("user_name");
+		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_0 = __this->get_obj_text_4();
+		String_t* L_1;
+		L_1 = PlayerPrefs_GetString_mE7654C1031622A56CD8F248F53714B105A35A159(_stringLiteral783E2D5A6E59ABC235F845FFB2A8FDCE00A333B8, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		VirtActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_0, L_1);
+		// }
+		return;
+	}
+}
+// System.Void DisplayText::Create()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DisplayText_Create_m87EFA81156357EA2631638106B06E40165BFDEC7 (DisplayText_tCFC0A99CB765C81896E199936A44AD387AD90D38 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral783E2D5A6E59ABC235F845FFB2A8FDCE00A333B8);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// obj_text.text = display_text.text;
+		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_0 = __this->get_obj_text_4();
+		InputField_tB41A2814F31A3E9373D443EDEBBB2856006324D0 * L_1 = __this->get_display_text_5();
+		NullCheck(L_1);
+		String_t* L_2;
+		L_2 = InputField_get_text_m15D0C784A4A104390610325B02216FC2A6F1077C_inline(L_1, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		VirtActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_0, L_2);
+		// PlayerPrefs.SetString("user_name", obj_text.text);
+		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_3 = __this->get_obj_text_4();
+		NullCheck(L_3);
+		String_t* L_4;
+		L_4 = VirtFuncInvoker0< String_t* >::Invoke(74 /* System.String UnityEngine.UI.Text::get_text() */, L_3);
+		PlayerPrefs_SetString_m94CD8FF45692553A5726DFADF74935F7E1D1C633(_stringLiteral783E2D5A6E59ABC235F845FFB2A8FDCE00A333B8, L_4, /*hidden argument*/NULL);
+		// PlayerPrefs.Save();
+		PlayerPrefs_Save_m2C1E628FA335095CD88D0DA1CB50ACC924667EEC(/*hidden argument*/NULL);
+		// }
+		return;
+	}
+}
+// System.Void DisplayText::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DisplayText__ctor_m130550C4A3819B96CED7CD31661812B240D08606 (DisplayText_tCFC0A99CB765C81896E199936A44AD387AD90D38 * __this, const RuntimeMethod* method)
+{
+	{
+		MonoBehaviour__ctor_mC0995D847F6A95B1A553652636C38A2AA8B13BED(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -39787,6 +39888,14 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_mF7FCDE24496D6
 		return;
 	}
 }
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* InputField_get_text_m15D0C784A4A104390610325B02216FC2A6F1077C_inline (InputField_tB41A2814F31A3E9373D443EDEBBB2856006324D0 * __this, const RuntimeMethod* method)
+{
+	{
+		// return m_Text;
+		String_t* L_0 = __this->get_m_Text_38();
+		return L_0;
+	}
+}
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void EventSystem_set_pixelDragThreshold_m2EC2BBAAD11C1DDFC3D8AF1A6CBB827F47FDA951_inline (EventSystem_t5DC458FCD0355A74CDCCE79287B38B9C4278E39C * __this, int32_t ___value0, const RuntimeMethod* method)
 {
 	{
@@ -39991,14 +40100,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DropdownEvent_tEB2C75C3DBC789936B
 	{
 		// public DropdownEvent onValueChanged { get { return m_OnValueChanged; } set { m_OnValueChanged = value; } }
 		DropdownEvent_tEB2C75C3DBC789936B31D9A979FD62E047846CFB * L_0 = __this->get_m_OnValueChanged_27();
-		return L_0;
-	}
-}
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* InputField_get_text_m15D0C784A4A104390610325B02216FC2A6F1077C_inline (InputField_tB41A2814F31A3E9373D443EDEBBB2856006324D0 * __this, const RuntimeMethod* method)
-{
-	{
-		// return m_Text;
-		String_t* L_0 = __this->get_m_Text_38();
 		return L_0;
 	}
 }
