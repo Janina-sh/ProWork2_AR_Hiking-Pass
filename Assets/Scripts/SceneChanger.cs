@@ -7,14 +7,21 @@ using UnityEngine.SceneManagement;
 public class SceneChanger : MonoBehaviour
 {
 public GameObject PantherCard;
-public int panther;
+public GameObject FarmersCard;
+public int panther =0;
+    public int farmers = 0;
 
 public void Start(){
     panther = PlayerPrefs.GetInt("panther");
     Debug.Log("Panther Int: " + panther);
+     farmers = PlayerPrefs.GetInt("farmers");
+    Debug.Log("Farmers Int: " + farmers);
 }     private void Update(){
             if (panther == 1){
-PantherCard.SetActive(true);        
+            PantherCard.SetActive(true);        
+            }
+            if (farmers == 1){
+            FarmersCard.SetActive(true);        
             }
      }
  public void Scene1() {  
@@ -25,7 +32,9 @@ PantherCard.SetActive(true);
     }
     public void Reset(){
         panther=0;
+        farmers = 0;
         PantherCard.SetActive(false);   
+        FarmersCard.SetActive(false);   
     }
 }
 

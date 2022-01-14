@@ -15,6 +15,7 @@ public class MultipleImageTracking : MonoBehaviour
     private Dictionary<string, GameObject> spawnedPrefabs = new Dictionary<string, GameObject>();  //will call sporned prefabs out of Prefab Array (string = used for finding a prefab from the placeable Prefab array with the same name
     public AudioSource geschichte;
     public int panther = 0;
+    public int farmers = 0;
 
     private ARTrackedImageManager trackedImageManager; //contains the reference image library, detects the images in it
 public bool showUICamera = false; //true = show UI camera, hide AR camera
@@ -71,13 +72,21 @@ geschichte = GetComponent<AudioSource>();
     {
         string name = trackedImage.referenceImage.name; //temporarily store the name of the tracked image
         Vector3 position = trackedImage.transform.localPosition;
-Debug.Log("TrackedImage " + name);
+        Debug.Log("TrackedImage " + name);
         GameObject prefab = spawnedPrefabs[name]; //GameObject will be from our spawnedPrefabs Dictionary selected by the name
         prefab.transform.localPosition = position;
         prefab.SetActive(true); //see the prefab linked to the current image
- panther = 1;
- PlayerPrefs.SetInt("panther", panther);
-                   Debug.Log("panther: " + panther);
+        if (name =="Panther"){
+                panther = 1;
+                PlayerPrefs.SetInt("panther", panther);
+                Debug.Log("panther: " + panther);
+        }
+        else if (name =="bird"){
+            farmers = 1;
+                PlayerPrefs.SetInt("farmers", farmers);
+                Debug.Log("Farmers");
+        }
+
         foreach (GameObject go in spawnedPrefabs.Values)
         {
             if (go.name != name)

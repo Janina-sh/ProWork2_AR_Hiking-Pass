@@ -382,12 +382,12 @@ GameObject:
   - component: {fileID: 34878391}
   - component: {fileID: 34878390}
   m_Layer: 5
-  m_Name: Collectable05
+  m_Name: CollectableSchlossberg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &34878389
 RectTransform:
   m_ObjectHideFlags: 0
@@ -407,7 +407,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 271.9605, y: -173.03156}
+  m_AnchoredPosition: {x: 34.44006, y: -173.03156}
   m_SizeDelta: {x: 591, y: 649}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &34878390
@@ -1037,7 +1037,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &148394516
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1048,7 +1048,8 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 481183467}
   m_Father: {fileID: 232590900}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1536,7 +1537,7 @@ GameObject:
   - component: {fileID: 232590902}
   - component: {fileID: 232590901}
   m_Layer: 5
-  m_Name: Collectable01
+  m_Name: CollectableFarmers
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1555,13 +1556,12 @@ RectTransform:
   m_Children:
   - {fileID: 1998689588}
   - {fileID: 148394516}
-  - {fileID: 481183467}
   m_Father: {fileID: 781678102}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 34.44006, y: -173.03156}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 591, y: 649}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &232590901
@@ -3077,9 +3077,9 @@ RectTransform:
   m_Father: {fileID: 1460447383}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 390.72076, y: -185.4532}
   m_SizeDelta: {x: 591, y: 701}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!54 &366880921
@@ -3244,9 +3244,9 @@ RectTransform:
   m_Father: {fileID: 1460447383}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 93.820175, y: -185.4532}
   m_SizeDelta: {x: 591, y: 701}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &378117784
@@ -3319,9 +3319,9 @@ RectTransform:
   m_Father: {fileID: 1460447383}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 34.44006, y: -185.4532}
   m_SizeDelta: {x: 591, y: 701}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &378731499
@@ -3856,16 +3856,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 481183466}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3.8587756, y: 3.8587756, z: 3.8587756}
+  m_LocalScale: {x: 3.8587756, y: 3.8587763, z: 3.8587754}
   m_Children: []
-  m_Father: {fileID: 232590900}
-  m_RootOrder: 2
+  m_Father: {fileID: 148394516}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -9, y: -46}
+  m_AnchoredPosition: {x: 49.99994, y: -250.99997}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &481183468
@@ -4334,9 +4334,9 @@ RectTransform:
   m_Father: {fileID: 1460447383}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 331.34064, y: -185.4532}
   m_SizeDelta: {x: 591, y: 701}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!54 &543860731
@@ -4501,9 +4501,9 @@ RectTransform:
   m_Father: {fileID: 1460447383}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 271.9605, y: -185.4532}
   m_SizeDelta: {x: 591, y: 701}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!54 &566785739
@@ -5040,7 +5040,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &690487409
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5812,7 +5812,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -0.000030517578, y: 0.000009059906}
-  m_SizeDelta: {x: 106.40057, y: 328.0631}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &781678103
 MonoBehaviour:
@@ -7634,12 +7634,12 @@ GameObject:
   - component: {fileID: 1142710794}
   - component: {fileID: 1142710793}
   m_Layer: 5
-  m_Name: Collectable03
+  m_Name: CollectableRock
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1142710792
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8944,7 +8944,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1436069911
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9042,12 +9042,12 @@ GameObject:
   - component: {fileID: 1449652412}
   - component: {fileID: 1449652411}
   m_Layer: 5
-  m_Name: Collectable02
+  m_Name: CollectableDevil
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1449652410
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9225,7 +9225,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -0.000030517578, y: 0.000009536743}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 225.16083, y: 352.9064}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1460447384
 MonoBehaviour:
@@ -9922,9 +9922,9 @@ RectTransform:
   m_Father: {fileID: 1460447383}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 153.2003, y: -185.4532}
   m_SizeDelta: {x: 591, y: 701}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!54 &1644832430
@@ -10410,12 +10410,12 @@ GameObject:
   - component: {fileID: 1727838648}
   - component: {fileID: 1727838647}
   m_Layer: 5
-  m_Name: Collectable04
+  m_Name: CollectableEaster
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1727838646
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10435,7 +10435,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 212.58041, y: -173.03156}
+  m_AnchoredPosition: {x: 34.44006, y: -173.03156}
   m_SizeDelta: {x: 591, y: 649}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1727838647
@@ -12111,9 +12111,9 @@ RectTransform:
   m_Father: {fileID: 1460447383}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 212.58041, y: -185.4532}
   m_SizeDelta: {x: 591, y: 701}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!54 &1995790685
@@ -12187,7 +12187,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1998689588
 RectTransform:
   m_ObjectHideFlags: 0
@@ -13395,7 +13395,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PantherCard: {fileID: 737384987}
+  FarmersCard: {fileID: 148394515}
   panther: 0
+  farmers: 0
 --- !u!4 &2111362422
 Transform:
   m_ObjectHideFlags: 0
