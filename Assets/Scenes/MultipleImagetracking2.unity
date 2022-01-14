@@ -5414,7 +5414,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &737384988
 RectTransform:
   m_ObjectHideFlags: 0
@@ -13382,6 +13382,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51bac1ef36a9f4d67a3b4fea7851b7fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PantherCard: {fileID: 737384987}
+  panther: 0
 --- !u!4 &2111362422
 Transform:
   m_ObjectHideFlags: 0
