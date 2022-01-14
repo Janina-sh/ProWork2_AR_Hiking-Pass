@@ -6,6 +6,17 @@ using UnityEngine.SceneManagement;
 
 public class SceneChanger : MonoBehaviour
 {
+public GameObject PantherCard;
+public int panther;
+
+public void Start(){
+    panther = PlayerPrefs.GetInt("panther");
+    Debug.Log("Panther Int: " + panther);
+}     private void Update(){
+            if (panther == 1){
+PantherCard.SetActive(true);        
+            }
+     }
  public void Scene1() {  
         SceneManager.LoadScene("MultipleImagetracking2");  
     }  

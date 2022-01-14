@@ -14,6 +14,8 @@ public class MultipleImageTracking : MonoBehaviour
     
     private Dictionary<string, GameObject> spawnedPrefabs = new Dictionary<string, GameObject>();  //will call sporned prefabs out of Prefab Array (string = used for finding a prefab from the placeable Prefab array with the same name
     public AudioSource geschichte;
+    public int panther = 0;
+
     private ARTrackedImageManager trackedImageManager; //contains the reference image library, detects the images in it
 public bool showUICamera = false; //true = show UI camera, hide AR camera
 //public Camera ARcamera;
@@ -32,7 +34,8 @@ geschichte = GetComponent<AudioSource>();
             GameObject newPrefab = Instantiate(prefab, Vector3.zero, Quaternion.identity);
             newPrefab.name = prefab.name; //searching for the right prefab
             spawnedPrefabs.Add(prefab.name, newPrefab); //add this to the spawnedPrefab Dictionary, newPrefab=Reference
-           // geschichte.Play();
+                   // geschichte.Play();
+                
         }
     }
 
@@ -72,7 +75,9 @@ geschichte = GetComponent<AudioSource>();
         GameObject prefab = spawnedPrefabs[name]; //GameObject will be from our spawnedPrefabs Dictionary selected by the name
         prefab.transform.localPosition = position;
         prefab.SetActive(true); //see the prefab linked to the current image
-
+ panther = 1;
+ PlayerPrefs.SetInt("panther", panther);
+                   Debug.Log("panther: " + panther);
         foreach (GameObject go in spawnedPrefabs.Values)
         {
             if (go.name != name)
