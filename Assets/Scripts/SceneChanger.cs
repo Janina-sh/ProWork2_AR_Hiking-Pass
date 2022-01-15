@@ -7,6 +7,8 @@ using UnityEngine.SceneManagement;
 public class SceneChanger : MonoBehaviour{
     public GameObject Hero;
     public GameObject HeroShadow;
+    public GameObject LuziferFragezeichen;
+        public GameObject Luzifer;
 public GameObject DisabledReadStoryButton;
 public GameObject ReadStoryButton;
 public GameObject PantherCard;
@@ -49,6 +51,8 @@ public void Start(){
             PShadow.SetActive(false);
             HeroShadow.SetActive(false);
          Hero.SetActive(true);
+          LuziferFragezeichen.SetActive(false);
+          Luzifer.SetActive(true);
         
             }
             if (farmers == 1){
@@ -124,6 +128,8 @@ devil = 0;
          ReadStoryButton.SetActive(false);
          HeroShadow.SetActive(true);
          Hero.SetActive(false);
+         LuziferFragezeichen.SetActive(true);
+          Luzifer.SetActive(false);
                //Fragezeichen wieder einblenden
     
                 QFarmersCard.SetActive(true); 
