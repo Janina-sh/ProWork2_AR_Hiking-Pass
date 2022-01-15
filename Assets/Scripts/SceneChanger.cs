@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class SceneChanger : MonoBehaviour{
     public GameObject Hero;
     public GameObject HeroShadow;
+    public GameObject NotScanned;
 public GameObject DisabledReadStoryButton;
 public GameObject ReadStoryButton;
 public GameObject PantherCard;
@@ -49,6 +50,7 @@ public void Start(){
             PShadow.SetActive(false);
             HeroShadow.SetActive(false);
          Hero.SetActive(true);
+         NotScanned.SetActive(false);
         
             }
             if (farmers == 1){
@@ -56,6 +58,7 @@ public void Start(){
             QFarmersCard.SetActive(false); 
              if (panther == 0){
                  PShadow.SetActive(true);
+                 NotScanned.SetActive(false);
              }      
             }
             if(rock==1){
@@ -63,6 +66,7 @@ public void Start(){
                 QRockCard.SetActive(false);
                  if (panther == 0){
                  PShadow.SetActive(true);
+                 NotScanned.SetActive(false);
              }    
             }
              if (easter == 1){
@@ -70,6 +74,7 @@ public void Start(){
             QEasterCard.SetActive(false);
              if (panther == 0){
                  PShadow.SetActive(true);
+                 NotScanned.SetActive(false);
              }    
             }
             if (schlossberg == 1){
@@ -77,6 +82,7 @@ public void Start(){
             QSchlossbergCard.SetActive(false);
              if (panther == 0){
                  PShadow.SetActive(true);
+                 NotScanned.SetActive(false);
              }           
             }
             if(devil==1){
@@ -84,11 +90,13 @@ public void Start(){
                 QDevilCard.SetActive(false);
                  if (panther == 0){
                  PShadow.SetActive(true);
+                 NotScanned.SetActive(false);
              }    
             }
             if (panther == 1 && farmers == 1 && rock == 1 && easter == 1 && schlossberg ==1 && devil==1){
             DisabledReadStoryButton.SetActive(false);
                ReadStoryButton.SetActive(true);
+        
             }
      }
  public void Scene1() {  
@@ -124,6 +132,7 @@ devil = 0;
          ReadStoryButton.SetActive(false);
          HeroShadow.SetActive(true);
          Hero.SetActive(false);
+         NotScanned.SetActive(true);
                //Fragezeichen wieder einblenden
     
                 QFarmersCard.SetActive(true); 
