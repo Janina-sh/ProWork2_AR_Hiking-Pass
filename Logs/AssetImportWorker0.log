@@ -814,3 +814,155 @@ Received Import Request.
 Start importing Assets/3dResources/FBX/Schlossberggestaucht.fbx using Guid(b10ca3e5f1c344f79958e3bc7348f140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '689bedfdbb44986a3ca1fbcc63489a05') in 0.285529 seconds 
   Import took 0.334006 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 1950.405783 seconds.
+  path: Assets/3dResources/FBX/Schlossberggestaucht2.fbx
+  artifactKey: Guid(bcf2c9622e122415c90f1300ed4b92e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dResources/FBX/Schlossberggestaucht2.fbx using Guid(bcf2c9622e122415c90f1300ed4b92e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '615684ed5e18685d8f12d17390ef7313') in 0.221734 seconds 
+  Import took 0.273922 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.585521 seconds.
+  path: Assets/3dResources/FBX/Materials/Schlossberg.1Surface_Color.png
+  artifactKey: Guid(1678805f5a40f45cbae313086066882b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dResources/FBX/Materials/Schlossberg.1Surface_Color.png using Guid(1678805f5a40f45cbae313086066882b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b0808cb00dca9ac394d34463fe3893c') in 0.045813 seconds 
+  Import took 0.052871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.810716 seconds.
+  path: Assets/3dResources/FBX/Materials/Schlossberg.mat
+  artifactKey: Guid(de804158b5b144c628b05df4d8486600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dResources/FBX/Materials/Schlossberg.mat using Guid(de804158b5b144c628b05df4d8486600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ba5ffb2c23b73cc2de76a7958e85053') in 0.046679 seconds 
+  Import took 0.057292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 123.456701 seconds.
+  path: Assets/3dResources/FBX/Materials/HAus.mat
+  artifactKey: Guid(77cc310a0bba24a3292eb7de5c65b67e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dResources/FBX/Materials/HAus.mat using Guid(77cc310a0bba24a3292eb7de5c65b67e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b17b2b29a6626fdd45adb822f54a8a22') in 0.039114 seconds 
+  Import took 0.049885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.519149 seconds.
+  path: Assets/3dResources/FBX/Materials/SchlossbergHAus.mat
+  artifactKey: Guid(77cc310a0bba24a3292eb7de5c65b67e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dResources/FBX/Materials/SchlossbergHAus.mat using Guid(77cc310a0bba24a3292eb7de5c65b67e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eac8c85a52c0333d5433363faddfb3a') in 0.031694 seconds 
+  Import took 0.043450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.646458 seconds.
+  path: Assets/3dResources/FBX/Materials/SchlossbergHaus.mat
+  artifactKey: Guid(77cc310a0bba24a3292eb7de5c65b67e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dResources/FBX/Materials/SchlossbergHaus.mat using Guid(77cc310a0bba24a3292eb7de5c65b67e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd5c819747b1eb13382e78c9da931292') in 0.031659 seconds 
+  Import took 0.039876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.640850 seconds.
+  path: Assets/3dResources/FBX/Materials/SchlossbergHolz.mat
+  artifactKey: Guid(e6e36d4c87cf84aeea8ae5db8aab4cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dResources/FBX/Materials/SchlossbergHolz.mat using Guid(e6e36d4c87cf84aeea8ae5db8aab4cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64374445dbb4e80f54744bebaed62b22') in 0.036658 seconds 
+  Import took 0.045963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.377671 seconds.
+  path: Assets/3dResources/FBX/Materials/SchlossbergGlocke.mat
+  artifactKey: Guid(2f24d0656a0d948b38140d299c26975f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dResources/FBX/Materials/SchlossbergGlocke.mat using Guid(2f24d0656a0d948b38140d299c26975f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbc4dd9f1ff91889ea1b7a7b4549d9e4') in 0.036664 seconds 
+  Import took 0.049836 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.914643 seconds.
+  path: Assets/3dResources/FBX/Materials/Hörner.mat
+  artifactKey: Guid(fa98ab377878747e28c982bbb89c4fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dResources/FBX/Materials/Hörner.mat using Guid(fa98ab377878747e28c982bbb89c4fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80726f50c5bc545aaaa7093ed60447c2') in 0.030295 seconds 
+  Import took 0.039213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/3dResources/FBX/Materials/Schlossberg.mat
+  artifactKey: Guid(de804158b5b144c628b05df4d8486600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dResources/FBX/Materials/Schlossberg.mat using Guid(de804158b5b144c628b05df4d8486600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4df0fac7d0038449320ed32e94212c7') in 0.023058 seconds 
+  Import took 0.042746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000479 seconds.
+  path: Assets/3dResources/FBX/Materials/SchlossbergHolz.mat
+  artifactKey: Guid(e6e36d4c87cf84aeea8ae5db8aab4cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dResources/FBX/Materials/SchlossbergHolz.mat using Guid(e6e36d4c87cf84aeea8ae5db8aab4cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '930fec9adae68d41d81875f8765ab05d') in 0.045051 seconds 
+  Import took 0.067758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000469 seconds.
+  path: Assets/3dResources/FBX/Materials/SchlossbergGlocke.mat
+  artifactKey: Guid(2f24d0656a0d948b38140d299c26975f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dResources/FBX/Materials/SchlossbergGlocke.mat using Guid(2f24d0656a0d948b38140d299c26975f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4417297c4f5c0640be9b0a704c51dc3b') in 0.015826 seconds 
+  Import took 0.021557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/3dResources/FBX/Materials/RockMaterial.mat
+  artifactKey: Guid(aea0fa87b986a4d7cbe654b49513f771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dResources/FBX/Materials/RockMaterial.mat using Guid(aea0fa87b986a4d7cbe654b49513f771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3a4174b41ea2fbd8567b05c8bcff417') in 0.031905 seconds 
+  Import took 0.038046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000413 seconds.
+  path: Assets/3dResources/FBX/Materials/SchlossbergHaus.mat
+  artifactKey: Guid(77cc310a0bba24a3292eb7de5c65b67e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dResources/FBX/Materials/SchlossbergHaus.mat using Guid(77cc310a0bba24a3292eb7de5c65b67e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64e480c1497246843fbdcfeeb0563f1f') in 0.018194 seconds 
+  Import took 0.023900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000441 seconds.
+  path: Assets/3dResources/FBX/Materials/stones.mat
+  artifactKey: Guid(83bacb49ee80172418e8c93d03f2c44e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dResources/FBX/Materials/stones.mat using Guid(83bacb49ee80172418e8c93d03f2c44e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cca0da6a6de93b4ff94f130984cc3f1') in 0.120809 seconds 
+  Import took 0.130380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.138818 seconds.
+  path: Assets/3dResources/FBX/Materials/SchlossbergZeiger.mat
+  artifactKey: Guid(001265dad62e040eeaabfc52eaab08dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dResources/FBX/Materials/SchlossbergZeiger.mat using Guid(001265dad62e040eeaabfc52eaab08dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e465f95923f3485e9ad0140a8aa6b6a6') in 0.036464 seconds 
+  Import took 0.056805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 65.575101 seconds.
+  path: Assets/3dResources/FBX/Materials/SchlossbergNummern.mat
+  artifactKey: Guid(1d72722f839a944b9817fb788b023ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dResources/FBX/Materials/SchlossbergNummern.mat using Guid(1d72722f839a944b9817fb788b023ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e38a14749cad411a54245f25fa5e7834') in 0.036421 seconds 
+  Import took 0.057485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.954236 seconds.
+  path: Assets/3dResources/FBX/Materials/SchlossbergUhr.mat
+  artifactKey: Guid(2d14b4fa9327e4740b9bc16f15a34124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dResources/FBX/Materials/SchlossbergUhr.mat using Guid(2d14b4fa9327e4740b9bc16f15a34124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b03f21c2776d2ba944e79ff6559df6ce') in 0.041373 seconds 
+  Import took 0.052844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.414503 seconds.
+  path: Assets/3dResources/FBX/Schlossberggestaucht2.prefab
+  artifactKey: Guid(f4621f1991f524a3c96dfcd79714525e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dResources/FBX/Schlossberggestaucht2.prefab using Guid(f4621f1991f524a3c96dfcd79714525e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0463b10161bfd8d24942bbf2af99763') in 0.069371 seconds 
+  Import took 0.077398 seconds .
+
