@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4440681, g: 0.49333978, b: 0.57238823, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641275, b: 0.5748172, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3171,8 +3171,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51bac1ef36a9f4d67a3b4fea7851b7fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Hero: {fileID: 0}
+  HeroShadow: {fileID: 0}
+  DisabledReadStoryButton: {fileID: 0}
+  ReadStoryButton: {fileID: 0}
   PantherCard: {fileID: 0}
+  FarmersCard: {fileID: 0}
+  RockCard: {fileID: 0}
+  EasterCard: {fileID: 0}
+  Schlossbergcard: {fileID: 0}
+  PShadow: {fileID: 0}
+  Devilcard: {fileID: 0}
+  QFarmersCard: {fileID: 0}
+  QRockCard: {fileID: 0}
+  QEasterCard: {fileID: 0}
+  QSchlossbergCard: {fileID: 0}
+  QDevilCard: {fileID: 0}
   panther: 0
+  farmers: 0
+  rock: 0
+  easter: 0
+  schlossberg: 0
+  devil: 0
+  Overview: {fileID: 0}
+  Login: {fileID: 0}
 --- !u!4 &976655043
 Transform:
   m_ObjectHideFlags: 0
@@ -4874,6 +4896,11 @@ MonoBehaviour:
   - {fileID: 4811305576649203993, guid: 355faccbd4db84b9a8522624d7a3d7e2, type: 3}
   geschichte: {fileID: 2079829996}
   panther: 0
+  farmers: 0
+  devil: 0
+  easter: 0
+  rock: 0
+  schlossberg: 0
   showUICamera: 0
 --- !u!82 &2079829996
 AudioSource:
@@ -4882,11 +4909,11 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2079829991}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 83f6661b82f7744ccbfc428aec9b1917, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
