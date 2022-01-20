@@ -331,6 +331,8 @@ struct CUIText_t98DF9576284978A8F521B2C6FD1B050245C0DF01;
 struct CableCurve_tC623A027178C23199646EB70BC505595FCE58D72;
 // UnityEngine.Camera
 struct Camera_tC44E094BAB53AFC8A014C6F9CFCE11F4FC38006C;
+// CameraControll
+struct CameraControll_t88C371F45649A0F26099886F7BAB30E03E200159;
 // UnityEngine.Canvas
 struct Canvas_t2B7E56B7BDC287962E092755372E214ACB6393EA;
 // UnityEngine.CanvasGroup
@@ -8354,6 +8356,15 @@ public:
 	{
 		___CubicBezierCurvePtNum_4 = value;
 	}
+};
+
+
+// CameraControll
+struct CameraControll_t88C371F45649A0F26099886F7BAB30E03E200159  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
+{
+public:
+
+public:
 };
 
 
@@ -27787,6 +27798,38 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CableCurve__cctor_m3E33ADA0623C1E8ACD942
 		NullCheck(L_3);
 		(L_3)->SetAt(static_cast<il2cpp_array_size_t>(1), (Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9 )L_4);
 		((CableCurve_tC623A027178C23199646EB70BC505595FCE58D72_StaticFields*)il2cpp_codegen_static_fields_for(CableCurve_tC623A027178C23199646EB70BC505595FCE58D72_il2cpp_TypeInfo_var))->set_emptyCurve_5(L_3);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void CameraControll::Start()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CameraControll_Start_mACA54BB4CEFBE45C1941FD44320AD5AAAC54B88C (CameraControll_t88C371F45649A0F26099886F7BAB30E03E200159 * __this, const RuntimeMethod* method)
+{
+	{
+		// }
+		return;
+	}
+}
+// System.Void CameraControll::Update()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CameraControll_Update_m9C474C8A1E07A80CB43A1DC014CB2E431EC93CB3 (CameraControll_t88C371F45649A0F26099886F7BAB30E03E200159 * __this, const RuntimeMethod* method)
+{
+	{
+		// }
+		return;
+	}
+}
+// System.Void CameraControll::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CameraControll__ctor_mEDD8B78834ADFEBFC1DBD3B977022B9A4951A5AE (CameraControll_t88C371F45649A0F26099886F7BAB30E03E200159 * __this, const RuntimeMethod* method)
+{
+	{
+		MonoBehaviour__ctor_mC0995D847F6A95B1A553652636C38A2AA8B13BED(__this, /*hidden argument*/NULL);
 		return;
 	}
 }

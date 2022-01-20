@@ -15106,6 +15106,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t RuntimeHelpers_get_OffsetToStringData
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MonoIO_CreateDirectory_m7F82F7CD3593CADF15CEBEF9CF403DE9A49BFC1F (Il2CppChar* ___path0, int32_t* ___error1, const RuntimeMethod* method);
 // System.Boolean System.IO.MonoIO::RemoveDirectory(System.Char*,System.IO.MonoIOError&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MonoIO_RemoveDirectory_mD6B734CFD431773A75EEC6CD5DA62668EA013C08 (Il2CppChar* ___path0, int32_t* ___error1, const RuntimeMethod* method);
+// System.Boolean System.IO.MonoIO::CopyFile(System.Char*,System.Char*,System.Boolean,System.IO.MonoIOError&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MonoIO_CopyFile_m3FE63E16263DACB1AAA8A40F96654C60511AAB41 (Il2CppChar* ___path0, Il2CppChar* ___dest1, bool ___overwrite2, int32_t* ___error3, const RuntimeMethod* method);
 // System.Boolean System.IO.MonoIO::DeleteFile(System.Char*,System.IO.MonoIOError&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MonoIO_DeleteFile_mDD37F1A23B09C176E493C42FAE53D8CD472F2296 (Il2CppChar* ___path0, int32_t* ___error1, const RuntimeMethod* method);
 // System.IO.FileAttributes System.IO.MonoIO::GetFileAttributes(System.Char*,System.IO.MonoIOError&)
@@ -31223,6 +31225,75 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* MonoIO_GetCurrentDirectory_m8187870
 	using namespace il2cpp::icalls;
 	return ((MonoIO_GetCurrentDirectory_m8187870A355A08322E62ACFBBCE857030F2631A6_ftn)mscorlib::System::IO::MonoIO::GetCurrentDirectory) (___error0);
 }
+// System.Boolean System.IO.MonoIO::CopyFile(System.Char*,System.Char*,System.Boolean,System.IO.MonoIOError&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MonoIO_CopyFile_m3FE63E16263DACB1AAA8A40F96654C60511AAB41 (Il2CppChar* ___path0, Il2CppChar* ___dest1, bool ___overwrite2, int32_t* ___error3, const RuntimeMethod* method)
+{
+	typedef bool (*MonoIO_CopyFile_m3FE63E16263DACB1AAA8A40F96654C60511AAB41_ftn) (Il2CppChar*, Il2CppChar*, bool, int32_t*);
+	using namespace il2cpp::icalls;
+	return ((MonoIO_CopyFile_m3FE63E16263DACB1AAA8A40F96654C60511AAB41_ftn)mscorlib::System::IO::MonoIO::CopyFile40) (___path0, ___dest1, ___overwrite2, ___error3);
+}
+// System.Boolean System.IO.MonoIO::CopyFile(System.String,System.String,System.Boolean,System.IO.MonoIOError&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MonoIO_CopyFile_mD6E0B4CBD86E4378749114B9404BAFD2DC9FFFCF (String_t* ___path0, String_t* ___dest1, bool ___overwrite2, int32_t* ___error3, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MonoIO_t0C62EC04843C9D276C9DFB8B12D9D1FD8F81B24B_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Il2CppChar* V_0 = NULL;
+	Il2CppChar* V_1 = NULL;
+	String_t* V_2 = NULL;
+	String_t* V_3 = NULL;
+	{
+		String_t* L_0 = ___path0;
+		V_2 = L_0;
+		String_t* L_1 = V_2;
+		V_0 = (Il2CppChar*)((uintptr_t)L_1);
+		Il2CppChar* L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		Il2CppChar* L_3 = V_0;
+		int32_t L_4;
+		L_4 = RuntimeHelpers_get_OffsetToStringData_mEB8E6EAEBAFAB7CD7F7A915B3081785AABB9FC42(/*hidden argument*/NULL);
+		V_0 = (Il2CppChar*)((Il2CppChar*)il2cpp_codegen_add((intptr_t)L_3, (int32_t)L_4));
+	}
+
+IL_0010:
+	{
+		String_t* L_5 = ___dest1;
+		V_3 = L_5;
+		String_t* L_6 = V_3;
+		V_1 = (Il2CppChar*)((uintptr_t)L_6);
+		Il2CppChar* L_7 = V_1;
+		if (!L_7)
+		{
+			goto IL_0020;
+		}
+	}
+	{
+		Il2CppChar* L_8 = V_1;
+		int32_t L_9;
+		L_9 = RuntimeHelpers_get_OffsetToStringData_mEB8E6EAEBAFAB7CD7F7A915B3081785AABB9FC42(/*hidden argument*/NULL);
+		V_1 = (Il2CppChar*)((Il2CppChar*)il2cpp_codegen_add((intptr_t)L_8, (int32_t)L_9));
+	}
+
+IL_0020:
+	{
+		Il2CppChar* L_10 = V_0;
+		Il2CppChar* L_11 = V_1;
+		bool L_12 = ___overwrite2;
+		int32_t* L_13 = ___error3;
+		IL2CPP_RUNTIME_CLASS_INIT(MonoIO_t0C62EC04843C9D276C9DFB8B12D9D1FD8F81B24B_il2cpp_TypeInfo_var);
+		bool L_14;
+		L_14 = MonoIO_CopyFile_m3FE63E16263DACB1AAA8A40F96654C60511AAB41((Il2CppChar*)(Il2CppChar*)L_10, (Il2CppChar*)(Il2CppChar*)L_11, L_12, (int32_t*)L_13, /*hidden argument*/NULL);
+		return L_14;
+	}
+}
 // System.Boolean System.IO.MonoIO::DeleteFile(System.Char*,System.IO.MonoIOError&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MonoIO_DeleteFile_mDD37F1A23B09C176E493C42FAE53D8CD472F2296 (Il2CppChar* ___path0, int32_t* ___error1, const RuntimeMethod* method)
 {
@@ -31457,6 +31528,35 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MonoIO_FindCloseFile_m490549AD62C3DA5F70
 	typedef bool (*MonoIO_FindCloseFile_m490549AD62C3DA5F701C9FF78F7E1FFBD6ECF6DC_ftn) (intptr_t);
 	using namespace il2cpp::icalls;
 	return ((MonoIO_FindCloseFile_m490549AD62C3DA5F701C9FF78F7E1FFBD6ECF6DC_ftn)mscorlib::System::IO::MonoIO::FindCloseFile) (___hnd0);
+}
+// System.Boolean System.IO.MonoIO::Exists(System.String,System.IO.MonoIOError&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MonoIO_Exists_m43BB34286F0F1244B17363B3A7DDB8272322702B (String_t* ___path0, int32_t* ___error1, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MonoIO_t0C62EC04843C9D276C9DFB8B12D9D1FD8F81B24B_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = ___path0;
+		int32_t* L_1 = ___error1;
+		IL2CPP_RUNTIME_CLASS_INIT(MonoIO_t0C62EC04843C9D276C9DFB8B12D9D1FD8F81B24B_il2cpp_TypeInfo_var);
+		int32_t L_2;
+		L_2 = MonoIO_GetFileAttributes_m98725AE4C26B7E96F141301C54F3F128A295CED0(L_0, (int32_t*)L_1, /*hidden argument*/NULL);
+		if ((!(((uint32_t)L_2) == ((uint32_t)(-1)))))
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_000c:
+	{
+		return (bool)1;
+	}
 }
 // System.Boolean System.IO.MonoIO::ExistsFile(System.String,System.IO.MonoIOError&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MonoIO_ExistsFile_mED30775C9A569786DD76A1CF0FBBF4FBD84DBE03 (String_t* ___path0, int32_t* ___error1, const RuntimeMethod* method)

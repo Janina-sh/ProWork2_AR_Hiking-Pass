@@ -60,6 +60,7 @@
 		<type fullname="DisplayText" preserve="nothing"/>
 		<type fullname="MultipleImageTracking" preserve="nothing"/>
 		<type fullname="SceneChanger" preserve="nothing"/>
+		<type fullname="Screenshot" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.Extensions.HorizontalScrollSnap" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Unity.TextMeshPro">
