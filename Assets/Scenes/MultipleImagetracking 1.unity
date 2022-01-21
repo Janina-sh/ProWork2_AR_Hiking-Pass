@@ -459,6 +459,7 @@ GameObject:
   m_Component:
   - component: {fileID: 976655043}
   - component: {fileID: 976655042}
+  - component: {fileID: 976655044}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -517,6 +518,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &976655044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 976655041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce5201bb2e6240b46ad4b1000aa99a02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  format: 1
 --- !u!1 &1113478023
 GameObject:
   m_ObjectHideFlags: 0
@@ -533,7 +547,7 @@ GameObject:
   - component: {fileID: 1113478029}
   m_Layer: 0
   m_Name: AR Camera
-  m_TagString: Untagged
+  m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -783,7 +797,6 @@ GameObject:
   - component: {fileID: 1970105475}
   - component: {fileID: 1970105474}
   - component: {fileID: 1970105473}
-  - component: {fileID: 1970105476}
   m_Layer: 5
   m_Name: Take-photo-Button
   m_TagString: Untagged
@@ -854,7 +867,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1970105476}
+      - m_Target: {fileID: 976655044}
         m_TargetAssemblyTypeName: Screenshot, Assembly-CSharp
         m_MethodName: TakeScreenShot
         m_Mode: 1
@@ -904,19 +917,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1970105471}
   m_CullTransparentMesh: 1
---- !u!114 &1970105476
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1970105471}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ce5201bb2e6240b46ad4b1000aa99a02, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  format: 1
 --- !u!1 &2079829991
 GameObject:
   m_ObjectHideFlags: 0

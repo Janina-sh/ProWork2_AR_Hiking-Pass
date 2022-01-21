@@ -63,29 +63,29 @@ public class Screenshot : MonoBehaviour
     // capturing the screenshot
     private void CaptureScreenshot()
     {
-
-        Debug.Log("Starting CaptureScreenshot()");
         // START screenshot process
         isProcessing = true;
 
         // create  objects
-        if (renderTexture == null)
-        {
-            // creates off-screen render texture
-            rect = new Rect(0, 0, captureWidth, captureHeight);
+       if (renderTexture == null)
+       {
+          //  creates off-screen render texture
+           rect = new Rect(0, 0, captureWidth, captureHeight);
             renderTexture = new RenderTexture(captureWidth, captureHeight, 24);
-            Debug.Log("renderTexture == null");
-            screenShot = new Texture2D(captureWidth, captureHeight, TextureFormat.RGB24, false);
-        }
+          screenShot = new Texture2D(captureWidth, captureHeight, TextureFormat.RGB24, false);
+          
+                Debug.Log("RederTexture");
 
+        }
+      Debug.Log("Camera");
         // render camera view into the render texture
         Camera camera = Camera.main;
         camera.targetTexture = renderTexture;
         camera.Render();
-        
+  
         RenderTexture.active = renderTexture;
         screenShot.ReadPixels(rect, 0, 0);
-        Debug.Log("Camera");
+
         // mask overlay for photo printing
         /*for (int y = 0; y < captureHeight; y++)
         {
@@ -134,9 +134,9 @@ public class Screenshot : MonoBehaviour
             string headerStr = string.Format("P6\n{0} {1}\n255\n", rect.width, rect.height);
             fileHeader = System.Text.Encoding.ASCII.GetBytes(headerStr);
             fileData = screenShot.GetRawTextureData();
-             Debug.Log("JPG Else");
         }
-Debug.Log("I am here");
+
+ Debug.Log("I am here");
         // offload the saving from the main thread
         new System.Threading.Thread(() =>
         {
@@ -165,10 +165,9 @@ Debug.Log("I am here");
     // take screenshot
     public void TakeScreenShot()
     {
-        Debug.Log("isProcessing: " + isProcessing);
         if (!isProcessing)
         {
-               Debug.Log("TakeScreenShot();");
+            Debug.Log("isProcessing " + isProcessing);
             CaptureScreenshot();
         }
     }
