@@ -21,7 +21,7 @@ public class Screenshot : MonoBehaviour
     private Rect rect;
     private RenderTexture renderTexture;
     private Texture2D screenShot; // screenshot
-    private bool isProcessing;
+    private bool isProcessing = false;
     //public Texture2D mask; // mask for overlay
     
     // screenshot UI variables
@@ -63,6 +63,8 @@ public class Screenshot : MonoBehaviour
     // capturing the screenshot
     private void CaptureScreenshot()
     {
+
+        Debug.Log("Starting CaptureScreenshot()");
         // START screenshot process
         isProcessing = true;
 
@@ -72,6 +74,7 @@ public class Screenshot : MonoBehaviour
             // creates off-screen render texture
             rect = new Rect(0, 0, captureWidth, captureHeight);
             renderTexture = new RenderTexture(captureWidth, captureHeight, 24);
+            Debug.Log("renderTexture == null");
             screenShot = new Texture2D(captureWidth, captureHeight, TextureFormat.RGB24, false);
         }
 
@@ -82,7 +85,7 @@ public class Screenshot : MonoBehaviour
         
         RenderTexture.active = renderTexture;
         screenShot.ReadPixels(rect, 0, 0);
-
+        Debug.Log("Camera");
         // mask overlay for photo printing
         /*for (int y = 0; y < captureHeight; y++)
         {
@@ -123,6 +126,7 @@ public class Screenshot : MonoBehaviour
         else if (format == Format.JPG)
         {
             fileData = screenShot.EncodeToJPG();
+            Debug.Log("JPG");
         }
         else
         {
@@ -130,8 +134,9 @@ public class Screenshot : MonoBehaviour
             string headerStr = string.Format("P6\n{0} {1}\n255\n", rect.width, rect.height);
             fileHeader = System.Text.Encoding.ASCII.GetBytes(headerStr);
             fileData = screenShot.GetRawTextureData();
+             Debug.Log("JPG Else");
         }
-
+Debug.Log("I am here");
         // offload the saving from the main thread
         new System.Threading.Thread(() =>
         {
@@ -160,8 +165,10 @@ public class Screenshot : MonoBehaviour
     // take screenshot
     public void TakeScreenShot()
     {
+        Debug.Log("isProcessing: " + isProcessing);
         if (!isProcessing)
         {
+               Debug.Log("TakeScreenShot();");
             CaptureScreenshot();
         }
     }
