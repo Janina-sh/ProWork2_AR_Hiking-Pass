@@ -19,9 +19,9 @@ MonoBehaviour:
       m_GuidLow: 4899963912646191547
       m_GuidHigh: 7911747908934906815
     m_SerializedTextureGuid:
-      m_GuidLow: 12984661772427621185
-      m_GuidHigh: 1263815102198469098
-    m_Size: {x: 0.16, y: 0.16}
+      m_GuidLow: 10701668865052618585
+      m_GuidHigh: 9942629861277591177
+    m_Size: {x: 0.16, y: 0.16161616}
     m_SpecifySize: 1
     m_Name: devil
     m_Texture: {fileID: 0}
@@ -29,9 +29,9 @@ MonoBehaviour:
       m_GuidLow: 4833414526480441127
       m_GuidHigh: 15007312503178412211
     m_SerializedTextureGuid:
-      m_GuidLow: 9551102493011349191
-      m_GuidHigh: 4848764961826887067
-    m_Size: {x: 0.197, y: 0.19688424}
+      m_GuidLow: 8386707658806252404
+      m_GuidHigh: 506464056837190858
+    m_Size: {x: 0.197, y: 0.197}
     m_SpecifySize: 1
     m_Name: farmers
     m_Texture: {fileID: 0}
@@ -39,8 +39,8 @@ MonoBehaviour:
       m_GuidLow: 5191722266501024085
       m_GuidHigh: 12496095226194773131
     m_SerializedTextureGuid:
-      m_GuidLow: 12991409875798192548
-      m_GuidHigh: 2606262993066362984
+      m_GuidLow: 9522069728199052197
+      m_GuidHigh: 2612374130477160490
     m_Size: {x: 0.197, y: 0.197}
     m_SpecifySize: 1
     m_Name: schlossberg
@@ -49,8 +49,8 @@ MonoBehaviour:
       m_GuidLow: 5019614962018970489
       m_GuidHigh: 1812850475288113598
     m_SerializedTextureGuid:
-      m_GuidLow: 12985759363393296473
-      m_GuidHigh: 827213459505406713
+      m_GuidLow: 6085845582485366980
+      m_GuidHigh: 11978424564925403689
     m_Size: {x: 0.18, y: 0.18}
     m_SpecifySize: 1
     m_Name: Panther
@@ -59,9 +59,9 @@ MonoBehaviour:
       m_GuidLow: 4902989215721741181
       m_GuidHigh: 10829926636121126813
     m_SerializedTextureGuid:
-      m_GuidLow: 14177606183760983617
-      m_GuidHigh: 10489768691153620539
-    m_Size: {x: 0.18, y: 0.18}
+      m_GuidLow: 10727365549389898268
+      m_GuidHigh: 15905342154183455915
+    m_Size: {x: 0.18, y: 0.26146394}
     m_SpecifySize: 1
     m_Name: easter
     m_Texture: {fileID: 0}
@@ -69,9 +69,9 @@ MonoBehaviour:
       m_GuidLow: 5598607782428631175
       m_GuidHigh: 12029934236421494656
     m_SerializedTextureGuid:
-      m_GuidLow: 2626207276669141964
-      m_GuidHigh: 7970627846530736043
-    m_Size: {x: 0.18, y: 0.17989425}
+      m_GuidLow: 2608355654217151146
+      m_GuidHigh: 9858451763920904984
+    m_Size: {x: 0.18, y: 0.18}
     m_SpecifySize: 1
     m_Name: rock
     m_Texture: {fileID: 0}
