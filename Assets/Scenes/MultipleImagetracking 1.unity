@@ -4889,12 +4889,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   placeablePrefabs:
-  - {fileID: 7753943934568086483, guid: 581c2f43b64a5473dae103eaf4acff13, type: 3}
-  - {fileID: 1955771725676659219, guid: 93a8d0629e7aa40e68fc885e89d7ac0b, type: 3}
-  - {fileID: 3655089916131743073, guid: eaf9cc2435cfd42e58dcec0e888288ac, type: 3}
-  - {fileID: 3376984187491887355, guid: 7a8ff954c9af14edea5b99c3bf09c1ba, type: 3}
-  - {fileID: 4331576203598695748, guid: 6fcab920103a541898b8a85d79683b03, type: 3}
-  - {fileID: 5331235982387640438, guid: f4621f1991f524a3c96dfcd79714525e, type: 3}
+  - {fileID: 6966302852564355980, guid: 275a3bb80c54f460d887d08ad9c0273c, type: 3}
+  - {fileID: 6350331113114206631, guid: a07d2f68d6b254456abf87a46ee5b6a5, type: 3}
+  - {fileID: 5063613834119490407, guid: ffb9fe8eac79c43989cba0a60b09f698, type: 3}
+  - {fileID: 6655916576111762054, guid: 9d394df12f5024932bc560191740cd2a, type: 3}
+  - {fileID: 2420421170595764273, guid: 570ae3ddd61ae480db19610876ac4f77, type: 3}
+  - {fileID: 4470835361467824706, guid: b5a6598dc255b4c51a74706fa3ea52d2, type: 3}
   geschichte: {fileID: 2079829996}
   panther: 0
   farmers: 0
