@@ -21,7 +21,7 @@ MonoBehaviour:
     m_SerializedTextureGuid:
       m_GuidLow: 4961467918260291988
       m_GuidHigh: 13636713004736234680
-    m_Size: {x: 0.18, y: 0.13734016}
+    m_Size: {x: 0.07, y: 0.05341006}
     m_SpecifySize: 1
     m_Name: devil
     m_Texture: {fileID: 0}
@@ -31,7 +31,7 @@ MonoBehaviour:
     m_SerializedTextureGuid:
       m_GuidLow: 6106743154025781461
       m_GuidHigh: 680637908634989643
-    m_Size: {x: 0.18, y: 0.1371867}
+    m_Size: {x: 0.07, y: 0.053350385}
     m_SpecifySize: 1
     m_Name: farmers
     m_Texture: {fileID: 0}
@@ -41,7 +41,7 @@ MonoBehaviour:
     m_SerializedTextureGuid:
       m_GuidLow: 8362194011541852673
       m_GuidHigh: 2475069404868820490
-    m_Size: {x: 0.18, y: 0.13711359}
+    m_Size: {x: 0.07, y: 0.053321946}
     m_SpecifySize: 1
     m_Name: schlossberg
     m_Texture: {fileID: 0}
@@ -51,7 +51,7 @@ MonoBehaviour:
     m_SerializedTextureGuid:
       m_GuidLow: 11841215580406101014
       m_GuidHigh: 18048365722041161642
-    m_Size: {x: 0.18, y: 0.1371867}
+    m_Size: {x: 0.07, y: 0.053350385}
     m_SpecifySize: 1
     m_Name: Panther
     m_Texture: {fileID: 0}
@@ -61,7 +61,7 @@ MonoBehaviour:
     m_SerializedTextureGuid:
       m_GuidLow: 301130008592756969
       m_GuidHigh: 17649306857637922635
-    m_Size: {x: 0.18, y: 0.13749361}
+    m_Size: {x: 0.07, y: 0.053469736}
     m_SpecifySize: 1
     m_Name: easter
     m_Texture: {fileID: 0}
@@ -71,7 +71,7 @@ MonoBehaviour:
     m_SerializedTextureGuid:
       m_GuidLow: 7238026510180405099
       m_GuidHigh: 18076862528140903402
-    m_Size: {x: 0.18, y: 0.13734016}
+    m_Size: {x: 0.07, y: 0.05341006}
     m_SpecifySize: 1
     m_Name: rock
     m_Texture: {fileID: 0}
