@@ -1,3 +1,4 @@
+using System;
 using System.Collections;  
 using System.Collections.Generic;  
 using UnityEngine;  
@@ -33,7 +34,12 @@ public int panther =0;
  public GameObject Overview;
  public GameObject Login;
 
-public void Start(){
+ public void Awake()
+ {
+     Screen.sleepTimeout = SleepTimeout.NeverSleep;
+ }
+
+ public void Start(){
     panther = PlayerPrefs.GetInt("panther");
     Debug.Log("Panther Int: " + panther);
      farmers = PlayerPrefs.GetInt("farmers");

@@ -26772,6 +26772,15 @@ IL_0009:
 		return L_1;
 	}
 }
+// System.Void UnityEngine.Screen::set_sleepTimeout(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Screen_set_sleepTimeout_mE9A766E696E76AC77EAADB4CA6412454577FCBB3 (int32_t ___value0, const RuntimeMethod* method)
+{
+	typedef void (*Screen_set_sleepTimeout_mE9A766E696E76AC77EAADB4CA6412454577FCBB3_ftn) (int32_t);
+	static Screen_set_sleepTimeout_mE9A766E696E76AC77EAADB4CA6412454577FCBB3_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Screen_set_sleepTimeout_mE9A766E696E76AC77EAADB4CA6412454577FCBB3_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Screen::set_sleepTimeout(System.Int32)");
+	_il2cpp_icall_func(___value0);
+}
 // UnityEngine.FullScreenMode UnityEngine.Screen::get_fullScreenMode()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Screen_get_fullScreenMode_m282CC0BCBD3C02B7199D0606090D28BB328EC624 (const RuntimeMethod* method)
 {

@@ -15057,6 +15057,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Texture2D_SetPixels32_m80C3D047272131066
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Texture2D_Apply_m3BB3975288119BA62ED9BE4243F7767EC2F88CA0 (Texture2D_t9B604D0D8E28032123641A7E7338FA872E2698BF * __this, const RuntimeMethod* method);
 // System.Void UnityEngine.UI.RawImage::set_texture(UnityEngine.Texture)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RawImage_set_texture_m1D7BAE6CB629C36894B664D9F5D68CACA88B8D99 (RawImage_tFE280EF0C73AF19FE9AC24DB06501937DC2D6F1A * __this, Texture_t9FE0218A1EEDF266E8C85879FE123265CACC95AE * ___value0, const RuntimeMethod* method);
+// System.Void UnityEngine.Screen::set_sleepTimeout(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Screen_set_sleepTimeout_mE9A766E696E76AC77EAADB4CA6412454577FCBB3 (int32_t ___value0, const RuntimeMethod* method);
 // System.Int32 UnityEngine.PlayerPrefs::GetInt(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PlayerPrefs_GetInt_m6BCF9F844298D1810A68BAF23ECBA68C6960A986 (String_t* ___key0, const RuntimeMethod* method);
 // System.String System.String::Concat(System.String,System.String)
@@ -17836,6 +17838,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SVBoxSlider__ctor_m052FD03EAAD99203D38E5
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.Void SceneChanger::Awake()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneChanger_Awake_m16899FCDF05740D461F40A4AC951390FF4797360 (SceneChanger_t6A30EA4853DA52DBD1479ADCBE7B3B6952D1E068 * __this, const RuntimeMethod* method)
+{
+	{
+		// Screen.sleepTimeout = SleepTimeout.NeverSleep;
+		Screen_set_sleepTimeout_mE9A766E696E76AC77EAADB4CA6412454577FCBB3((-1), /*hidden argument*/NULL);
+		// }
+		return;
+	}
+}
 // System.Void SceneChanger::Start()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneChanger_Start_m255DE1DCAED54EF2EBDCCD7D9599033F25EA0E9C (SceneChanger_t6A30EA4853DA52DBD1479ADCBE7B3B6952D1E068 * __this, const RuntimeMethod* method)
 {
