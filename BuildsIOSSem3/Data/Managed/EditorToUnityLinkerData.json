@@ -280,7 +280,8 @@
             "fullManagedTypeName": "UnityEngine.Rigidbody",
             "moduleName": "Physics",
             "usedInScenes": [
-                "Assets/Scenes/MultipleImagetracking2.unity"
+                "Assets/Scenes/MultipleImagetracking2.unity",
+                "Assets/Scenes/MultipleImagetracking 1.unity"
             ]
         },
         {

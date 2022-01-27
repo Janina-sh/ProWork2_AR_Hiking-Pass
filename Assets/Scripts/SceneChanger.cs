@@ -33,7 +33,7 @@ public int panther =0;
     public int devil = 0;
  public GameObject Overview;
  public GameObject Login;
-
+ public GameObject Onboarding;
  public void Awake()
  {
      Screen.sleepTimeout = SleepTimeout.NeverSleep;
@@ -108,11 +108,21 @@ public int panther =0;
  public void Scene1() {  
         SceneManager.LoadScene("MultipleImagetracking2");  
         Login.SetActive(false);
+        Onboarding.SetActive(false);
         Overview.SetActive(true);
+        SceneManager.sceneLoaded += OnLevelFinishedLoading;
     }  
     public void Scene2() {  
         SceneManager.LoadScene("MultipleImagetracking 1");  
     }
+    void OnLevelFinishedLoading(Scene scene, LoadSceneMode mode)
+    {
+        Debug.Log("OnLevelFinishedLoading");
+        Login.SetActive(false);
+        Onboarding.SetActive(false);
+        Overview.SetActive(true);
+    }
+
     public void Reset(){
         Debug.Log("Reset");
         panther=0;
