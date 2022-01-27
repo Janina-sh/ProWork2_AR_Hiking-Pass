@@ -37,7 +37,8 @@ geschichte = GetComponent<AudioSource>();
         foreach (GameObject prefab in placeablePrefabs)
         {
             Debug.Log("Geschichte  " + geschichte);
-            GameObject newPrefab = Instantiate(prefab, Vector3.zero, Quaternion.identity);
+            //GameObject newPrefab = Instantiate(prefab, Vector3.zero, Quaternion.identity);
+            GameObject newPrefab = Instantiate(prefab, Vector3.zero, prefab.transform.rotation);
             newPrefab.name = prefab.name; //searching for the right prefab
             spawnedPrefabs.Add(prefab.name, newPrefab); //add this to the spawnedPrefab Dictionary, newPrefab=Reference
                    // geschichte.Play();

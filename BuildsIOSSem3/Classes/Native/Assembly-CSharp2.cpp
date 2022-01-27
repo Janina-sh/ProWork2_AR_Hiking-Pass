@@ -16885,8 +16885,8 @@ inline ARTrackedImageManager_tB916E34D053E6712190F2BAE46E21D76A0882FF2 * Object_
 {
 	return ((  ARTrackedImageManager_tB916E34D053E6712190F2BAE46E21D76A0882FF2 * (*) (const RuntimeMethod*))Object_FindObjectOfType_TisRuntimeObject_m25AA6DB6AABFD5D66AFA1A8C0E91A7AF61429C37_gshared)(method);
 }
-// UnityEngine.Quaternion UnityEngine.Quaternion::get_identity()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_t6D28618CF65156D4A0AD747370DDFD0C514A31B4  Quaternion_get_identity_mF2E565DBCE793A1AE6208056D42CA7C59D83A702 (const RuntimeMethod* method);
+// UnityEngine.Quaternion UnityEngine.Transform::get_rotation()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_t6D28618CF65156D4A0AD747370DDFD0C514A31B4  Transform_get_rotation_m4AA3858C00DF4C9614B80352558C4C37D08D2200 (Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * __this, const RuntimeMethod* method);
 // !!0 UnityEngine.Object::Instantiate<UnityEngine.GameObject>(!!0,UnityEngine.Vector3,UnityEngine.Quaternion)
 inline GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * Object_Instantiate_TisGameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319_m81B599A0051F8F4543E5C73A11585E96E940943B (GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * ___original0, Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  ___position1, Quaternion_t6D28618CF65156D4A0AD747370DDFD0C514A31B4  ___rotation2, const RuntimeMethod* method)
 {
@@ -17495,8 +17495,6 @@ inline ReorderableListElement_t432AC5C7335631D59632D5C0CA9E341B6B5B2631 * Compon
 }
 // System.Boolean UnityEngine.UI.Extensions.ReorderableListElement::get_IsTransferable()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool ReorderableListElement_get_IsTransferable_mDB771B997EDA4F4CC5A9F765E46083B28644F725_inline (ReorderableListElement_t432AC5C7335631D59632D5C0CA9E341B6B5B2631 * __this, const RuntimeMethod* method);
-// UnityEngine.Quaternion UnityEngine.Transform::get_rotation()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_t6D28618CF65156D4A0AD747370DDFD0C514A31B4  Transform_get_rotation_m4AA3858C00DF4C9614B80352558C4C37D08D2200 (Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * __this, const RuntimeMethod* method);
 // System.Void UnityEngine.Transform::set_rotation(UnityEngine.Quaternion)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_rotation_m1B5F3D4CE984AB31254615C9C71B0E54978583B4 (Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * __this, Quaternion_t6D28618CF65156D4A0AD747370DDFD0C514A31B4  ___value0, const RuntimeMethod* method);
 // !!0 UnityEngine.Component::GetComponent<UnityEngine.CanvasGroup>()
@@ -27861,7 +27859,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MultipleImageTracking_Awake_m1B463664181
 		GameObjectU5BU5D_tA88FC1A1FC9D4D73D0B3984D4B0ECE88F4C47642* L_4 = __this->get_placeablePrefabs_4();
 		V_0 = L_4;
 		V_1 = 0;
-		goto IL_0092;
+		goto IL_0098;
 	}
 
 IL_003a:
@@ -27906,44 +27904,49 @@ IL_0055:
 		L_12 = String_Concat_m4B4AB72618348C5DFBFBA8DED84B9E2EBDB55E1B(G_B4_1, G_B4_0, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
 		Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8(L_12, /*hidden argument*/NULL);
-		// GameObject newPrefab = Instantiate(prefab, Vector3.zero, Quaternion.identity);
+		// GameObject newPrefab = Instantiate(prefab, Vector3.zero, prefab.transform.rotation);
 		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_13 = V_2;
 		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_14;
 		L_14 = Vector3_get_zero_m1A8F7993167785F750B6B01762D22C2597C84EF6(/*hidden argument*/NULL);
-		Quaternion_t6D28618CF65156D4A0AD747370DDFD0C514A31B4  L_15;
-		L_15 = Quaternion_get_identity_mF2E565DBCE793A1AE6208056D42CA7C59D83A702(/*hidden argument*/NULL);
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_15 = V_2;
+		NullCheck(L_15);
+		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_16;
+		L_16 = GameObject_get_transform_m16A80BB92B6C8C5AB696E447014D45EDF1E4DE34(L_15, /*hidden argument*/NULL);
+		NullCheck(L_16);
+		Quaternion_t6D28618CF65156D4A0AD747370DDFD0C514A31B4  L_17;
+		L_17 = Transform_get_rotation_m4AA3858C00DF4C9614B80352558C4C37D08D2200(L_16, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Object_tF2F3778131EFF286AF62B7B013A170F95A91571A_il2cpp_TypeInfo_var);
-		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_16;
-		L_16 = Object_Instantiate_TisGameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319_m81B599A0051F8F4543E5C73A11585E96E940943B(L_13, L_14, L_15, /*hidden argument*/Object_Instantiate_TisGameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319_m81B599A0051F8F4543E5C73A11585E96E940943B_RuntimeMethod_var);
-		V_3 = L_16;
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_18;
+		L_18 = Object_Instantiate_TisGameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319_m81B599A0051F8F4543E5C73A11585E96E940943B(L_13, L_14, L_17, /*hidden argument*/Object_Instantiate_TisGameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319_m81B599A0051F8F4543E5C73A11585E96E940943B_RuntimeMethod_var);
+		V_3 = L_18;
 		// newPrefab.name = prefab.name; //searching for the right prefab
-		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_17 = V_3;
-		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_18 = V_2;
-		NullCheck(L_18);
-		String_t* L_19;
-		L_19 = Object_get_name_m0C7BC870ED2F0DC5A2FB09628136CD7D1CB82CFB(L_18, /*hidden argument*/NULL);
-		NullCheck(L_17);
-		Object_set_name_m87C4006618ADB325ABE5439DF159E10DD8DD0781(L_17, L_19, /*hidden argument*/NULL);
-		// spawnedPrefabs.Add(prefab.name, newPrefab); //add this to the spawnedPrefab Dictionary, newPrefab=Reference
-		Dictionary_2_tADDBF4C67A82C92CD16099CD166D7F72E8DCB13C * L_20 = __this->get_spawnedPrefabs_5();
-		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_21 = V_2;
-		NullCheck(L_21);
-		String_t* L_22;
-		L_22 = Object_get_name_m0C7BC870ED2F0DC5A2FB09628136CD7D1CB82CFB(L_21, /*hidden argument*/NULL);
-		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_23 = V_3;
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_19 = V_3;
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_20 = V_2;
 		NullCheck(L_20);
-		Dictionary_2_Add_m6D23729A58240291FAD0B2A484D107C5D06B8A78(L_20, L_22, L_23, /*hidden argument*/Dictionary_2_Add_m6D23729A58240291FAD0B2A484D107C5D06B8A78_RuntimeMethod_var);
-		int32_t L_24 = V_1;
-		V_1 = ((int32_t)il2cpp_codegen_add((int32_t)L_24, (int32_t)1));
+		String_t* L_21;
+		L_21 = Object_get_name_m0C7BC870ED2F0DC5A2FB09628136CD7D1CB82CFB(L_20, /*hidden argument*/NULL);
+		NullCheck(L_19);
+		Object_set_name_m87C4006618ADB325ABE5439DF159E10DD8DD0781(L_19, L_21, /*hidden argument*/NULL);
+		// spawnedPrefabs.Add(prefab.name, newPrefab); //add this to the spawnedPrefab Dictionary, newPrefab=Reference
+		Dictionary_2_tADDBF4C67A82C92CD16099CD166D7F72E8DCB13C * L_22 = __this->get_spawnedPrefabs_5();
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_23 = V_2;
+		NullCheck(L_23);
+		String_t* L_24;
+		L_24 = Object_get_name_m0C7BC870ED2F0DC5A2FB09628136CD7D1CB82CFB(L_23, /*hidden argument*/NULL);
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_25 = V_3;
+		NullCheck(L_22);
+		Dictionary_2_Add_m6D23729A58240291FAD0B2A484D107C5D06B8A78(L_22, L_24, L_25, /*hidden argument*/Dictionary_2_Add_m6D23729A58240291FAD0B2A484D107C5D06B8A78_RuntimeMethod_var);
+		int32_t L_26 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add((int32_t)L_26, (int32_t)1));
 	}
 
-IL_0092:
+IL_0098:
 	{
 		// foreach (GameObject prefab in placeablePrefabs)
-		int32_t L_25 = V_1;
-		GameObjectU5BU5D_tA88FC1A1FC9D4D73D0B3984D4B0ECE88F4C47642* L_26 = V_0;
-		NullCheck(L_26);
-		if ((((int32_t)L_25) < ((int32_t)((int32_t)((int32_t)(((RuntimeArray*)L_26)->max_length))))))
+		int32_t L_27 = V_1;
+		GameObjectU5BU5D_tA88FC1A1FC9D4D73D0B3984D4B0ECE88F4C47642* L_28 = V_0;
+		NullCheck(L_28);
+		if ((((int32_t)L_27) < ((int32_t)((int32_t)((int32_t)(((RuntimeArray*)L_28)->max_length))))))
 		{
 			goto IL_003a;
 		}
